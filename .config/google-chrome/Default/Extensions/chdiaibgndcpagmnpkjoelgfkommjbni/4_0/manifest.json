@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.rememberthemilk.com/login/app/launch"
+      },
+      "urls": [ "*://www.rememberthemilk.com/" ]
+   },
+   "description": "Task management goodness used by millions worldwide. Makes managing your to-do list fun!",
+   "icons": {
+      "128": "app_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGsj2qr0rJBSL7yILgfW8SKLm/JxW0zx4T9W/JtQ9jr8tikVDlwhozL+4z7ZP1afrFtPB7U2ft8nZZ17xJu8nfW6UmabGMrwoPbP5hVkpe6HiCppHQIDUp/c8Pa1GWLEqSZJbO1AU23fZOhW0kq1T3QwKpiIgiBA7HfIo0WvroowIDAQAB",
+   "manifest_version": 2,
+   "name": "Remember The Milk",
+   "permissions": [ "notifications", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4"
+}

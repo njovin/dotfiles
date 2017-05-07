@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Private Internet Access
+Exec=/home/njovin/.pia_manager/pia_manager/run.sh --startup
+X-GNOME-Autostart-enabled=false
+Icon=/home/njovin/.pia_manager/pia_tray_files/img/default_app_logo.png

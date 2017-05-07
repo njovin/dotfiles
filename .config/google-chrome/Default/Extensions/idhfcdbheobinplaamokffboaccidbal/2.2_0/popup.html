@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Untitled Document</title>
+  <link type="text/css" rel="stylesheet" href="stylesheet.css">
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="buy.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+  <input type="hidden" id="mode" value="popup" />
+  <div class="popup">
+    <div class="note">Note: Restore your window first</div>
+    <div class="options" id="options">
+      <form name="checkboxForm"  method="post">
+      <div class="selection">
+      	Select: <span id="selectAll">all</span>/<span id="selectNone">none</span>/<span id="selectInvert">invert</span>
+      </div>
+      <div style="clear:both;"></div>
+        <ul class="resList">
+        </ul>
+      </form>
+        <div class="button" id="viewAllBtn" title="Warning - slow computers beware, this will open a new browser window for each ticked resolution"><img src="application_cascade.png" width="16" height="16" />View all selected</div>
+
+        <div class="button" id="resetBtn"><img src="arrow_undo.png" width="16" height="16" />Reset</div>
+
+        <div class="button" id="optionsBtn"><img src="cog_edit.png" width="16" height="16" />Options</div>
+    </div>
+    <div class="results" name = "results" id="results"></div>
+
+    <div id="adFrame"></div>
+
+    <div class="footer"><span class="openOptions">Made by Ben Beckford</span>, <span class="openOptions">more info</span></div>
+
+
+  </div>
+
+</body>
+</html>

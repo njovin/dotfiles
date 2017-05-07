@@ -1,0 +1,27 @@
+{
+   "app": {
+      "background": {
+         "page": "background.html"
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_installTagline__",
+   "icons": {
+      "128": "images/icon_128.png",
+      "16": "images/icon_16.png",
+      "256": "images/icon_256.png",
+      "32": "images/icon_32.png",
+      "48": "images/icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgfzfW5EPP1t6A3Sw3kAfqQdErU/fmWgYFpXwzT9snd8G0gIXtWtQxaDYpNvs3+E2qtqun5/jZD9u4Cb/JJ3ZxK2McS/kYBCSwcIGhI5QN+BM8yYD4bobIwRxGhrfyCL3lDxXhs1gtw0N8j6afoO+oWlOHyCvE2mGIkwnGd5kHEJ+D4DgxTFQnPjN9obGz9VgznX2/zjM6cAP7XJxnL9SczjpmvKYmT9jSTH5gE8nFd5FWj+GxzzelcTn6rx1P02GcrcXsHVIgYHi13aOe8S09b2n6aK+qkWppgSRZsCarufUGOX5bx5d+rkc4ZEtcsJuIjVvk5W9+jH5NIrJ2k9rRQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "37",
+   "name": "Signal Private Messenger",
+   "offline_enabled": false,
+   "permissions": [ "unlimitedStorage", "notifications", {
+      "fileSystem": [ "write" ]
+   }, "alarms", "fullscreen", "audioCapture" ],
+   "short_name": "Signal",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.38.2"
+}

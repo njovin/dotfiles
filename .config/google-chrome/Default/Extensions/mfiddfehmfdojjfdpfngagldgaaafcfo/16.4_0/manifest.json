@@ -1,0 +1,27 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "all.js" ]
+      }
+   },
+   "description": "BrowserStack Local lets you test local servers & HTML, CSS and JS files in 700+ real desktop and mobile browsers, across 11 OSes.",
+   "externally_connectable": {
+      "matches": [ "https://*.bsstag.com/*", "https://*.browserstack.com/*" ]
+   },
+   "icons": {
+      "128": "img/icon_128.png",
+      "16": "img/icon_16.png",
+      "48": "img/icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh+86bvEtQBIWjiVnnJZu38pZuYOYUvoTS27rD/xcyRi0p2irWXvxFJmBAg6632qMX2kYKou0lLsnkF2lTMd2ChKa0+4kkadCYxICIXVuy7VAPYsh0ogpP5iccqZK0TKzmVyTaIzXeu2DsypA7HrvzAH2U94irtj/QogLTSwNEzqWACNkBO128btGoTcs49bFcnp0lTdtmYB91d5zWqtAI9rzAHMkCXmrbQY+wIXF5yRi0V6kRT6OYcFt801n7iBe3NmOYolnbcloQxfOQZreWtPe6WYFWqet/ol4v82/ckQr1A2Sr+jEqVZY5MFsdfq27O9cpm1X9hKWQQCdpwMxAwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "31.0",
+   "name": "BrowserStack Local",
+   "permissions": [ {
+      "socket": [ "tcp-connect", "tcp-listen" ]
+   }, "http://*/", "https://*/", {
+      "fileSystem": [ "write", "retainEntries", "directory" ]
+   }, "clipboardWrite", "app.window", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "16.4"
+}

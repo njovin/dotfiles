@@ -1,0 +1,168 @@
+{
+   "alwaysOnTopSetting": {
+      "description": "The label for the checkbox in settings tab that sets the window always on top.",
+      "message": "Always on top"
+   },
+   "analyticsSetting": {
+      "description": "The label for the checkbox in settings tab that turns on Analytics.",
+      "message": "Send statistics"
+   },
+   "analyticsTooltip": {
+      "description": "The tooltip for send statistics checkbox.",
+      "message": "Automatically send usage statistics"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "A text editor for ChromeOS and Chrome."
+   },
+   "cancelDialogButton": {
+      "description": "The button text which says 'Cancel'.",
+      "message": "Cancel"
+   },
+   "closeButton": {
+      "description": "The button text to close the app window.",
+      "message": "Quit"
+   },
+   "closeSettings": {
+      "description": "The text to close the settings Menu.",
+      "message": "Back"
+   },
+   "closeSidebarButton": {
+      "description": "The button text to close the sidebar.",
+      "message": "Close sidebar"
+   },
+   "darkThemeOption": {
+      "description": "The text of the dark Option Theme.",
+      "message": "Dark"
+   },
+   "defaultThemeOption": {
+      "description": "The text of the default Option Theme.",
+      "message": "Default"
+   },
+   "errorTitle": {
+      "description": "The error text displayed in the filename title bar.",
+      "message": "Error"
+   },
+   "fileMenuNew": {
+      "description": "The text of the File Menu 'New'.",
+      "message": "New"
+   },
+   "fileMenuOpen": {
+      "description": "The text of the File Menu 'Open'.",
+      "message": "Open"
+   },
+   "fileMenuSave": {
+      "description": "The text of the File Menu 'Save'.",
+      "message": "Save"
+   },
+   "fileMenuSaveas": {
+      "description": "The text of the File Menu 'Save as'.",
+      "message": "Save as"
+   },
+   "fontsizeSetting": {
+      "description": "The text of the settings 'Font size'.",
+      "message": "Font size"
+   },
+   "fontsizeTooltip": {
+      "description": "The tooltip of the setting 'Font size'.",
+      "message": "Set with Ctrl- and Ctrl+"
+   },
+   "lightThemeOption": {
+      "description": "The text of the light Option Theme.",
+      "message": "Light"
+   },
+   "linenumbersSetting": {
+      "description": "The text of the settings 'Line numbers'.",
+      "message": "Line numbers"
+   },
+   "loadingTitle": {
+      "description": "The text displayed in the filename title bar when file loads.",
+      "message": "Loading..."
+   },
+   "maximizeButton": {
+      "description": "The button text to maximize the app window.",
+      "message": "Maximize"
+   },
+   "menuOpenSettings": {
+      "description": "The text of the Menu to open settings'.",
+      "message": "Settings"
+   },
+   "menuSettings": {
+      "description": "The text of the Menu 'Settings'.",
+      "message": "Settings"
+   },
+   "minimizeButton": {
+      "description": "The button text to minimize the app window.",
+      "message": "Minimize"
+   },
+   "noDialogButton": {
+      "description": "The button text which says 'No'.",
+      "message": "No"
+   },
+   "okDialogButton": {
+      "description": "The button text which says 'OK'.",
+      "message": "OK"
+   },
+   "openSidebarButton": {
+      "description": "The button text to open the sidebar.",
+      "message": "Open sidebar"
+   },
+   "restoreButton": {
+      "description": "The button text to restore the app window.",
+      "message": "Restore"
+   },
+   "saveFilePrompt": {
+      "description": "The text which prompts user if he wants to save file before closing it.",
+      "message": "Do you want to save the file before closing?"
+   },
+   "searchButton": {
+      "description": "The button text to search.",
+      "message": "Search"
+   },
+   "searchCounting": {
+      "description": "The text showing search counting.",
+      "message": "$searchIndex$ of $searchCount$",
+      "placeholders": {
+         "searchCount": {
+            "content": "$2",
+            "example": "Search count"
+         },
+         "searchIndex": {
+            "content": "$1",
+            "example": "Search index"
+         }
+      }
+   },
+   "searchNextButton": {
+      "description": "The button text to search the next result.",
+      "message": "Next"
+   },
+   "searchPreviousButton": {
+      "description": "The button text to search the previous result.",
+      "message": "Previous"
+   },
+   "smartindentSetting": {
+      "description": "The text of the settings 'Smart indent'.",
+      "message": "Smart indent"
+   },
+   "spacestabSetting": {
+      "description": "The text of the settings 'Tabs to spaces'.",
+      "message": "Tabs to spaces"
+   },
+   "tabsizeSetting": {
+      "description": "The text of the settings 'Tab size'.",
+      "message": "Tab size"
+   },
+   "themeSetting": {
+      "description": "The text of the settings 'Theme'.",
+      "message": "Theme"
+   },
+   "wraplinesSetting": {
+      "description": "The text of the settings 'Wrap lines'.",
+      "message": "Wrap lines"
+   },
+   "yesDialogButton": {
+      "description": "The button text which says 'Yes'.",
+      "message": "Yes"
+   }
+}

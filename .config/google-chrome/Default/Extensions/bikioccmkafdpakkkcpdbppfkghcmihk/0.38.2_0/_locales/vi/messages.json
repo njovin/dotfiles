@@ -1,0 +1,564 @@
+{
+   "acceptNewKey": {
+      "description": "Label for a button to accept a new safety number",
+      "message": "Chấp nhận"
+   },
+   "attemptingReconnection": {
+      "description": "",
+      "message": "Attempting reconnect in $reconnect_duration_in_seconds$ seconds",
+      "placeholders": {
+         "reconnect_duration_in_seconds": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "audioNotificationDescription": {
+      "description": "Description for audio notification setting",
+      "message": "Phát thông báo nhạc hiệu"
+   },
+   "cancel": {
+      "description": "",
+      "message": "Hủy"
+   },
+   "checkNetworkConnection": {
+      "description": "Obvious instructions for when a user's computer loses its network connection",
+      "message": "Check your network connection."
+   },
+   "connecting": {
+      "description": "",
+      "message": "Connecting"
+   },
+   "debugLogExplanation": {
+      "description": "",
+      "message": "Bản ghi này sẽ được đăng trực tuyến một cách công khai để những người đóng góp theo dõi. Bạn có thể kiểm tra và sửa đổi nó trước khi gửi đi."
+   },
+   "deleteConversationConfirmation": {
+      "description": "Confirmation dialog text that asks the user if they really wish to delete the conversation. Answer buttons use the strings 'ok' and 'cancel'. The deletion is permanent, i.e. it cannot be undone.",
+      "message": "Xóa cuộc trò chuyện này vĩnh viễn?"
+   },
+   "deleteMessages": {
+      "description": "Menu item for deleting messages, title case.",
+      "message": "Xóa tin nhắn"
+   },
+   "disableNotifications": {
+      "description": "Label for disabling notifications",
+      "message": "Vô hiệu hóa thông báo"
+   },
+   "disappearingMessages": {
+      "description": "Conversation menu option to enable disappearing messages",
+      "message": "Xóa (tự động) tin nhắn"
+   },
+   "disconnected": {
+      "description": "",
+      "message": "Đã ngắt kết nối"
+   },
+   "error": {
+      "description": "",
+      "message": "Lỗi"
+   },
+   "expiredWarning": {
+      "description": "Warning notification that this version of the app has expired",
+      "message": "Phiên bản này của Signal Desktop đã hết hạn. Vui lòng nâng cấp lên phiên bản mới nhất để tiếp tục nhắn tin."
+   },
+   "failedToSend": {
+      "description": "",
+      "message": "Không thể gửi đến một số người nhận. Kiểm tra kết nối mạng của bạn."
+   },
+   "fileSizeWarning": {
+      "description": "",
+      "message": "Rất tiếc, các tập tin đã chọn vượt quá giới hạn kích thước của tin nhắn."
+   },
+   "from": {
+      "description": "Label for the sender of a message",
+      "message": "Từ"
+   },
+   "gotIt": {
+      "description": "Label for a button that dismisses a dialog. The user clicks it to confirm that they understand the message in the dialog.",
+      "message": "Đã rõ!"
+   },
+   "identityChanged": {
+      "description": "",
+      "message": "Số-an-toàn của bạn với người (liên lạc) này đã thay đổi. Điều này có nghĩa rằng người nào đó đang xâm nhập vào liên lạc của bạn, hoặc đơn giản là người (liên lạc) này đã cài đặt lại Signal. Bạn muốn xác nhận số-an-toàn mới bên dưới."
+   },
+   "incomingError": {
+      "description": "",
+      "message": "Lỗi khi xử lý tin nhắn đến."
+   },
+   "incomingKeyConflict": {
+      "description": "",
+      "message": "Đã nhận tin nhắn với mộ số-an-toàn mới. Chọn để xử lý và hiển thị."
+   },
+   "installAndroidInstructions": {
+      "description": "",
+      "message": "Mở Signal trên điện thoại và chuyển đến mục Cài đặt > Các thiết bị đã kết nối. Bấm nút để thêm thiết bị mới, sau đó quét mã trên."
+   },
+   "installComputerName": {
+      "description": "Text displayed before the input where the user can enter the name for this device.",
+      "message": "Tên của máy tính này sẽ là"
+   },
+   "installConnecting": {
+      "description": "Displayed when waiting for the QR Code",
+      "message": "Đang kết nối..."
+   },
+   "installConnectionFailed": {
+      "description": "Displayed when we can't connect to the server.",
+      "message": "Kết nối đến máy chủ thất bại."
+   },
+   "installFinalButton": {
+      "description": "The final button for the install process, after the user has entered a name for their device",
+      "message": "Có vẻ tốt"
+   },
+   "installFollowUs": {
+      "description": "",
+      "message": "\u003Ca $a_params$>Theo dõi chúng tôi\u003C/a> để cập nhật về hỗ trợ đa thiết bị cho iOS.",
+      "placeholders": {
+         "a_params": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installGeneratingKeys": {
+      "description": "",
+      "message": "Tạo mã khóa"
+   },
+   "installGetStartedButton": {
+      "description": "",
+      "message": "Bắt đầu"
+   },
+   "installGotIt": {
+      "description": "Button for the user to confirm that they have Signal installed.",
+      "message": "Cài xong!"
+   },
+   "installIHaveSignalButton": {
+      "description": "Button for the user to confirm that they have Signal for Android",
+      "message": "Tôi đã có Signal cho Android"
+   },
+   "installLinkingWithNumber": {
+      "description": "Text displayed before the phone number that the user is in the process of linking with",
+      "message": "Kết nối với"
+   },
+   "installSignalLink": {
+      "description": "Prompt the user to install Signal on Android before linking",
+      "message": "Trước tiên, cài đặt \u003Ca $a_params$>Signal\u003C/a> trên điện thoại Android.\u003Cbr /> Chúng tôi sẽ liên kết các thiết bị và giữ cho các tin nhắn của bạn được đồng bộ.",
+      "placeholders": {
+         "a_params": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installSignalLinks": {
+      "description": "Prompt the user to install Signal on their phone before linking",
+      "message": "Đầu tiên, cài đặt Signal trên máy \u003Ca $play_store$>Android\u003C/a> hoặc \u003Ca $app_store$>iPhone\u003C/a>.\u003Cbr/>Chúng tôi sẽ liên kết thiết bị và đồng bộ tin nhắn của bạn.",
+      "placeholders": {
+         "app_store": {
+            "content": "$2",
+            "example": "href='http://example.com'"
+         },
+         "play_store": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installSyncingGroupsAndContacts": {
+      "description": "",
+      "message": "Đang đồng bộ các nhóm và liên hệ"
+   },
+   "installTagline": {
+      "description": "Tagline displayed under installWelcome on the install page",
+      "message": "Sự riêng tư là có thể. Signal khiến điều đó trở nên dễ dàng."
+   },
+   "installTooManyDevices": {
+      "description": "",
+      "message": "Rất tiếc, bạn có quá nhiều thiết bị đã được kết nối. Thử gỡ bỏ vài thiết bị."
+   },
+   "installWelcome": {
+      "description": "Welcome title on the install page",
+      "message": "Chào mừng đến với Signal Desktop"
+   },
+   "invalidNumberError": {
+      "description": "When a person inputs a number that is invalid",
+      "message": "Số không chính xác"
+   },
+   "keychanged": {
+      "description": "",
+      "message": "Số-an-toàn của bạn với $name$ đã được thay đổi.",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "John"
+         }
+      }
+   },
+   "lastSynced": {
+      "description": "Label for date and time of last sync operation",
+      "message": "Lần nhập cuối cùng lúc"
+   },
+   "learnMore": {
+      "description": "Text that links to a support article on verifying safety numbers",
+      "message": "Tìm hiểu thêm về xác nhận các số-an-toàn."
+   },
+   "mediaMessage": {
+      "description": "Description of a message that has an attachment and no text, displayed in the conversation list as a preview.",
+      "message": "Tin nhắn đa phương tiện"
+   },
+   "members": {
+      "description": "",
+      "message": "Thành viên"
+   },
+   "messageDetail": {
+      "description": "",
+      "message": "Chi tiết tin nhắn"
+   },
+   "messageNotSent": {
+      "description": "Informational label, appears on messages that failed to send",
+      "message": "Tin nhắn chưa được gửi"
+   },
+   "nameAndMessage": {
+      "description": "Label for setting notifications to display name and message text",
+      "message": "Cả tên người gửi lẫn tin nhắn"
+   },
+   "nameOnly": {
+      "description": "Label for setting notifications to display sender name only",
+      "message": "Chỉ tên người gửi"
+   },
+   "newContact": {
+      "description": "",
+      "message": "Bấm để tạo một liên hệ"
+   },
+   "newIdentity": {
+      "description": "Header for a key change dialog",
+      "message": "Số-an-toàn mới"
+   },
+   "newMessage": {
+      "description": "Displayed in notifications for only 1 message",
+      "message": "Tin nhắn mới"
+   },
+   "newMessages": {
+      "description": "Displayed in notifications for multiple messages",
+      "message": "Các tin nhắn mới"
+   },
+   "newPhoneNumber": {
+      "description": "Placeholder for adding a new number to a contact",
+      "message": "Nhập số điện thoại để thêm một liên hệ"
+   },
+   "noNameOrMessage": {
+      "description": "Label for setting notifications to display no name and no message text",
+      "message": "Không hiện tên cũng như tin nhắn"
+   },
+   "notificationSettingsDialog": {
+      "description": "Explain the purpose of the notification settings",
+      "message": "Khi tin nhắn đến, hiện thị các thông báo thể hiện:"
+   },
+   "notifications": {
+      "description": "Header for notification settings",
+      "message": "Thông báo"
+   },
+   "offline": {
+      "description": "",
+      "message": "Offline"
+   },
+   "ok": {
+      "description": "",
+      "message": "Đồng ý"
+   },
+   "outgoingKeyConflict": {
+      "description": "",
+      "message": "Số-an-toàn của bạn với người (liên lạc) này đã thay đổi. Chọn để xử lý và hiển thị."
+   },
+   "received": {
+      "description": "Label for the time a message was received",
+      "message": "Đã nhận"
+   },
+   "relink": {
+      "description": "",
+      "message": "Relink"
+   },
+   "reportIssue": {
+      "description": "Link to open the issue tracker",
+      "message": "Báo lỗi"
+   },
+   "resend": {
+      "description": "",
+      "message": "Gửi lại"
+   },
+   "resetSession": {
+      "description": "This is a menu item for resetting the session, using the imperative case, as in a command.",
+      "message": "Đăng nhập lại"
+   },
+   "restartSignal": {
+      "description": "Menu item for restarting the program.",
+      "message": "Khởi động lại Signal"
+   },
+   "safetyNumbersSettingDescription": {
+      "description": "Description for safety numbers setting",
+      "message": "Bắt buộc xác nhận số-an-toàn mới khi chúng thay đổi"
+   },
+   "safetyNumbersSettingHeader": {
+      "description": "Header for safety numbers setting",
+      "message": "Chấp nhận số-an-toàn"
+   },
+   "searchForPeopleOrGroups": {
+      "description": "Placeholder text in the search input",
+      "message": "Tìm kiếm..."
+   },
+   "selectAContact": {
+      "description": "",
+      "message": "Chọn một liên hệ hoặc nhóm để bắt đầu chat."
+   },
+   "sendMessage": {
+      "description": "Placeholder text in the message entry field",
+      "message": "Gửi tin nhắn"
+   },
+   "sent": {
+      "description": "Label for the time a message was sent",
+      "message": "Đã gửi"
+   },
+   "sessionEnded": {
+      "description": "This is a past tense, informational message. In other words, your secure session has been reset.",
+      "message": "Khởi tạo lại phiên làm việc bảo mật"
+   },
+   "settings": {
+      "description": "Menu item and header for global settings",
+      "message": "Các cài đặt"
+   },
+   "showLess": {
+      "description": "Hides the details of a key change",
+      "message": "Ẩn chi tiết"
+   },
+   "showMore": {
+      "description": "Displays the details of a key change",
+      "message": "Chi tiết"
+   },
+   "submit": {
+      "description": "",
+      "message": "Gửi"
+   },
+   "submitDebugLog": {
+      "description": "Menu item and header text for debug log modal, title case.",
+      "message": "Gửi debug log"
+   },
+   "sync": {
+      "description": "Label for contact and group sync settings",
+      "message": "Liên hệ"
+   },
+   "syncExplanation": {
+      "description": "Explanatory text for sync settings",
+      "message": "Nhập tất cả liên hệ và nhóm của Signal từ thiết bị di động của bạn."
+   },
+   "syncFailed": {
+      "description": "Informational text displayed if a sync operation times out.",
+      "message": "Nhập thất bại. Chắc chắn rằng máy tính và điện thoại của bạn đã kết nối internet."
+   },
+   "syncNow": {
+      "description": "Label for a button that syncs contacts and groups from your phone",
+      "message": "Nhập ngay bây giờ"
+   },
+   "syncing": {
+      "description": "Label for a disabled sync button while sync is in progress.",
+      "message": "Đăng nhập"
+   },
+   "theirIdentityUnknown": {
+      "description": "",
+      "message": "Bạn chưa trao đổi tin nhắn nào với liên hệ này.  Số an toàn của bạn sẽ có sau tin nhắn đầu tiên."
+   },
+   "theme": {
+      "description": "Header for theme settings",
+      "message": "Chủ đề"
+   },
+   "themeAndroidDark": {
+      "description": "Label text for dark Android theme",
+      "message": "Android (tối)"
+   },
+   "theyChangedTheTimer": {
+      "description": "Message displayed when someone else changes the message expiration timer in a conversation.",
+      "message": "$name$ thiết lập thời gian đến $time$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Bob"
+         },
+         "time": {
+            "content": "$2",
+            "example": "10m"
+         }
+      }
+   },
+   "timerOption_0_seconds": {
+      "description": "Label for option to turn off message expiration in the timer menu",
+      "message": "Tắt"
+   },
+   "timerOption_0_seconds_abbreviated": {
+      "description": "Short format indicating current timer setting in the conversation list snippet",
+      "message": "Tắt"
+   },
+   "timerOption_10_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "10 giây"
+   },
+   "timerOption_10_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "10 giây"
+   },
+   "timerOption_12_hours_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "12 giờ"
+   },
+   "timerOption_1_day": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "1 ngày"
+   },
+   "timerOption_1_day_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1 ngày"
+   },
+   "timerOption_1_hour_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1 giờ"
+   },
+   "timerOption_1_minute_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1 phút"
+   },
+   "timerOption_1_week": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "1 tuần"
+   },
+   "timerOption_1_week_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1 tuần"
+   },
+   "timerOption_30_minutes_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "30 phút"
+   },
+   "timerOption_30_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "30 giây"
+   },
+   "timerOption_30_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "30 giây"
+   },
+   "timerOption_5_minutes_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "5 phút"
+   },
+   "timerOption_5_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "5 giây"
+   },
+   "timerOption_5_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "5 giây"
+   },
+   "timerOption_6_hours_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "6 giờ"
+   },
+   "timerSetTo": {
+      "description": "Displayed in the conversation list when the timer is updated.",
+      "message": "Thời gian thiết lập đến $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "1w"
+         }
+      }
+   },
+   "timestampFormat_M": {
+      "description": "Timestamp format string for displaying month and day (but not the year) of a date within the current year, ex: use 'MMM D' for 'Aug 8', or 'D MMM' for '8 Aug'.",
+      "message": "Tháng Ngày"
+   },
+   "timestamp_h": {
+      "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble.",
+      "message": "1 giờ"
+   },
+   "timestamp_m": {
+      "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble.",
+      "message": "1 phút"
+   },
+   "timestamp_s": {
+      "description": "Brief timestamp for messages sent less than a minute ago. Displayed in the conversation list and message bubble.",
+      "message": "hiện tại"
+   },
+   "to": {
+      "description": "Label for the receiver of a message",
+      "message": "Tới"
+   },
+   "unblockToSend": {
+      "description": "Brief message shown when trying to message a blocked number",
+      "message": "Mở khóa người (liên lạc) này để gởi thông báo."
+   },
+   "unlinked": {
+      "description": "",
+      "message": "Unlinked"
+   },
+   "unlinkedWarning": {
+      "description": "",
+      "message": "Relink Signal Desktop to your mobile device to continue messaging."
+   },
+   "unregisteredUser": {
+      "description": "Error message displayed when sending to an unregistered user.",
+      "message": "Số điện thoại chưa đăng ký"
+   },
+   "unsupportedAttachment": {
+      "description": "Displayed for incoming unsupported attachment",
+      "message": "Không hỗ trợ loại đính kèm. Bấm để lưu."
+   },
+   "unsupportedFileType": {
+      "description": "Displayed for outgoing unsupported attachment",
+      "message": "Không hỗ trợ loại tập tin"
+   },
+   "upgrade": {
+      "description": "Label text for button to upgrade the app to the latest version",
+      "message": "Nâng cấp"
+   },
+   "verify": {
+      "description": "",
+      "message": "Xác nhận"
+   },
+   "verifyContact": {
+      "description": "Use $tag_start$ and $tag_end$ to wrap the word or phrase in this sentence that the user should click on in order to navigate to the verification screen. These placeholders will be replaced with appropriate HTML code.",
+      "message": "Bạn muốn $tag_start$ để xác nhận $tag_end$ số-an-toàn của bạn với người (liên lạc) này.",
+      "placeholders": {
+         "tag_end": {
+            "content": "\u003C/a>"
+         },
+         "tag_start": {
+            "content": "\u003Ca class='verify' href='#'>"
+         }
+      }
+   },
+   "verifySafetyNumbers": {
+      "description": "",
+      "message": "Xác nhận số-an-toàn"
+   },
+   "welcomeToSignal": {
+      "description": "",
+      "message": "Chào mừng đến với Signal"
+   },
+   "youChangedTheTimer": {
+      "description": "Message displayed when you change the message expiration timer in a conversation.",
+      "message": "Bạn thiết lập thời gian đến $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "10m"
+         }
+      }
+   },
+   "yourSafetyNumberWith": {
+      "description": "Heading for safety number view",
+      "message": "Số-an-toàn của bạn với $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "John"
+         }
+      }
+   }
+}

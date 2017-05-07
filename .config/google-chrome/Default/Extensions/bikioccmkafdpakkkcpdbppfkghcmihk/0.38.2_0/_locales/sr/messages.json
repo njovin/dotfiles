@@ -1,0 +1,564 @@
+{
+   "acceptNewKey": {
+      "description": "Label for a button to accept a new safety number",
+      "message": "Прихвати"
+   },
+   "attemptingReconnection": {
+      "description": "",
+      "message": "Поновно повезивање за $reconnect_duration_in_seconds$ секунде/и",
+      "placeholders": {
+         "reconnect_duration_in_seconds": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "audioNotificationDescription": {
+      "description": "Description for audio notification setting",
+      "message": "Звучно обавештење"
+   },
+   "cancel": {
+      "description": "",
+      "message": "Одустани"
+   },
+   "checkNetworkConnection": {
+      "description": "Obvious instructions for when a user's computer loses its network connection",
+      "message": "Проверите вашу везу са мрежом."
+   },
+   "connecting": {
+      "description": "",
+      "message": "Повезујем се"
+   },
+   "debugLogExplanation": {
+      "description": "",
+      "message": "Овај извештај ће бити објављен и видљив пројектантима. Можете га прегледати и изменити пре објаве."
+   },
+   "deleteConversationConfirmation": {
+      "description": "Confirmation dialog text that asks the user if they really wish to delete the conversation. Answer buttons use the strings 'ok' and 'cancel'. The deletion is permanent, i.e. it cannot be undone.",
+      "message": "Неопозиво уклонити преписку?"
+   },
+   "deleteMessages": {
+      "description": "Menu item for deleting messages, title case.",
+      "message": "Уклони пошиљке"
+   },
+   "disableNotifications": {
+      "description": "Label for disabling notifications",
+      "message": "Искључи обавештења"
+   },
+   "disappearingMessages": {
+      "description": "Conversation menu option to enable disappearing messages",
+      "message": "Самонестајуће поруке"
+   },
+   "disconnected": {
+      "description": "",
+      "message": "Прекинуто"
+   },
+   "error": {
+      "description": "",
+      "message": "Грешка"
+   },
+   "expiredWarning": {
+      "description": "Warning notification that this version of the app has expired",
+      "message": "Ваша верзија Сигнал-а за десктоп је застарела. Да би сте наставили дописивање, молимо вас да ажурирате програм."
+   },
+   "failedToSend": {
+      "description": "",
+      "message": "Неким дописницима није послато. Проверите статус мреже."
+   },
+   "fileSizeWarning": {
+      "description": "",
+      "message": "Жао нам је, ваша датотека превазилази ограничење величине."
+   },
+   "from": {
+      "description": "Label for the sender of a message",
+      "message": "Од"
+   },
+   "gotIt": {
+      "description": "Label for a button that dismisses a dialog. The user clicks it to confirm that they understand the message in the dialog.",
+      "message": "Важи!"
+   },
+   "identityChanged": {
+      "description": "",
+      "message": "Шифра преписке са овим дописником је другачија. Ово значи или да неко пресреће вашу преписку, или је овај дописник једноставно извршио поновну инсталацију Сигнал-а. Можда желите да верификујете приказану шифру."
+   },
+   "incomingError": {
+      "description": "",
+      "message": "Грешка у обради поруке."
+   },
+   "incomingKeyConflict": {
+      "description": "",
+      "message": "Ова порука је шифрована новом шифром. Притисните за обраду."
+   },
+   "installAndroidInstructions": {
+      "description": "",
+      "message": "Покрените Сигнал на телефону и пронађите Подешавања > Повезани уређаји. Тапните дугме за додавање уређаја, затим скенирајте бар-код изнад."
+   },
+   "installComputerName": {
+      "description": "Text displayed before the input where the user can enter the name for this device.",
+      "message": "Назив овог уређаја гласиће"
+   },
+   "installConnecting": {
+      "description": "Displayed when waiting for the QR Code",
+      "message": "Повезивање у току..."
+   },
+   "installConnectionFailed": {
+      "description": "Displayed when we can't connect to the server.",
+      "message": "Неуспешно повезивање са сервером."
+   },
+   "installFinalButton": {
+      "description": "The final button for the install process, after the user has entered a name for their device",
+      "message": "Потврђујем"
+   },
+   "installFollowUs": {
+      "description": "",
+      "message": "\u003Ca $a_params$>Пратите\u003C/a> новости о подршци за више уређаја на iOS.",
+      "placeholders": {
+         "a_params": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installGeneratingKeys": {
+      "description": "",
+      "message": "Креирам Кључеве"
+   },
+   "installGetStartedButton": {
+      "description": "",
+      "message": "Припрема"
+   },
+   "installGotIt": {
+      "description": "Button for the user to confirm that they have Signal installed.",
+      "message": "Важи"
+   },
+   "installIHaveSignalButton": {
+      "description": "Button for the user to confirm that they have Signal for Android",
+      "message": "Имам Сигнал за Андроид"
+   },
+   "installLinkingWithNumber": {
+      "description": "Text displayed before the phone number that the user is in the process of linking with",
+      "message": "Везивање са"
+   },
+   "installSignalLink": {
+      "description": "Prompt the user to install Signal on Android before linking",
+      "message": "Претходно наместите \u003Ca $a_params$>Сигнал\u003C/a> на вашем Андроид уређају.\u003Cbr />Повезаћемо ваше уређаје и поруке ће бити усаглашене.",
+      "placeholders": {
+         "a_params": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installSignalLinks": {
+      "description": "Prompt the user to install Signal on their phone before linking",
+      "message": "Претходно поставите Сигнал на ваш \u003Ca $play_store$>Андроид\u003C/a> или \u003Ca $app_store$>Ајфон\u003C/a>.\u003Cbr /> Повезаћемо ваше уређаје и усаглашаваћемо поруке.",
+      "placeholders": {
+         "app_store": {
+            "content": "$2",
+            "example": "href='http://example.com'"
+         },
+         "play_store": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installSyncingGroupsAndContacts": {
+      "description": "",
+      "message": "Усаглашавам групе и дописнике"
+   },
+   "installTagline": {
+      "description": "Tagline displayed under installWelcome on the install page",
+      "message": "Приватност је достижна. Сигнал вам то олакшава."
+   },
+   "installTooManyDevices": {
+      "description": "",
+      "message": "Жао нам је, повезали сте превише уређаја. Развежите неке од њих."
+   },
+   "installWelcome": {
+      "description": "Welcome title on the install page",
+      "message": "Добродошли у Сигнал Десктоп"
+   },
+   "invalidNumberError": {
+      "description": "When a person inputs a number that is invalid",
+      "message": "Неисправан број"
+   },
+   "keychanged": {
+      "description": "",
+      "message": "Шифра преписки са $name$ је другачија.",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "John"
+         }
+      }
+   },
+   "lastSynced": {
+      "description": "Label for date and time of last sync operation",
+      "message": "Задњи пут увежено"
+   },
+   "learnMore": {
+      "description": "Text that links to a support article on verifying safety numbers",
+      "message": "Више о верификацији шифара преписки"
+   },
+   "mediaMessage": {
+      "description": "Description of a message that has an attachment and no text, displayed in the conversation list as a preview.",
+      "message": "Без текста"
+   },
+   "members": {
+      "description": "",
+      "message": "Чланови"
+   },
+   "messageDetail": {
+      "description": "",
+      "message": "Детаљи поруке"
+   },
+   "messageNotSent": {
+      "description": "Informational label, appears on messages that failed to send",
+      "message": "Порука није послата."
+   },
+   "nameAndMessage": {
+      "description": "Label for setting notifications to display name and message text",
+      "message": "Име дописника и порука"
+   },
+   "nameOnly": {
+      "description": "Label for setting notifications to display sender name only",
+      "message": "Име дописника"
+   },
+   "newContact": {
+      "description": "",
+      "message": "Притисните за унос у адресар"
+   },
+   "newIdentity": {
+      "description": "Header for a key change dialog",
+      "message": "Нова шифра преписке"
+   },
+   "newMessage": {
+      "description": "Displayed in notifications for only 1 message",
+      "message": "Нова порука"
+   },
+   "newMessages": {
+      "description": "Displayed in notifications for multiple messages",
+      "message": "Нове поруке"
+   },
+   "newPhoneNumber": {
+      "description": "Placeholder for adding a new number to a contact",
+      "message": "Упишите број телефона за нову особу."
+   },
+   "noNameOrMessage": {
+      "description": "Label for setting notifications to display no name and no message text",
+      "message": "Скривено"
+   },
+   "notificationSettingsDialog": {
+      "description": "Explain the purpose of the notification settings",
+      "message": "Садржај обавештења за новопристигле поруке:"
+   },
+   "notifications": {
+      "description": "Header for notification settings",
+      "message": "Обавештења"
+   },
+   "offline": {
+      "description": "",
+      "message": "Ван мреже"
+   },
+   "ok": {
+      "description": "",
+      "message": "У реду"
+   },
+   "outgoingKeyConflict": {
+      "description": "",
+      "message": "Ваша шифра за овог дописника је промењена. Притисните за обраду."
+   },
+   "received": {
+      "description": "Label for the time a message was received",
+      "message": "Примљена"
+   },
+   "relink": {
+      "description": "",
+      "message": "Поново вежи"
+   },
+   "reportIssue": {
+      "description": "Link to open the issue tracker",
+      "message": "Пријавите проблем"
+   },
+   "resend": {
+      "description": "",
+      "message": "Пошаљи опет"
+   },
+   "resetSession": {
+      "description": "This is a menu item for resetting the session, using the imperative case, as in a command.",
+      "message": "Обнови везу"
+   },
+   "restartSignal": {
+      "description": "Menu item for restarting the program.",
+      "message": "Поново покрени Сигнал"
+   },
+   "safetyNumbersSettingDescription": {
+      "description": "Description for safety numbers setting",
+      "message": "Захтевај акцију када се промене шифре преписки"
+   },
+   "safetyNumbersSettingHeader": {
+      "description": "Header for safety numbers setting",
+      "message": "Одобрење шифара за преписке"
+   },
+   "searchForPeopleOrGroups": {
+      "description": "Placeholder text in the search input",
+      "message": "Нађи..."
+   },
+   "selectAContact": {
+      "description": "",
+      "message": "Започните преписку одабиром дописника или групе."
+   },
+   "sendMessage": {
+      "description": "Placeholder text in the message entry field",
+      "message": "Пошаљи поруку"
+   },
+   "sent": {
+      "description": "Label for the time a message was sent",
+      "message": "Послата"
+   },
+   "sessionEnded": {
+      "description": "This is a past tense, informational message. In other words, your secure session has been reset.",
+      "message": "Безбедна сесија ресетована"
+   },
+   "settings": {
+      "description": "Menu item and header for global settings",
+      "message": "Подешавања"
+   },
+   "showLess": {
+      "description": "Hides the details of a key change",
+      "message": "Основно"
+   },
+   "showMore": {
+      "description": "Displays the details of a key change",
+      "message": "Опширније"
+   },
+   "submit": {
+      "description": "",
+      "message": "Пошаљи"
+   },
+   "submitDebugLog": {
+      "description": "Menu item and header text for debug log modal, title case.",
+      "message": "Објави програмерски извештај"
+   },
+   "sync": {
+      "description": "Label for contact and group sync settings",
+      "message": "Дописници"
+   },
+   "syncExplanation": {
+      "description": "Explanatory text for sync settings",
+      "message": "Увезите све групе Сигнал-а и особе са вашег мобилног уређаја."
+   },
+   "syncFailed": {
+      "description": "Informational text displayed if a sync operation times out.",
+      "message": "Увоз неуспешан. Оба уређаја треба да буду повезана на интернет."
+   },
+   "syncNow": {
+      "description": "Label for a button that syncs contacts and groups from your phone",
+      "message": "Увези сад"
+   },
+   "syncing": {
+      "description": "Label for a disabled sync button while sync is in progress.",
+      "message": "Увозим..."
+   },
+   "theirIdentityUnknown": {
+      "description": "",
+      "message": "Морате разменити бар једну поруку са овим дописником. Шифра за дописивање ће се створити након прве преписке."
+   },
+   "theme": {
+      "description": "Header for theme settings",
+      "message": "Стил"
+   },
+   "themeAndroidDark": {
+      "description": "Label text for dark Android theme",
+      "message": "Андроид стил (тамно)"
+   },
+   "theyChangedTheTimer": {
+      "description": "Message displayed when someone else changes the message expiration timer in a conversation.",
+      "message": "$name$ је подесио/ла рок важења на $time$.",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Bob"
+         },
+         "time": {
+            "content": "$2",
+            "example": "10m"
+         }
+      }
+   },
+   "timerOption_0_seconds": {
+      "description": "Label for option to turn off message expiration in the timer menu",
+      "message": "искључено"
+   },
+   "timerOption_0_seconds_abbreviated": {
+      "description": "Short format indicating current timer setting in the conversation list snippet",
+      "message": "искљ."
+   },
+   "timerOption_10_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "10 секунди"
+   },
+   "timerOption_10_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "10 сек"
+   },
+   "timerOption_12_hours_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "12 ч"
+   },
+   "timerOption_1_day": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "1 дан"
+   },
+   "timerOption_1_day_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1 д"
+   },
+   "timerOption_1_hour_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1 ч"
+   },
+   "timerOption_1_minute_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1 мин"
+   },
+   "timerOption_1_week": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "1 недеља"
+   },
+   "timerOption_1_week_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1 нед"
+   },
+   "timerOption_30_minutes_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "30 мин"
+   },
+   "timerOption_30_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "30 секунди"
+   },
+   "timerOption_30_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "30 сек"
+   },
+   "timerOption_5_minutes_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "5 мин"
+   },
+   "timerOption_5_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "5 секунди"
+   },
+   "timerOption_5_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "5 сек"
+   },
+   "timerOption_6_hours_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "6 ч"
+   },
+   "timerSetTo": {
+      "description": "Displayed in the conversation list when the timer is updated.",
+      "message": "Рок постављен на $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "1w"
+         }
+      }
+   },
+   "timestampFormat_M": {
+      "description": "Timestamp format string for displaying month and day (but not the year) of a date within the current year, ex: use 'MMM D' for 'Aug 8', or 'D MMM' for '8 Aug'.",
+      "message": "D MMM"
+   },
+   "timestamp_h": {
+      "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble.",
+      "message": "1 час"
+   },
+   "timestamp_m": {
+      "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble.",
+      "message": "1 минут"
+   },
+   "timestamp_s": {
+      "description": "Brief timestamp for messages sent less than a minute ago. Displayed in the conversation list and message bubble.",
+      "message": "сада"
+   },
+   "to": {
+      "description": "Label for the receiver of a message",
+      "message": "За"
+   },
+   "unblockToSend": {
+      "description": "Brief message shown when trying to message a blocked number",
+      "message": "Одблокирајте дописника да би послали поруку."
+   },
+   "unlinked": {
+      "description": "",
+      "message": "Развезано"
+   },
+   "unlinkedWarning": {
+      "description": "",
+      "message": "Да би наставили дописивање, поново повежите Сигнал за десктоп са мобилним уређајем."
+   },
+   "unregisteredUser": {
+      "description": "Error message displayed when sending to an unregistered user.",
+      "message": "Корисник није регистрован"
+   },
+   "unsupportedAttachment": {
+      "description": "Displayed for incoming unsupported attachment",
+      "message": "Тип уграђеног садржаја није подржан. Притисните да би преузели."
+   },
+   "unsupportedFileType": {
+      "description": "Displayed for outgoing unsupported attachment",
+      "message": "Недозвољен тип датотеке"
+   },
+   "upgrade": {
+      "description": "Label text for button to upgrade the app to the latest version",
+      "message": "Ажурирај"
+   },
+   "verify": {
+      "description": "",
+      "message": "Провери"
+   },
+   "verifyContact": {
+      "description": "Use $tag_start$ and $tag_end$ to wrap the word or phrase in this sentence that the user should click on in order to navigate to the verification screen. These placeholders will be replaced with appropriate HTML code.",
+      "message": "Можда желите да $tag_start$ верификујете $tag_end$ шифру за овог дописника.",
+      "placeholders": {
+         "tag_end": {
+            "content": "\u003C/a>"
+         },
+         "tag_start": {
+            "content": "\u003Ca class='verify' href='#'>"
+         }
+      }
+   },
+   "verifySafetyNumbers": {
+      "description": "",
+      "message": "Верификуј шифру преписке"
+   },
+   "welcomeToSignal": {
+      "description": "",
+      "message": "Добродошли у Сигнал"
+   },
+   "youChangedTheTimer": {
+      "description": "Message displayed when you change the message expiration timer in a conversation.",
+      "message": "Подесили сте рок важења на $time$.",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "10m"
+         }
+      }
+   },
+   "yourSafetyNumberWith": {
+      "description": "Heading for safety number view",
+      "message": "Шифра преписки за $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "John"
+         }
+      }
+   }
+}

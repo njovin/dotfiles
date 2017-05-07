@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Window Resizer</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/popup.css" />
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="js/popup.js"></script>
+
+</head>
+
+<body>
+	<div id="specialPageNotice" class="popup-notice">
+		Viewport resizing doesn't work on special browser pages, such as the "New tab", "Downloads", "Settings" pages and so on. <br /><br />
+		If this is not the case, please reload the page and try again.
+
+		<div class="actions">
+			<button id="specialPageNoticeButton" class="ok-btn">OK</button>
+		</div>
+	</div>
+
+	<div id="updateNotice" class="popup-notice">
+		<h1 class="title">Update notes</h1>
+		<div class="content"></div>
+		<div class="actions">
+			<button id="updateNoticeButton" class="ok-btn" tabindex="1">OK, got it!</button>
+		</div>
+	</div>
+
+	<div id="v2-beta" class="hidden">
+		<img
+			src="images/v1-banner.png"
+			srcset="images/v1-banner@2x.png 2x" />
+
+		<div class="actions">
+			<button data-icon="?" class="show">Show details</button>
+			<button data-icon="&times;" class="hide">Hide this</button>
+		</div>
+	</div>
+
+	<ul id="resolutionsList" class="popup"></ul>
+
+</body>
+</html>

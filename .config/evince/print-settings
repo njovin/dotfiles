@@ -1,0 +1,39 @@
+[Print Settings]
+cover-after=none
+print-at=now
+cups-InputSlot=TRAY1
+print-at-time=
+resolution=600
+resolution-y=600
+cups-job-sheets=none,none
+resolution-x=600
+evince-print-setting-page-scale=1
+cups-ManualFeed=False
+cups-BRLanguageLevel=L3
+cups-job-priority=50
+default-source=TRAY1
+cups-TonerSaveMode=Off
+evince-print-setting-page-autorotate=true
+evince-print-setting-page-size=false
+cups-BRMediaType=Plain
+cups-Resolution=600dpi
+cover-before=none
+printer=MFC7820N
+cups-number-up=1
+
+duplex=simplex
+cups-Duplex=None
+
+cups-BrMediaType=PLAIN
+cups-Sleep=PrinterDefault
+
+[Page Setup]
+PPDName=Letter
+DisplayName=US Letter
+Width=215.89999389648438
+Height=279.39999389648438
+MarginTop=6.3499999999999996
+MarginBottom=14.224
+MarginLeft=6.3499999999999996
+MarginRight=6.3499999999999996
+Orientation=portrait

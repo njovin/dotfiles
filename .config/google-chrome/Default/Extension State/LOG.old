@@ -1,0 +1,18 @@
+2017/05/06-10:28:53.498 14680 Reusing MANIFEST /home/njovin/.config/google-chrome/Default/Extension State/MANIFEST-000001
+2017/05/06-10:28:53.498 14680 Recovering log #162
+2017/05/06-10:28:53.517 14680 Reusing old log /home/njovin/.config/google-chrome/Default/Extension State/000162.log 
+2017/05/06-13:09:36.852 15275 Level-0 table #166: started
+2017/05/06-13:09:36.875 15275 Level-0 table #166: 1509991 bytes OK
+2017/05/06-13:09:36.878 15275 Delete type=0 #162
+2017/05/06-13:09:36.880 15275 Compacting 4@0 + 1@1 files
+2017/05/06-13:09:36.911 15275 Generated table #167@0: 13 keys, 3622 bytes
+2017/05/06-13:09:36.911 15275 Compacted 4@0 + 1@1 files => 3622 bytes
+2017/05/06-13:09:36.912 15275 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/05/06-13:09:36.913 15275 Delete type=2 #163
+2017/05/06-13:09:36.913 15275 Delete type=2 #166
+2017/05/06-13:09:36.913 15275 Delete type=2 #157
+2017/05/06-13:09:36.913 15275 Delete type=2 #161
+2017/05/06-13:09:36.914 15275 Delete type=2 #159
+2017/05/07-08:50:50.240 15275 Level-0 table #169: started
+2017/05/07-08:50:50.266 15275 Level-0 table #169: 1545400 bytes OK
+2017/05/07-08:50:50.270 15275 Delete type=0 #165

@@ -1,0 +1,39 @@
+{
+   "checksum": "da10757d1c0da905e2f326714b9c7b7f",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13138564995243981",
+            "id": "6",
+            "meta_info": {
+               "last_visited_desktop": "13138564995244207"
+            },
+            "name": "Dual monitor: panel is always on the left one / Desktop / Xfce Forums",
+            "type": "url",
+            "url": "https://forum.xfce.org/viewtopic.php?id=6440"
+         } ],
+         "date_added": "13138564918555346",
+         "date_modified": "13138564995243981",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13138564918555352",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13138564918555354",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

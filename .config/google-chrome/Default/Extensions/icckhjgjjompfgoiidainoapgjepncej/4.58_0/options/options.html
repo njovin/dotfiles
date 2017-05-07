@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700' rel='stylesheet' type='text/css'>
+    <link href='options.css' rel='stylesheet' type='text/css'>
+    <title>Sway.fm's Media Keys</title>
+  </head>
+  <body>
+    <div id='topbar'></div>
+    <div id='sidebar'>
+      <img alt='Unity' id='logo' src='logo.png'>
+    </div>
+    <div id='content'>
+      <div class='main-title'>
+        Thank you for installing!
+      </div>
+      <div class='section'>
+        <div class='section-title'>
+          Problems?
+        </div>
+        <div class='section-content'>
+          If you see the song information in the extensions popup window, but the media keys aren't working, go to
+          <a href='chrome://extensions'>chrome://extensions</a>
+          and click the Keyboard Shortcuts button at the bottom to make sure they are set.
+          <br>
+          <br>
+          Make sure you don't have any competing extensions stealing the keys, like Google Play Music.
+          <br>
+          <br>
+          If you're on Windows, Microsoft Keyboard and Mouse center or Logitech SetPoint can interfere with media keys. Uninstall them if possible.
+          <br>
+          <br>
+          If it still doesn't work, or the site you use isn't supported or is broken, email us at
+          <a href='mailto:hello@sway.fm'>hello@sway.fm</a>
+          for help.
+        </div>
+      </div>
+      <div class='section'>
+        <div class='section-title'>
+          Ignore Youtube
+          <input id='ignore-youtube-checkbox' type='checkbox'>
+        </div>
+        <div class='section-content'>
+          Check this if you'd like to play youtube videos while listening to music, and don't want to auto-pause the music when you start playing a youtube video.
+        </div>
+      </div>
+      <div class='section'>
+        <div class='section-title'>
+          Enable notifications
+          <input id='notifications-checkbox' type='checkbox'>
+        </div>
+        <div class='section-content'>
+          Check this if you'd like to see push notifications whenever current song changes.
+        </div>
+      </div>
+      <div class='section' style='display:none'>
+        <div class='section-title'>
+          Scrobbling
+        </div>
+        <div class='section-content'>
+          <a href='#' id='lastfm-enable'>
+            Enable Last.fm Scrobbling
+          </a>
+          <a href='#' id='lastfm-loading'>
+            Logging in to last.fm
+          </a>
+        </div>
+      </div>
+      <div class='section'>
+        <div class='section-title'>
+          Support The Extension
+        </div>
+        <div class='section-content'>
+          If you appreciate the extension and want to see more features and supported sites consider donating, or even just saying thanks.
+        </div>
+        <a class='donate' href='https://www.coinbase.com/msfeldstein'>
+          <img src='bitcoin.png'>
+        </a>
+        <a class='donate dogecoin-button' href='#'>
+          <img src='dogecoin.png'>
+        </a>
+        <form action='https://www.paypal.com/cgi-bin/webscr' method='post' style='display:inline' target='_top'>
+          <input name='cmd' type='hidden' value='_donations'>
+          <input name='business' type='hidden' value='msfeldstein@gmail.com'>
+          <input name='lc' type='hidden' value='US'>
+          <input name='item_name' type='hidden' value='Sway.fm'>
+          <input name='no_note' type='hidden' value='0'>
+          <input name='currency_code' type='hidden' value='USD'>
+          <input name='bn' type='hidden' value='PP-DonationsBF:btn_donate_LG.gif:NonHostedGuest'>
+          <input alt='PayPal - The safer, easier way to pay online!' border='0' name='submit' src='paypal.png' type='image'>
+        </form>
+        <a class='donate' href='http://twitter.com/swayfm'>
+          <img src='twitter.png'>
+        </a>
+      </div>
+    </div>
+    <script src='options.js' type='text/javascript'></script>
+    <script src='track.js' type='text/javascript'></script>
+  </body>
+</html>

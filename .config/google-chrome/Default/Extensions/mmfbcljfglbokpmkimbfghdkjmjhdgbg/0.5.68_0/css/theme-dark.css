@@ -1,0 +1,85 @@
+body[theme="dark"] header {
+  background-color: #DDD;
+}
+
+body[theme="dark"] .search-container {
+  border-color: #C1C1C1;
+}
+
+body[theme="dark"] .search-navigation-button {
+  background-color: #DDD;
+  border-color: #C1C1C1;
+}
+
+body[theme="dark"] .search-navigation-button:focus {
+  background-color: #EEE;
+}
+
+body[theme="dark"] #sidebar {
+  background-color: #272822;
+  -webkit-box-shadow: inset -10px 0 7px -4px rgba(0,0,0,0.5);
+}
+
+body[theme="dark"] #settings-menu {
+  background-color: #272822;
+}
+
+body[theme="dark"] #sidebar li:hover {
+  background-color: #3A3A3A;
+  border-left: 10px solid #868686;
+  -webkit-box-shadow: inset -10px 0 7px -4px rgba(0,0,0,0.5);
+  color: #FFF;
+  padding-left: 10px;
+}
+
+body[theme="dark"] #settings-list input[type="text"] {
+  color: #EBEBEB;
+}
+
+body[theme="dark"] #settings-list select {
+  color: #EBEBEB;
+}
+
+body[theme="dark"] #settings-list select option {
+  background-color: #272822;
+}
+
+
+/* Based on CodeMirror dark theme */
+/* Based on Sublime Text's dark theme */
+
+.cm-s-dark.CodeMirror {background: #272822; color: #f8f8f2;}
+.cm-s-dark div.CodeMirror-selected {background: #49483E !important;}
+.cm-s-dark .CodeMirror-gutters {background: #272822; border-right: 0px;}
+.cm-s-dark .CodeMirror-linenumber {color: #d0d0d0;}
+.cm-s-dark .CodeMirror-cursor {border-left: 1px solid #f8f8f0 !important;}
+
+.cm-s-dark span.cm-comment {color: #75715e;}
+.cm-s-dark span.cm-atom {color: #ae81ff;}
+.cm-s-dark span.cm-number {color: #ae81ff;}
+
+.cm-s-dark span.cm-property, .cm-s-dark span.cm-attribute {color: #a6e22e;}
+.cm-s-dark span.cm-keyword {color: #f92672;}
+.cm-s-dark span.cm-string {color: #e6db74;}
+
+.cm-s-dark span.cm-variable {color: #a6e22e;}
+.cm-s-dark span.cm-variable-2 {color: #9effff;}
+.cm-s-dark span.cm-def {color: #fd971f;}
+.cm-s-dark span.cm-error {background: #f92672; color: #f8f8f0 !important;}
+.cm-s-dark span.cm-bracket {color: #f8f8f2;}
+.cm-s-dark span.cm-tag {color: #f92672;}
+.cm-s-dark span.cm-link {color: #ae81ff;}
+
+.cm-s-dark .CodeMirror-matchingbracket {
+  text-decoration: underline;
+  color: white !important;
+}
+
+body[theme="dark"] div.CodeMirror span.CodeMirror-matchingbracket {
+  color: inherit !important;
+  border-bottom: 1px solid #f8f8f2;
+}
+
+body[theme="dark"] div.CodeMirror span.CodeMirror-nonmatchingbracket {
+  color: inherit !important;
+}

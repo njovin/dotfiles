@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Streak CRM for Gmail",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Manage sales and customer relationships directly inside Gmail.", 
+    "description":"The description of the application, displayed in the web store."
+  }
+}

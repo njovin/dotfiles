@@ -1,0 +1,156 @@
+{
+   "elementToolbarChildNode": {
+      "description": "Título para o nó filho do elemento destacado em modo de tracking",
+      "message": "Nó filho"
+   },
+   "elementToolbarHelp": {
+      "description": "Mensagem de ajuda para a barra de ferramentas",
+      "message": "Use o modo de tracking para mover sobre a págian e destacar elementos. Clique em um elemento para destivar o modo de tracking."
+   },
+   "elementToolbarHighlightedElement": {
+      "description": "Título para o elemento destacado em modo de tracking",
+      "message": "Elemento destacado"
+   },
+   "elementToolbarNextSibling": {
+      "description": "Título para o nó irmão posterior do elemento destacado em modo de tracking",
+      "message": "Próximo nó irmão"
+   },
+   "elementToolbarParentNode": {
+      "description": "Título para o nó pai do elemento destacado em modo de tracking",
+      "message": "Nó pai"
+   },
+   "elementToolbarPreviousSibling": {
+      "description": "Título para o nó irmão anterior do elemento destacado em modo de tracking",
+      "message": "Nó irmão anterior"
+   },
+   "elementToolbarToggleOff": {
+      "description": "O texto de estado desligado para o botão de ativar/desativar modo de tracking",
+      "message": "Desligado"
+   },
+   "elementToolbarToggleOn": {
+      "description": "O texto de estado ligado para o botão de ativar/desativar modo de tracking",
+      "message": "Ligado"
+   },
+   "elementToolbarTrackingMode": {
+      "description": "Nome do botão de ativar/desativar modo de traking",
+      "message": "Modo de Tracking"
+   },
+   "errorLocal": {
+      "description": "Mensagem de erro ao executar a extensão em uma página de extensão do chrome",
+      "message": "Extensões não podem rodar em páginas locais por razões de segurança"
+   },
+   "errorWebStore": {
+      "description": "Mensagem de erro ao executar a extensão na chrome web store",
+      "message": "Extensões não podem rodar na chrome web store por razões de segurança"
+   },
+   "extDescription": {
+      "description": "Extension description",
+      "message": "Desenhe réguas para conseguir as dimensões e posicionamento em pixels além de medir elementos de uma página web."
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Page Ruler"
+   },
+   "extShortName": {
+      "description": "Extension short name (maximum 12 characters)",
+      "message": "Page Ruler"
+   },
+   "optionsPageTitle": {
+      "description": "Título da página de opções",
+      "message": "Opções do Page Ruler"
+   },
+   "optionsStatisticsHelp": {
+      "description": "Mensagem explicando como as estatísticas anônimas de uso são utilizadas",
+      "message": "Informações coletadas não contém detalhes pessoais e são utilizadas somente com a intenção de melhorar esta extensão vendo que seções são mais utilizadas"
+   },
+   "optionsStatisticsLabel": {
+      "description": "Nome da checkbox de enviar estatísticas anônimas de uso",
+      "message": "Enviar estatísticas anônimas de uso:"
+   },
+   "toolbarBottom": {
+      "description": "Nome do campo de posicionamento inferior na barra de ferramentas",
+      "message": "Baixo"
+   },
+   "toolbarClose": {
+      "description": "Tooltip do botão de fechar do addon",
+      "message": "Fechar"
+   },
+   "toolbarColor": {
+      "description": "Nome do selecionador de cor na barra de ferramentas",
+      "message": "Cor"
+   },
+   "toolbarDisableElementMode": {
+      "description": "Nome do botão de desativar modo de elementos (elementos HTML)",
+      "message": "Desativar Modo de Elementos"
+   },
+   "toolbarEnableElementMode": {
+      "description": "Nome do botão de ativar modo de elementos (elementos HTML)",
+      "message": "Ativar Modo de Elementos"
+   },
+   "toolbarHeight": {
+      "description": "Nome do campo de altura na barra de ferramentas",
+      "message": "Height"
+   },
+   "toolbarLeft": {
+      "description": "Nome do campo de posicionamento à esquerda na barra de ferramentas",
+      "message": "Esquerda"
+   },
+   "toolbarRight": {
+      "description": "Nome do campo de posicionamento à direita na barra de ferramentas",
+      "message": "Direita"
+   },
+   "toolbarTop": {
+      "description": "Nome do campo de posicionamento superior na barra de ferramentas",
+      "message": "Cima"
+   },
+   "toolbarWidth": {
+      "description": "Nome do campo de largura na barra de ferramentas",
+      "message": "Largura"
+   },
+   "updateCodeTitle": {
+      "desciption": "Título para a seção do código na caixa lateral de colaboradores",
+      "message": "Código"
+   },
+   "updateContributeTitle": {
+      "desciption": "Título para a caixa lateral de contribuição",
+      "message": "Contribua com o Page Ruler"
+   },
+   "updateContributorsTitle": {
+      "desciption": "Título para a caixa lateral de colaboradores",
+      "message": "Colaboradores"
+   },
+   "updateHistoryTitle": {
+      "desciption": "Título para a seção de histórico de atualizações",
+      "message": "O que há de novo?"
+   },
+   "updateIconsTitle": {
+      "desciption": "Título para a seção de ícones na caixa lateral de colaboradores",
+      "message": "Ícones"
+   },
+   "updatePageHeader": {
+      "description": "Mensagem de cabeçalho para a página contendo o número da versão nova",
+      "message": "Page Ruler foi atualizado para a versão \u003Cspan>$VERSION$\u003C/span>",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "example": "2.0.1"
+         }
+      }
+   },
+   "updatePageTitle": {
+      "desciption": "Título da página de atualização",
+      "message": "Page Ruler Atualizado"
+   },
+   "updateTranslateDescription": {
+      "desciption": "Descrição de como entender e contribuir com uma tradução",
+      "message": "Quer utilizar o Page Ruler na sua linguagem? Visite a \u003Ca href='https://github.com/wrakky/page-ruler'>página do projeto no GitHub\u003C/a> e siga as instruções sobre como submeter uma tradução."
+   },
+   "updateTranslateTitle": {
+      "desciption": "Título para a seção de tradução na caixa lateral de contribuição",
+      "message": "Tradução"
+   },
+   "updateTranslationsTitle": {
+      "desciption": "Título para a seção de traduções na caixa lateral de colaboradores",
+      "message": "Traduções"
+   }
+}

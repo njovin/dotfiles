@@ -1,0 +1,22 @@
+[1]
+Active=1
+Sessions=1
+
+[Number]
+NumberOfSessions=1
+NumberOfWindows=1
+
+[Session1]
+Encoding=UTF-8
+LocalTab=%d : %n
+Profile[$e]=$HOME/.local/share/konsole/Good.profile
+RemoteTab=(%u) %H
+SessionGuid={e745e1c7-8d4d-48a3-b747-06dff1889e87}
+WorkingDir[$e]=$HOME
+
+[WindowProperties1]
+ClassName=Konsole::MainWindow
+MenuBar=Disabled
+ObjectName=MainWindow#1
+State=AAAA/wAAAAD9AAAAAAAAA0QAAAL9AAAABAAAAAQAAAAIAAAACPwAAAAA
+Window-Maximized 1050x1680=true

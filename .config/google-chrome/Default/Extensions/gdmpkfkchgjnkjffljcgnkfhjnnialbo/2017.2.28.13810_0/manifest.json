@@ -1,0 +1,20 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://github.com/flot/flot/blob/master/API.md"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "/h9COMBQaDEwT07QgDZXVbTcneV1X5kK567PItqz/0E=",
+   "name": "https://github.com/flot/flot/blob/master/API.",
+   "version": "2017.2.28.13810"
+}

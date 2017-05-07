@@ -1,0 +1,564 @@
+{
+   "acceptNewKey": {
+      "description": "Label for a button to accept a new safety number",
+      "message": "Acceptă"
+   },
+   "attemptingReconnection": {
+      "description": "",
+      "message": "Se încearcă reconectarea în $reconnect_duration_in_seconds$ secunde",
+      "placeholders": {
+         "reconnect_duration_in_seconds": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "audioNotificationDescription": {
+      "description": "Description for audio notification setting",
+      "message": "Redă notificarea audio"
+   },
+   "cancel": {
+      "description": "",
+      "message": "Anulare"
+   },
+   "checkNetworkConnection": {
+      "description": "Obvious instructions for when a user's computer loses its network connection",
+      "message": "Verifică-ți conexiunea la rețea."
+   },
+   "connecting": {
+      "description": "",
+      "message": "Se conectează"
+   },
+   "debugLogExplanation": {
+      "description": "",
+      "message": "Acest log v-a fi publicat online pentru vizualizare de către contributori. Poţi sa-l examinezi şi să-l editezi înainte să fie publicat. "
+   },
+   "deleteConversationConfirmation": {
+      "description": "Confirmation dialog text that asks the user if they really wish to delete the conversation. Answer buttons use the strings 'ok' and 'cancel'. The deletion is permanent, i.e. it cannot be undone.",
+      "message": "Şterg permanent acestă conversație?"
+   },
+   "deleteMessages": {
+      "description": "Menu item for deleting messages, title case.",
+      "message": "Șterge mesajele"
+   },
+   "disableNotifications": {
+      "description": "Label for disabling notifications",
+      "message": "Dezactivează notificările"
+   },
+   "disappearingMessages": {
+      "description": "Conversation menu option to enable disappearing messages",
+      "message": "Mesaje care dispar"
+   },
+   "disconnected": {
+      "description": "",
+      "message": "Deconectat"
+   },
+   "error": {
+      "description": "",
+      "message": "Eroare"
+   },
+   "expiredWarning": {
+      "description": "Warning notification that this version of the app has expired",
+      "message": "Această versiune de Signal Desktop a expirat. Te rog actualizează aplicația la ultima versiune pentru a putea trimite mesaje în continuare."
+   },
+   "failedToSend": {
+      "description": "",
+      "message": "Mesajul nu a putut fi trimis la unii destinatari. Verifică conexiunea la rețea."
+   },
+   "fileSizeWarning": {
+      "description": "",
+      "message": "Ne pare rău, fişierul selectat depăşeşte restricţia de mărime a mesajului."
+   },
+   "from": {
+      "description": "Label for the sender of a message",
+      "message": "De la"
+   },
+   "gotIt": {
+      "description": "Label for a button that dismisses a dialog. The user clicks it to confirm that they understand the message in the dialog.",
+      "message": "Am înţeles!"
+   },
+   "identityChanged": {
+      "description": "",
+      "message": "Numărul de siguranță pentru acest contact s-a schimbat. Asta poate însemna că cineva încearcă să intercepteze comunicarea, sau contactul și-a reinstalat Signal. Ai putea dori să verifici noul număr de siguranță de mai jos."
+   },
+   "incomingError": {
+      "description": "",
+      "message": "Eroare la procesarea mesajului primit."
+   },
+   "incomingKeyConflict": {
+      "description": "",
+      "message": "A fost primit un mesaj cu noul număr de siguranță. Click pentru a-l procesa şi a-l afişa."
+   },
+   "installAndroidInstructions": {
+      "description": "",
+      "message": "Deschide Signal de pe telefonul tău şi navighează la Setări > Dispozitive conectate. Apasă pe buton pentru a adăuga un dispozitiv nou, şi scanează codul de deasupra."
+   },
+   "installComputerName": {
+      "description": "Text displayed before the input where the user can enter the name for this device.",
+      "message": "Numele acestui calculator va fi"
+   },
+   "installConnecting": {
+      "description": "Displayed when waiting for the QR Code",
+      "message": "Se conectează..."
+   },
+   "installConnectionFailed": {
+      "description": "Displayed when we can't connect to the server.",
+      "message": "Conectarea la server a eșuat."
+   },
+   "installFinalButton": {
+      "description": "The final button for the install process, after the user has entered a name for their device",
+      "message": "Totul e ok"
+   },
+   "installFollowUs": {
+      "description": "",
+      "message": "\u003Ca $a_params$>Urmează-ne\u003C/a> pentru actualizări despre suportul multi-dispozitiv iOS.",
+      "placeholders": {
+         "a_params": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installGeneratingKeys": {
+      "description": "",
+      "message": "Se generează cheile"
+   },
+   "installGetStartedButton": {
+      "description": "",
+      "message": "Începe"
+   },
+   "installGotIt": {
+      "description": "Button for the user to confirm that they have Signal installed.",
+      "message": "Am înţeles!"
+   },
+   "installIHaveSignalButton": {
+      "description": "Button for the user to confirm that they have Signal for Android",
+      "message": "Am Signal pentru Android"
+   },
+   "installLinkingWithNumber": {
+      "description": "Text displayed before the phone number that the user is in the process of linking with",
+      "message": "Se conectează cu"
+   },
+   "installSignalLink": {
+      "description": "Prompt the user to install Signal on Android before linking",
+      "message": "Mai întâi, instalează \u003Ca $a_params$>Signal\u003C/a> pe telefonul tău Android.\u003Cbr /> O să conectăm dispozitivele tale și o să sincronizăm mesajele tale.",
+      "placeholders": {
+         "a_params": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installSignalLinks": {
+      "description": "Prompt the user to install Signal on their phone before linking",
+      "message": "Mai întâi, instalează Signal pe \u003Ca $play_store$>Android\u003C/a> sau \u003Ca $app_store$>iPhone\u003C/a>.\u003Cbr /> O să conectăm dispozitivele tale și o să sincronizăm mesajele tale.",
+      "placeholders": {
+         "app_store": {
+            "content": "$2",
+            "example": "href='http://example.com'"
+         },
+         "play_store": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installSyncingGroupsAndContacts": {
+      "description": "",
+      "message": "Sincronizare grupuri şi contacte"
+   },
+   "installTagline": {
+      "description": "Tagline displayed under installWelcome on the install page",
+      "message": "Confidențialitatea este posibilă. Signal face asta ușor."
+   },
+   "installTooManyDevices": {
+      "description": "",
+      "message": "Ne pare rău, ai prea multe dispozitive conectate deja. Încearcă să elimini câteva."
+   },
+   "installWelcome": {
+      "description": "Welcome title on the install page",
+      "message": "Bun venit la Signal Desktop"
+   },
+   "invalidNumberError": {
+      "description": "When a person inputs a number that is invalid",
+      "message": "Număr invalid"
+   },
+   "keychanged": {
+      "description": "",
+      "message": "Numărul tău de siguranță pentru $name$ s-a schimbat.",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "John"
+         }
+      }
+   },
+   "lastSynced": {
+      "description": "Label for date and time of last sync operation",
+      "message": "Ultima importare la"
+   },
+   "learnMore": {
+      "description": "Text that links to a support article on verifying safety numbers",
+      "message": "Află mai multe despre verificarea numerelor de siguranță."
+   },
+   "mediaMessage": {
+      "description": "Description of a message that has an attachment and no text, displayed in the conversation list as a preview.",
+      "message": "Mesaj media"
+   },
+   "members": {
+      "description": "",
+      "message": "Membrii"
+   },
+   "messageDetail": {
+      "description": "",
+      "message": "Detalii mesaj"
+   },
+   "messageNotSent": {
+      "description": "Informational label, appears on messages that failed to send",
+      "message": "Mesajul nu a fost trimis."
+   },
+   "nameAndMessage": {
+      "description": "Label for setting notifications to display name and message text",
+      "message": "Şi numele expeditorului şi mesajul"
+   },
+   "nameOnly": {
+      "description": "Label for setting notifications to display sender name only",
+      "message": "Numai numele expeditorului"
+   },
+   "newContact": {
+      "description": "",
+      "message": "Click pentru a crea un contact nou"
+   },
+   "newIdentity": {
+      "description": "Header for a key change dialog",
+      "message": "Număr de siguranță nou"
+   },
+   "newMessage": {
+      "description": "Displayed in notifications for only 1 message",
+      "message": "Mesaj nou"
+   },
+   "newMessages": {
+      "description": "Displayed in notifications for multiple messages",
+      "message": "Mesaje noi"
+   },
+   "newPhoneNumber": {
+      "description": "Placeholder for adding a new number to a contact",
+      "message": "Introdu un număr de telefon pentru a adăuga un contact."
+   },
+   "noNameOrMessage": {
+      "description": "Label for setting notifications to display no name and no message text",
+      "message": "Nici numele nici mesajul"
+   },
+   "notificationSettingsDialog": {
+      "description": "Explain the purpose of the notification settings",
+      "message": "Când sosesc mesajele, afişează notificările care arată:"
+   },
+   "notifications": {
+      "description": "Header for notification settings",
+      "message": "Notificări"
+   },
+   "offline": {
+      "description": "",
+      "message": "Deconectat"
+   },
+   "ok": {
+      "description": "",
+      "message": "OK"
+   },
+   "outgoingKeyConflict": {
+      "description": "",
+      "message": "Numărul de siguranță pentru acest contact s-a schimbat. Apasă pentru a-l procesa și a-l afișa."
+   },
+   "received": {
+      "description": "Label for the time a message was received",
+      "message": "Primit"
+   },
+   "relink": {
+      "description": "",
+      "message": "Conectează din nou"
+   },
+   "reportIssue": {
+      "description": "Link to open the issue tracker",
+      "message": "Raportează o problemă"
+   },
+   "resend": {
+      "description": "",
+      "message": "Re-trimite"
+   },
+   "resetSession": {
+      "description": "This is a menu item for resetting the session, using the imperative case, as in a command.",
+      "message": "Resetează sesiunea"
+   },
+   "restartSignal": {
+      "description": "Menu item for restarting the program.",
+      "message": "Repornește Signal"
+   },
+   "safetyNumbersSettingDescription": {
+      "description": "Description for safety numbers setting",
+      "message": "Cere aprobare pentru noile numere de siguranță când se schimbă."
+   },
+   "safetyNumbersSettingHeader": {
+      "description": "Header for safety numbers setting",
+      "message": "Aprobare numere de siguranță"
+   },
+   "searchForPeopleOrGroups": {
+      "description": "Placeholder text in the search input",
+      "message": "Caută..."
+   },
+   "selectAContact": {
+      "description": "",
+      "message": "Alege un contact sau un grup pentru a discuta."
+   },
+   "sendMessage": {
+      "description": "Placeholder text in the message entry field",
+      "message": "Trimite mesaj"
+   },
+   "sent": {
+      "description": "Label for the time a message was sent",
+      "message": "Trimis"
+   },
+   "sessionEnded": {
+      "description": "This is a past tense, informational message. In other words, your secure session has been reset.",
+      "message": "Sesiune securizată resetată"
+   },
+   "settings": {
+      "description": "Menu item and header for global settings",
+      "message": "Setări"
+   },
+   "showLess": {
+      "description": "Hides the details of a key change",
+      "message": "Ascunde detaliile"
+   },
+   "showMore": {
+      "description": "Displays the details of a key change",
+      "message": "Detalii"
+   },
+   "submit": {
+      "description": "",
+      "message": "Trimite"
+   },
+   "submitDebugLog": {
+      "description": "Menu item and header text for debug log modal, title case.",
+      "message": "Trimite log-ul de depanare"
+   },
+   "sync": {
+      "description": "Label for contact and group sync settings",
+      "message": "Contacte"
+   },
+   "syncExplanation": {
+      "description": "Explanatory text for sync settings",
+      "message": "Importă toate grupurile și contactele Signal de pe dispozitivul tău mobil."
+   },
+   "syncFailed": {
+      "description": "Informational text displayed if a sync operation times out.",
+      "message": "Importare eșuată. Verifică dacă calculatorul și telefonul sunt conectate la internet."
+   },
+   "syncNow": {
+      "description": "Label for a button that syncs contacts and groups from your phone",
+      "message": "Importă acum"
+   },
+   "syncing": {
+      "description": "Label for a disabled sync button while sync is in progress.",
+      "message": "Se importă..."
+   },
+   "theirIdentityUnknown": {
+      "description": "",
+      "message": "Nu ai schimbat până acum nici un mesaj cu acest contact.  Numărul de siguranță va fi disponibil după primul mesaj."
+   },
+   "theme": {
+      "description": "Header for theme settings",
+      "message": "Temă"
+   },
+   "themeAndroidDark": {
+      "description": "Label text for dark Android theme",
+      "message": "Android (închisă)"
+   },
+   "theyChangedTheTimer": {
+      "description": "Message displayed when someone else changes the message expiration timer in a conversation.",
+      "message": "$name$ a setat cronometrul la $time$.",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Bob"
+         },
+         "time": {
+            "content": "$2",
+            "example": "10m"
+         }
+      }
+   },
+   "timerOption_0_seconds": {
+      "description": "Label for option to turn off message expiration in the timer menu",
+      "message": "Oprit"
+   },
+   "timerOption_0_seconds_abbreviated": {
+      "description": "Short format indicating current timer setting in the conversation list snippet",
+      "message": "Oprit"
+   },
+   "timerOption_10_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "10 secunde"
+   },
+   "timerOption_10_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "10s"
+   },
+   "timerOption_12_hours_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "12h"
+   },
+   "timerOption_1_day": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "1 zi"
+   },
+   "timerOption_1_day_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1d"
+   },
+   "timerOption_1_hour_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1h"
+   },
+   "timerOption_1_minute_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1m"
+   },
+   "timerOption_1_week": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "1 săptămână"
+   },
+   "timerOption_1_week_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1w"
+   },
+   "timerOption_30_minutes_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "30m"
+   },
+   "timerOption_30_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "30 secunde"
+   },
+   "timerOption_30_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "30s"
+   },
+   "timerOption_5_minutes_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "5m"
+   },
+   "timerOption_5_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "5 secunde"
+   },
+   "timerOption_5_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "5s"
+   },
+   "timerOption_6_hours_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "6h"
+   },
+   "timerSetTo": {
+      "description": "Displayed in the conversation list when the timer is updated.",
+      "message": "Cronometru setat la $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "1w"
+         }
+      }
+   },
+   "timestampFormat_M": {
+      "description": "Timestamp format string for displaying month and day (but not the year) of a date within the current year, ex: use 'MMM D' for 'Aug 8', or 'D MMM' for '8 Aug'.",
+      "message": "D MMM"
+   },
+   "timestamp_h": {
+      "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble.",
+      "message": "o oră"
+   },
+   "timestamp_m": {
+      "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble.",
+      "message": "1 minut"
+   },
+   "timestamp_s": {
+      "description": "Brief timestamp for messages sent less than a minute ago. Displayed in the conversation list and message bubble.",
+      "message": "acum"
+   },
+   "to": {
+      "description": "Label for the receiver of a message",
+      "message": "Către"
+   },
+   "unblockToSend": {
+      "description": "Brief message shown when trying to message a blocked number",
+      "message": "Deblochează acest contact pentru a putea trimite mesaje."
+   },
+   "unlinked": {
+      "description": "",
+      "message": "Deconectat"
+   },
+   "unlinkedWarning": {
+      "description": "",
+      "message": "Reconectează Signal Desktop la dispozitivul tău mobil pentru a putea comunica din nou."
+   },
+   "unregisteredUser": {
+      "description": "Error message displayed when sending to an unregistered user.",
+      "message": "Numărul nu este înregistrat"
+   },
+   "unsupportedAttachment": {
+      "description": "Displayed for incoming unsupported attachment",
+      "message": "Tipul ataşamentului nu este suportat. Click pentru a salva."
+   },
+   "unsupportedFileType": {
+      "description": "Displayed for outgoing unsupported attachment",
+      "message": "Tipul fişierului nu este suportat"
+   },
+   "upgrade": {
+      "description": "Label text for button to upgrade the app to the latest version",
+      "message": "Actualizează"
+   },
+   "verify": {
+      "description": "",
+      "message": "Verifică"
+   },
+   "verifyContact": {
+      "description": "Use $tag_start$ and $tag_end$ to wrap the word or phrase in this sentence that the user should click on in order to navigate to the verification screen. These placeholders will be replaced with appropriate HTML code.",
+      "message": "S-ar putea să dorești să $tag_start$ verifici $tag_end$ numărul tău de siguranță pentru acest contact.",
+      "placeholders": {
+         "tag_end": {
+            "content": "\u003C/a>"
+         },
+         "tag_start": {
+            "content": "\u003Ca class='verify' href='#'>"
+         }
+      }
+   },
+   "verifySafetyNumbers": {
+      "description": "",
+      "message": "Verifică numărul de siguranță"
+   },
+   "welcomeToSignal": {
+      "description": "",
+      "message": "Bun venit la Signal"
+   },
+   "youChangedTheTimer": {
+      "description": "Message displayed when you change the message expiration timer in a conversation.",
+      "message": "Ai setat cronometrul la $time$.",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "10m"
+         }
+      }
+   },
+   "yourSafetyNumberWith": {
+      "description": "Heading for safety number view",
+      "message": "Numărul tău de siguranță pentru $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "John"
+         }
+      }
+   }
+}

@@ -1,0 +1,47 @@
+@keyframes flashcontrol-fade {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+object[type$="x-shockwave-flash"]:not([classid]),
+object[type$="futuresplash"]:not([classid]),
+embed[type$="x-shockwave-flash"],
+embed[type$="futuresplash"] {
+    display: none !important;
+}
+
+.flashcontrol-button {
+    cursor: pointer !important;
+    margin: 0 !important;
+    visibility: visible !important;
+    z-index: 2147483647 !important;
+    width: 64px !important;
+    height: 24px !important;
+    font-size: 12px !important;
+    font-family: arial !important;
+    text-indent: 0 !important;
+    position: absolute;
+    animation: flashcontrol-fade 1.0s forwards;
+    animation-iteration-count: 1;
+    animation-delay: 5s;
+}
+
+.flashcontrol-button[hidden] {
+    display: none !important;
+}
+
+.flashcontrol-placeholder {
+    border: none !important;
+    cursor: pointer !important;
+    min-width: 48px !important;
+    min-height: 24px !important;
+    padding: 0 !important;
+    visibility: visible !important;
+    background: #464646 url(chrome-extension://__MSG_@@extension_id__/assets/pluginlogo.svg) 50% 50% / 48px no-repeat;
+    outline: solid 1px rgba(0, 0, 0, 0.5) !important;
+    outline-offset: -1px !important;
+    pointer-events: all !important;
+    z-index: 2147483647;
+    position: relative;
+    display: block;
+}

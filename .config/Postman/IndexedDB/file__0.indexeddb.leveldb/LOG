@@ -1,0 +1,7 @@
+2017/04/27-15:27:14.933 6876 Reusing MANIFEST /home/njovin/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2017/04/27-15:27:14.933 6876 Recovering log #27
+2017/04/27-15:27:14.935 6876 Reusing old log /home/njovin/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/000027.log 
+2017/04/27-15:27:16.697 6989 Compacting 1@1 + 1@2 files
+2017/04/27-15:27:16.722 6989 Generated table #30@1: 1276 keys, 415261 bytes
+2017/04/27-15:27:16.722 6989 Compacted 1@1 + 1@2 files => 415261 bytes
+2017/04/27-15:27:16.724 6989 compacted to: files[ 0 0 1 0 0 0 0 ]

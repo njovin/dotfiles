@@ -1,0 +1,10 @@
+{
+  "application_title": {
+    "message": "Timer",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "application_description": {
+    "message": "Timer Countdown, Alarm Clock, and Stopwatch", 
+    "description": "The description of the application, displayed in the web store."
+  }
+}

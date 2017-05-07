@@ -1,0 +1,15 @@
+[Desktop Entry]
+DefaultProfile=Good.profile
+
+[Favorite Profiles]
+Favorites=Bash.profile,Good.profile
+
+[MainWindow]
+Height 1050=946
+Height 1080=1011
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPfAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1680=1678
+Width 1920=1920
+Window-Maximized 1050x1680=true
+Window-Maximized 1080x1920=true

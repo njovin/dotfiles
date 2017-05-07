@@ -1,0 +1,11 @@
+<svg id="svg4136" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="128" viewBox="0 0 128 128.00001" width="128" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" enable-background="new">
+ <g id="g4138" transform="translate(0 .46757)">
+  <path id="path4140" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate" d="m125.1 64.027a61.102 61.102 0 0 1 -122.2 0 61.102 61.102 0 1 1 122.2 0z" fill-opacity=".15" stroke="#f2f2f2" stroke-width="5.7957"/>
+  <g id="g4142" fill="#efefef">
+   <path id="path4144" d="m46.508 49.061-4.7755 4.7557-1.5529 1.5441-2.3107 2.2952c-7.6452 7.5956-7.6453 19.826-0.000001 27.422l0.05507 0.05507-7.7271 7.6787c-1.529 1.5191-1.529 3.9657 0 5.4848s3.991 1.5191 5.52 0l7.7315-7.6809c7.6493 7.539 19.914 7.5238 27.541-0.05286l2.313-2.298 1.55-1.542 4.778-4.756-13.8-13.712-5.52-5.482z"/>
+   <rect id="rect4146" transform="matrix(.70941 -.7048 .70941 .7048 0 0)" ry="3.8906" height="58.36" width="7.7812" y="61.708" x="2.0309"/>
+   <path id="path4148" d="m80.536 30.401c-1.529-1.5191-3.9884-1.5191-5.5175-0.000002l-16.332 16.249 5.5261 5.4794 16.325-16.244c1.529-1.5191 1.5276-3.9645-0.0015-5.4836z"/>
+   <path id="path4150" d="m98.272 48.029c-1.529-1.5191-3.9912-1.5191-5.5203 0.000007l-16.315 16.234 5.526 5.4794 16.311-16.23c1.529-1.5191 1.5276-3.9645-0.0015-5.4836z"/>
+  </g>
+ </g>
+</svg>

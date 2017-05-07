@@ -1,0 +1,21 @@
+2017/05/07-08:59:30.910 24008 Reusing MANIFEST /home/njovin/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2017/05/07-08:59:30.911 24008 Recovering log #3102
+2017/05/07-08:59:30.911 24008 Reusing old log /home/njovin/.config/google-chrome/Default/Session Storage/003102.log 
+2017/05/07-08:59:44.225 24308 Level-0 table #3106: started
+2017/05/07-08:59:44.232 24308 Level-0 table #3106: 70255 bytes OK
+2017/05/07-08:59:44.235 24308 Delete type=0 #3102
+2017/05/07-09:04:33.662 24308 Level-0 table #3108: started
+2017/05/07-09:04:33.666 24308 Level-0 table #3108: 66411 bytes OK
+2017/05/07-09:04:33.668 24308 Delete type=0 #3105
+2017/05/07-09:04:33.669 24308 Compacting 4@0 + 1@1 files
+2017/05/07-09:04:33.691 24308 Generated table #3109@0: 19034 keys, 521751 bytes
+2017/05/07-09:04:33.691 24308 Compacted 4@0 + 1@1 files => 521751 bytes
+2017/05/07-09:04:33.693 24308 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/05/07-09:04:33.693 24308 Delete type=2 #3103
+2017/05/07-09:04:33.694 24308 Delete type=2 #3101
+2017/05/07-09:04:33.694 24308 Delete type=2 #3108
+2017/05/07-09:04:33.694 24308 Delete type=2 #3099
+2017/05/07-09:04:33.695 24308 Delete type=2 #3106
+2017/05/07-09:05:16.931 24308 Level-0 table #3111: started
+2017/05/07-09:05:16.937 24308 Level-0 table #3111: 68567 bytes OK
+2017/05/07-09:05:16.939 24308 Delete type=0 #3107

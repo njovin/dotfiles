@@ -1,0 +1,57 @@
+html, body {
+  font-family: Avenir;
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+}
+
+a {
+  color: blue;
+}
+
+#topbar {
+  background: #00a0e0;
+  height: 26px;
+}
+
+#sidebar {
+  float: left;
+  background: #E8E8E8;
+  display: block;
+  height: 100%;
+  width: 156px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#content {
+  padding: 20px;
+  padding-left: 186px;
+}
+
+.main-title {
+  font-size: 36px;
+}
+
+.section {
+  margin-top: 30px;
+  max-width: 800px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.section-content {
+  opacity: 0.6;
+  font-size: 18px;
+}
+
+a.donate {
+  border: 0;
+  text-decoration: none;
+}

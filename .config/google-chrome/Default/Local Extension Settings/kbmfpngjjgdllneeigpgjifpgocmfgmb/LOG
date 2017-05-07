@@ -1,0 +1,12 @@
+2017/05/06-10:49:08.901 14680 Reusing MANIFEST /home/njovin/.config/google-chrome/Default/Local Extension Settings/kbmfpngjjgdllneeigpgjifpgocmfgmb/MANIFEST-000001
+2017/05/06-10:49:08.901 14680 Recovering log #19
+2017/05/06-10:49:08.914 14680 Reusing old log /home/njovin/.config/google-chrome/Default/Local Extension Settings/kbmfpngjjgdllneeigpgjifpgocmfgmb/000019.log 
+2017/05/06-13:48:42.026 15275 Level-0 table #24: started
+2017/05/06-13:48:42.064 15275 Level-0 table #24: 1787720 bytes OK
+2017/05/06-13:48:42.067 15275 Delete type=0 #19
+2017/05/06-13:49:11.582 15275 Compacting 1@1 + 1@2 files
+2017/05/06-13:49:11.598 15275 Generated table #25@1: 26 keys, 26043 bytes
+2017/05/06-13:49:11.598 15275 Compacted 1@1 + 1@2 files => 26043 bytes
+2017/05/06-13:49:11.601 15275 compacted to: files[ 0 0 1 0 0 0 0 ]
+2017/05/06-13:49:11.601 15275 Delete type=2 #24
+2017/05/06-13:49:11.602 15275 Delete type=2 #21

@@ -1,0 +1,6 @@
+2017/04/27-11:33:46.457 31408 Reusing MANIFEST /home/njovin/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2017/04/27-11:33:46.457 31408 Recovering log #23
+2017/04/27-11:33:46.471 31408 Reusing old log /home/njovin/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/000023.log 
+2017/04/27-11:33:52.074 31530 Level-0 table #28: started
+2017/04/27-11:33:52.105 31530 Level-0 table #28: 1703912 bytes OK
+2017/04/27-11:33:52.111 31530 Delete type=0 #23

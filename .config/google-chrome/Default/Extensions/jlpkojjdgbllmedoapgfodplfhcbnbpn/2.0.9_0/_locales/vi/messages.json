@@ -1,0 +1,156 @@
+{
+   "elementToolbarChildNode": {
+      "description": "Tựa đề cho phần tử con của phần tử được nỗi bật trong chế độ theo dõi",
+      "message": "Phần tử con"
+   },
+   "elementToolbarHelp": {
+      "description": "Vấn tin trợ giúp cho thanh công cụ phần tử",
+      "message": "Dùng chế độ theo dõi để di chuyển trong trang và làm nổi các phần tử. Click một phần tử để tắt chế độ theo dõi."
+   },
+   "elementToolbarHighlightedElement": {
+      "description": "Tựa đề cho phần tử được nỗi bật trong chế độ theo dõi",
+      "message": "Làm nổi phần tử"
+   },
+   "elementToolbarNextSibling": {
+      "description": "Tựa đề cho phần tử sau phần tử được nỗi bật trong chế độ theo dõi",
+      "message": "Phần tử sau"
+   },
+   "elementToolbarParentNode": {
+      "description": "Tựa đề cho phần tử cha của phần tử được nỗi bật trong chế độ theo dõi",
+      "message": "Phần tử cha"
+   },
+   "elementToolbarPreviousSibling": {
+      "description": "Tựa đề cho phần tử trước phần tử được nỗi bật trong chế độ theo dõi",
+      "message": "Phần tử trước"
+   },
+   "elementToolbarToggleOff": {
+      "description": "Chữ cho trạng thái tắt cho nút chế độ theo dõi",
+      "message": "Tắt"
+   },
+   "elementToolbarToggleOn": {
+      "description": "Chữ cho trạng thái bật cho nút chế độ theo dõi",
+      "message": "Bật"
+   },
+   "elementToolbarTrackingMode": {
+      "description": "Nhãn cho nút chế độ theo dõi",
+      "message": "Chế độ thep dõi"
+   },
+   "errorLocal": {
+      "description": "Thông báo lỗi hiển thị khi một ai đó định chạy tiện ích trong trang chrome nội bộ",
+      "message": "Các tiện ích không thể chạy trong các trang chrome nội bộ vì lý do an ninh"
+   },
+   "errorWebStore": {
+      "description": "Thông báo lỗi hiển thị khi một ai đó định chạy tiện ích trong chrome web store",
+      "message": "Các tiện ích không thể chạy trong chrome web store vì lý do an ninh"
+   },
+   "extDescription": {
+      "description": "Extension description",
+      "message": "Vẽ một thước để lấy kích thước và vị trí, và đo phần tử trên bất kỳ trang nào."
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Page Ruler"
+   },
+   "extShortName": {
+      "description": "Extension short name (maximum 12 characters)",
+      "message": "Page Ruler"
+   },
+   "optionsPageTitle": {
+      "description": "Tựa đề cho trang tuỳ chỉnh",
+      "message": "Tuỳ chỉnh Page Ruler"
+   },
+   "optionsStatisticsHelp": {
+      "description": "Tin nhắn giải thích cách sử dụng các dữ liệu thống kê ẩn danh",
+      "message": "Thông tin thu thập không chứa thông tin riêng tư và được sử dụng hoàn toàn cho mục đích cải thiện tiện ích này bằng cách xem những phần nào được sử dụng"
+   },
+   "optionsStatisticsLabel": {
+      "description": "Nhãn cho checkbox gửi ẩn danh thống kê sử dụng",
+      "message": "Gửi ẩn danh thống kê sử dụng:"
+   },
+   "toolbarBottom": {
+      "description": "Nhãn cho lề dưới được nhập vào ở thanh công cụ",
+      "message": "Lề dưới"
+   },
+   "toolbarClose": {
+      "description": "Tooltip cho nút đóng dùng để đóng addon",
+      "message": "Đóng"
+   },
+   "toolbarColor": {
+      "description": "Nhãn công cụ chọn màu ở thanh công cụ",
+      "message": "Màu"
+   },
+   "toolbarDisableElementMode": {
+      "description": "Nhãn cho nút tắt chế độ phần tử (phần tử trong phần tử HTML)",
+      "message": "Tắt chế độ phẩn tử"
+   },
+   "toolbarEnableElementMode": {
+      "description": "Nhãn cho nút kích hoạt chế độ phần tử (phần tử trong phần tử HTML)",
+      "message": "Kích hoạt chế độ phần tử"
+   },
+   "toolbarHeight": {
+      "description": "Nhãn cho chiều cao được nhập vào ở thanh công cụ",
+      "message": "Cao"
+   },
+   "toolbarLeft": {
+      "description": "Nhãn cho lề trái được nhập vào ở thanh công cụ",
+      "message": "Lề trái"
+   },
+   "toolbarRight": {
+      "description": "Nhãn cho lề phải được nhập vào ở thanh công cụ",
+      "message": "Lề phải"
+   },
+   "toolbarTop": {
+      "description": "Nhãn cho lề trên được nhập vào ở thanh công cụ",
+      "message": "Lề trên"
+   },
+   "toolbarWidth": {
+      "description": "Nhãn cho chiều rộng được nhập vào ở thanh công cụ",
+      "message": "Rộng"
+   },
+   "updateCodeTitle": {
+      "desciption": "Tựa đề cho phần mã trong ô những nguời đóng góp",
+      "message": "Mã"
+   },
+   "updateContributeTitle": {
+      "desciption": "Tựa đề cho ô đóng góp",
+      "message": "Đóng góp cho Page Ruler"
+   },
+   "updateContributorsTitle": {
+      "desciption": "Tựa đề cho ô những nguời đóng góp",
+      "message": "Những người đóng góp"
+   },
+   "updateHistoryTitle": {
+      "desciption": "Tựa đề cho lịch sử cập nhật",
+      "message": "Có gì mới?"
+   },
+   "updateIconsTitle": {
+      "desciption": "Tựa đề cho phần icon trong ô những nguời đóng góp",
+      "message": "Các icon"
+   },
+   "updatePageHeader": {
+      "description": "Tựa đề chính cho trang chứa số phiên bản mới",
+      "message": "Page Ruler đã được cập nhật lên phiên bản \u003Cspan>$VERSION$\u003C/span>",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "example": "2.0.1"
+         }
+      }
+   },
+   "updatePageTitle": {
+      "desciption": "Tựa để cho trang cập nhật",
+      "message": "Đã cập nhật Page Ruler"
+   },
+   "updateTranslateDescription": {
+      "desciption": "Mô tả cách đóng góp bản dịch",
+      "message": "Muốn sử dụng Page Ruler với ngôn ngữ của bạn? Ghé thăm \u003Ca href='https://github.com/wrakky/page-ruler'>trang dự án GitHub\u003C/a> và làm theo chỉ dẫn để gửi bản dịch."
+   },
+   "updateTranslateTitle": {
+      "desciption": "Tựa đề cho phần dịch trong ô đóng góp",
+      "message": "Dịch"
+   },
+   "updateTranslationsTitle": {
+      "desciption": "Tựa đề cho phần dịch trong ô những nguời đóng góp",
+      "message": "Các bản dịch"
+   }
+}

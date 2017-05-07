@@ -1,0 +1,156 @@
+{
+   "elementToolbarChildNode": {
+      "description": "Título para el nodo secundario",
+      "message": "Nodo secundario"
+   },
+   "elementToolbarHelp": {
+      "description": "Mensaje de ayuda",
+      "message": "Usar el modo de seguimiento moviendo el cursor para resaltar elementos. Haz click en un elemento para desactivar el modo de seguimiento."
+   },
+   "elementToolbarHighlightedElement": {
+      "description": "Título para el elemento resaltado",
+      "message": "Elemento resaltado"
+   },
+   "elementToolbarNextSibling": {
+      "description": "Título para pasar al siguiente nodo relacionado.",
+      "message": "Siguiente nodo relacionado"
+   },
+   "elementToolbarParentNode": {
+      "description": "Título para el nodo principal",
+      "message": "Nodo principal"
+   },
+   "elementToolbarPreviousSibling": {
+      "description": "Título para pasar al anterior nodo relacionado",
+      "message": "Anterior nodo relacionado"
+   },
+   "elementToolbarToggleOff": {
+      "description": "El modo de seguimiento está desactivado",
+      "message": "Desactivado"
+   },
+   "elementToolbarToggleOn": {
+      "description": "El modo de seguimiento está activado",
+      "message": "Activado"
+   },
+   "elementToolbarTrackingMode": {
+      "description": "Descripción para el botón del modo de seguimiento",
+      "message": "Modo de seguimiento"
+   },
+   "errorLocal": {
+      "description": "Error que sale cuando alguien intenta utilizar la extension en una archivos locales",
+      "message": "Por razones de seguridad, la extensión no funciona en páginas de extensiones"
+   },
+   "errorWebStore": {
+      "description": "Error que sale cuando alguien intenta utilizar la extensión en el Chrome Web Store",
+      "message": "Por razones de seguridad la extensión no funciona en el Chrome Web Store"
+   },
+   "extDescription": {
+      "description": "Descripción de la extensión",
+      "message": "Dibuja una regla para obtener las dimensiones en píxeles. Mide objetos de cualquier página web. "
+   },
+   "extName": {
+      "description": "Nombre de la extensión",
+      "message": "Page Ruler"
+   },
+   "extShortName": {
+      "description": "Nombre corto de la extensión (máximo 12 caracteres)",
+      "message": "Page Ruler"
+   },
+   "optionsPageTitle": {
+      "description": "Título para la página de opciones",
+      "message": "Opciones de Page Ruler"
+   },
+   "optionsStatisticsHelp": {
+      "description": "Message explaining how the anonymouse usage statistics is used",
+      "message": "La información recogida no contiene información personal y es utilizada exclusivamente para mejorar la extensión"
+   },
+   "optionsStatisticsLabel": {
+      "description": "Descripción para saber si el usuario quiere mandar información anónima",
+      "message": "Mandar información anónima:"
+   },
+   "toolbarBottom": {
+      "description": "Descripción de bajo",
+      "message": "Bajo"
+   },
+   "toolbarClose": {
+      "description": "Cerrar la descripción",
+      "message": "Cerrar"
+   },
+   "toolbarColor": {
+      "description": "Descripción de color",
+      "message": "Color"
+   },
+   "toolbarDisableElementMode": {
+      "description": "Descripción para descactivar el modo de elemento",
+      "message": "Desactivar el modo de elemento"
+   },
+   "toolbarEnableElementMode": {
+      "description": "Descripción para activar el modo de elemento",
+      "message": "Activar el modo de elemento"
+   },
+   "toolbarHeight": {
+      "description": "Descripción de altura.",
+      "message": "Altura"
+   },
+   "toolbarLeft": {
+      "description": "Descripción de izquierda",
+      "message": "Izquierda"
+   },
+   "toolbarRight": {
+      "description": "Descripción de derecha ",
+      "message": "Derecha"
+   },
+   "toolbarTop": {
+      "description": "Descripción de arriba",
+      "message": "Alto"
+   },
+   "toolbarWidth": {
+      "description": "Descripción de anchura",
+      "message": "Ancho"
+   },
+   "updateCodeTitle": {
+      "desciption": "Título para la sección de código en la parte de contribuidores",
+      "message": "Código"
+   },
+   "updateContributeTitle": {
+      "desciption": "Título para la sección de contribuir",
+      "message": "Contribuir con Page Ruler"
+   },
+   "updateContributorsTitle": {
+      "desciption": "Título para la seccion de contribuidores",
+      "message": "Contribuidores"
+   },
+   "updateHistoryTitle": {
+      "desciption": "Título para mostrar las últimas versiones",
+      "message": "Últimas novedades"
+   },
+   "updateIconsTitle": {
+      "desciption": "Título para la zona de iconos en la parte de contribuidores",
+      "message": "Iconos"
+   },
+   "updatePageHeader": {
+      "description": "Mensaje que indica la versión de la extensión",
+      "message": "Page Ruler se ha actualizado a la versión \u003Cspan>$VERSION$\u003C/span>",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "example": "2.0.1"
+         }
+      }
+   },
+   "updatePageTitle": {
+      "desciption": "Page title for the update page",
+      "message": "Page Ruler ha sido actualizado"
+   },
+   "updateTranslateDescription": {
+      "desciption": "Descripción para saber cómo participar",
+      "message": "¿Quieres usar Page Ruler en tu propia lengua? Visita la \u003Ca href='https://github.com/wrakky/page-ruler'>página de GitHub\u003C/a> y sigue las instrucciones para saber como mandar una traducción."
+   },
+   "updateTranslateTitle": {
+      "desciption": "Título para la sección de traducción en la parte de contribuidores",
+      "message": "Translate"
+   },
+   "updateTranslationsTitle": {
+      "desciption": "Título para la sección de traducciones en la parte de contribuidores",
+      "message": "Traducciones"
+   }
+}

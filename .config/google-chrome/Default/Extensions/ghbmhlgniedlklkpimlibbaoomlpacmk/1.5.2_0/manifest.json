@@ -1,0 +1,30 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "css/ip.css" ],
+      "js": [ "jquery.ip.js", "ip.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Simple script which places the IP of the current website in the bottom right.",
+   "icons": {
+      "128": "/images/icon128.png",
+      "16": "/images/icon16.png",
+      "48": "/images/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDS1+N4OwDCiS8LcOljHQ/znEJ+8SIc/tV+ZKISNTYXJ+8syNYq9VCfkru33yLEJBNZ/cId1wGifI3a6imS7ddrhas1e9Bed2+oFhGJtsSi5Tl5oqe9EahqSQQeHkDMuL6brxKtEXMsVtLZdroZG5In5L2waZkTsem1n3NTMS4grQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18",
+   "name": "Website IP",
+   "page_action": {
+      "default_icon": "/images/icon48.png",
+      "default_popup": "popup.html",
+      "default_title": "Website IP Options"
+   },
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "webRequest" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.5.2"
+}

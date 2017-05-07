@@ -1,0 +1,6 @@
+2017/05/07-08:40:17.154 14685 Reusing MANIFEST /home/njovin/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/05/07-08:40:17.156 14685 Recovering log #6078
+2017/05/07-08:40:17.163 14685 Reusing old log /home/njovin/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/006078.log 
+2017/05/07-08:40:17.669 26640 Level-0 table #6082: started
+2017/05/07-08:40:17.686 26640 Level-0 table #6082: 777015 bytes OK
+2017/05/07-08:40:17.688 26640 Delete type=0 #6078

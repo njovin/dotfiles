@@ -1,0 +1,21 @@
+VirtualBox GUI VM Selector Window 5.1.14 r112924 linux.amd64 (Jan 16 2017 18:01:19) release log
+00:00:00.366355 Log opened 2017-04-19T05:39:49.285611000Z
+00:00:00.366356 Build Type: release
+00:00:00.366358 OS Product: Linux
+00:00:00.366359 OS Release: 4.10.0-19-generic
+00:00:00.366360 OS Version: #21-Ubuntu SMP Thu Apr 6 17:04:57 UTC 2017
+00:00:00.366378 DMI Product Name: MS-7693
+00:00:00.366386 DMI Product Version: 4.0
+00:00:00.366423 Host RAM: 32122MB (31.3GB) total, 22024MB (21.5GB) available
+00:00:00.366427 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.366428 Process ID: 16293
+00:00:00.366428 Package type: LINUX_64BITS__UBUNTU_16_10
+00:00:00.366447 Qt version: 5.7.1
+00:00:00.398282 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.666684 Failed to open "/dev/vboxdrv", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:00.667867 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.680863 refreshCertificates/#1: InMem.Cert.TbsCertificate.T3.Extensions.papItems[#].ExtnValue.NameConstraints.T0.PermittedSubtrees.papItems[#]: Unexpected sequence type/flags: 0x2/0x80 (expected 0x10/0x20)
+00:00:00.683057 refreshCertificates/#3: Found 1/172 SSL certs we/you trust (previously 0/0).
+00:00:00.683232 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 1680x78 x 1920x1005
+00:00:00.689654 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 0x24 x 1680x975
+00:01:12.814308 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={7844aa05-b02e-4cdd-a04f-ade4a762e6b7} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0

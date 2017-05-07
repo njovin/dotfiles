@@ -1,0 +1,190 @@
+<html> 
+<head> 
+<script type="text/javascript"> 
+ 
+// Size of the hole in the overlay.
+var holeSize = 20;
+ 
+// Init.
+var lastMouseX = -1, lastMouseY = -1;
+var expandTimer=null;
+ 
+// Page has loaded.
+function doOnLoad() {
+  // Tell the parent that we're done loading.
+  parent.handleContentLoaded();
+};
+ 
+// Report whether an opacity is valid.
+function isValidOpacity(op) {
+  // Make sure opacity's a number.
+  op *= 1;
+  if (isNaN(op)) {
+    return false;
+  }
+  // And that it's between 0 and 100.
+  if (op<0 || op>100) {
+    return false;
+  }
+  // It's valid.
+  return true;
+};
+ 
+// Set opacity of all the overlays.
+function setOverlayOpacity(op) {
+  // Check opacity.
+  if (!isValidOpacity(op)) {
+    return;
+  }
+ 
+  // IE opacity
+  document.getElementById('overlayT').style.filter='alpha(opacity='+op+')';
+  document.getElementById('overlayB').style.filter='alpha(opacity='+op+')';
+  document.getElementById('overlayL').style.filter='alpha(opacity='+op+')';
+  document.getElementById('overlayR').style.filter='alpha(opacity='+op+')';
+ 
+  // FF opacity. Convert to decimal.
+  if (op == '100') {
+    op = '1.0';
+  } else {
+    op = '0.'+op;
+  }
+  document.getElementById('overlayT').style.opacity=op;
+  document.getElementById('overlayB').style.opacity=op;
+  document.getElementById('overlayL').style.opacity=op;
+  document.getElementById('overlayR').style.opacity=op;
+};
+ 
+// Set overlay image
+function setOverlayImage(url) {
+  image = "url(" + url + ")";
+  document.getElementById('overlayT').style.background = image;
+  document.getElementById('overlayB').style.background = image;
+  document.getElementById('overlayL').style.background = image;
+  document.getElementById('overlayR').style.background = image;
+  positionOverlays(1500, 1500);
+};
+ 
+// Adjust overlay 'hole' so it'd positioned underneath mouse
+function doOverlayMouseMove(obj, e) {
+  // Mouse pointer
+  // COMPAT: pageX/Y doesn't exist in IE6
+  var x = e.pageX;
+  var y = e.pageY;
+  if (!x)
+    x = e.clientX;
+  if (!y)
+    y = e.clientY;
+  positionOverlays(x, y);
+};
+ 
+// Mouse is moving over one of the overlays. Adjust all of them so they surround the mouse pointer.
+function positionOverlays(x, y) {
+  // Get a rectangle surrounding the mouse.
+  var rectL = x - holeSize;
+  var rectR = x + holeSize;
+  var rectT = y - holeSize;
+  var rectB = y + holeSize;
+ 
+  // Get width/height.
+  var rectH = (rectB - rectT);
+  var rectW = (rectR - rectL);
+  if (rectH < 0)
+    rectH = 0;
+  if (rectW < 0)
+    rectW = 0;
+    
+  // Position the overlays.
+  // The top overlay is above the mouse pointer, so all we need to do is adjust the height.
+  var e = document.getElementById('overlayT');
+  if (rectT<0) {
+    e.style.display='none';
+  } else {
+    e.style.height=rectT;
+    e.style.display='block';
+  }
+ 
+  // The bottom overlay is under the mouse pointer. Place it there and adjust its background.
+  e = document.getElementById('overlayB');
+  e.style.top = rectB;
+  e.style.backgroundPosition = '0 ' + (-rectB);
+  e.style.height = 2000;  // TODO(arthurb): do this correctly
+  // The left overlay is to the left of the mouse pointer. Position it between top and bottom overlays and adjust its width.
+  e = document.getElementById('overlayL');
+  if (rectL<0) {
+    e.style.display='none';
+  } else {
+    e.style.top=rectT;
+    e.style.height=rectH;
+    e.style.backgroundPosition='0 '+(-rectT);
+    e.style.width=rectL;
+    e.style.display='block';
+  }
+ 
+  // The right overlay is to the right of the mouse pointer. Position it between top and bottom overlays and adjust its background
+  e = document.getElementById('overlayR');
+  e.style.top = rectT;
+  e.style.height = rectH;
+  e.style.left = rectR;
+  e.style.width = 2000;  // TODO(arthurb): do this correctly
+  e.style.backgroundPosition = (-(rectL+rectW)) + ' ' + (-rectT);
+};
+ 
+// Show a particular page. If "url" doesn't have an "http://" prefix or similar, adds one.
+function showPage(url) {
+  frames['contentFrame'].location.href = ensureProtocolPrefix(url);
+};
+ 
+// Given a URL, ensure that it has a protocol prefix.
+function ensureProtocolPrefix(url) {
+  if (hasPrefix(url, 'http://') || hasPrefix(url, 'https://') || hasPrefix(url, 'ftp://')) {
+    return url;
+  } else {
+    return 'http://' + url;
+  }
+};
+ 
+// Returns TRUE if string "val" has the specified prefix, FALSE otherwise.
+// Case-insensitive.
+function hasPrefix(val, prefix) {
+  return val.substring(0, prefix.length).toLowerCase() == prefix.toLowerCase();
+};
+
+function getQuerystring(key, default_)
+{
+  if (default_==null) default_=""; 
+  key = key.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+  var regex = new RegExp("[\\?&]"+key+"=([^&#]*)");
+  var qs = regex.exec(window.location.href);
+  if(qs == null)
+    return default_;
+  else
+    return qs[1];
+}
+
+</script> 
+</head> 
+ 
+<body topmargin="0" leftmargin="0" onload="doOnLoad();"> 
+ 
+<!-- The page we're looking at --> 
+<iframe name="contentFrame" id="contentFrame" style="left: 0px; position: absolute; top: 0px;" frameborder="0" height="100%" width="100%"></iframe> 
+ 
+<!-- The graphic overlays: top and bottom. These fill the entire window except for a 1px-tall slice. --> 
+<div name="overlayT" id="overlayT" style="position: absolute; left: 0px; top: 0px; background-repeat: no-repeat; opacity: 0.0; filter:alpha(opacity=0); width: 100%; height: 100%;" onmousemove="doOverlayMouseMove(this, event)"></div> 
+<div name="overlayB" id="overlayB" style="position: absolute; left: 0px; top: 100%; background-repeat: no-repeat; opacity: 0.0; filter:alpha(opacity=0); width: 100%; height: 0%;" onmousemove="doOverlayMouseMove(this, event)"></div> 
+ 
+<!-- The graphic overlays: left and right. These are 1px tall and fill in the rest of the window. --> 
+<!-- COMPAT: nonexistent 1x1gif required in IE6 to keep DIVs to 1px height --> 
+<div name="overlayL" id="overlayL" style="position: absolute; left: 0px; top: 0px; background-repeat: no-repeat; opacity: 0.0; filter:alpha(opacity=0); width: 0px; height=1px;" onmousemove="doOverlayMouseMove(this, event)"><img src="1x1.png" width=1 height=1></div> 
+<div name="overlayR" id="overlayR" style="position: absolute; left: 0px; top: 0px; background-repeat: no-repeat; opacity: 0.0; filter:alpha(opacity=0); width: 0px; height=1px;" onmousemove="doOverlayMouseMove(this, event)"><img src="1x1.png" width=1 height=1></div> 
+
+<script>
+setOverlayOpacity(75);
+setOverlayImage('http://browsersize.googlelabs.com/static/2009-11-18-day_google_com_100.png');
+var URL = getQuerystring('url');
+showPage(URL);
+</script>
+ 
+</body> 
+</html> 

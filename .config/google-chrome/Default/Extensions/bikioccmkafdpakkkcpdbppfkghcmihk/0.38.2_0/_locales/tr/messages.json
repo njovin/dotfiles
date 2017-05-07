@@ -1,0 +1,564 @@
+{
+   "acceptNewKey": {
+      "description": "Label for a button to accept a new safety number",
+      "message": "Kabul et"
+   },
+   "attemptingReconnection": {
+      "description": "",
+      "message": "$reconnect_duration_in_seconds$ saniye içinde yeniden bağlantı deneniyor",
+      "placeholders": {
+         "reconnect_duration_in_seconds": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "audioNotificationDescription": {
+      "description": "Description for audio notification setting",
+      "message": "Sesli bildirimi oynat"
+   },
+   "cancel": {
+      "description": "",
+      "message": "İptal"
+   },
+   "checkNetworkConnection": {
+      "description": "Obvious instructions for when a user's computer loses its network connection",
+      "message": "Ağ bağlantınızı kontrol edin."
+   },
+   "connecting": {
+      "description": "",
+      "message": "Bağlanıyor"
+   },
+   "debugLogExplanation": {
+      "description": "",
+      "message": "Bu kayıt, gönüllü katkıcıların görmesi için alenen gönderilecek. Göndermeden önce kaydı inceleyebilir ve düzenleyebilirsin."
+   },
+   "deleteConversationConfirmation": {
+      "description": "Confirmation dialog text that asks the user if they really wish to delete the conversation. Answer buttons use the strings 'ok' and 'cancel'. The deletion is permanent, i.e. it cannot be undone.",
+      "message": "Bu konuşmayı tümüyle sileyim mi?"
+   },
+   "deleteMessages": {
+      "description": "Menu item for deleting messages, title case.",
+      "message": "Mesajları sil"
+   },
+   "disableNotifications": {
+      "description": "Label for disabling notifications",
+      "message": "Bildirimleri etkisiz kıl"
+   },
+   "disappearingMessages": {
+      "description": "Conversation menu option to enable disappearing messages",
+      "message": "Görünmez mesajlar"
+   },
+   "disconnected": {
+      "description": "",
+      "message": "Bağlantı yok"
+   },
+   "error": {
+      "description": "",
+      "message": "Hata"
+   },
+   "expiredWarning": {
+      "description": "Warning notification that this version of the app has expired",
+      "message": "Signal Desktop'ın bu sürümü zaman aşımına uğradı. Mesajlaşmaya devam etmek için lütfen en son sürüme geçin."
+   },
+   "failedToSend": {
+      "description": "",
+      "message": "Bazı alıcılara gönderilemedi. Ağ bağlantınızı kontrol edin."
+   },
+   "fileSizeWarning": {
+      "description": "",
+      "message": "Üzgünüz. Seçilen dosya, mesaj büyüklüğü kısıtlamalarını aşıyor."
+   },
+   "from": {
+      "description": "Label for the sender of a message",
+      "message": "Gönderen"
+   },
+   "gotIt": {
+      "description": "Label for a button that dismisses a dialog. The user clicks it to confirm that they understand the message in the dialog.",
+      "message": "Anladım!"
+   },
+   "identityChanged": {
+      "description": "",
+      "message": "Bu kişiyle olan güvenlik numaranız değişti. Bu durum, birisinin sizin iletişiminizi kesmeye çalıştığı veya bu kişinin Sinyal'i yeniden yüklemiş olabileceği anlamına gelir. Aşağıdaki yeni güvenlik numarasını doğrulamak isteyebilirsiniz."
+   },
+   "incomingError": {
+      "description": "",
+      "message": "Gelen mesajda hata oluştu."
+   },
+   "incomingKeyConflict": {
+      "description": "",
+      "message": "Yeni güvenlik numarası ile mesaj alındı. İşleme koymak ve görüntülemek için tıklayın."
+   },
+   "installAndroidInstructions": {
+      "description": "",
+      "message": "Telefonunuzda Sinyal'i açın ve Ayarlar> Bağlantılı cihazlar'a gidin. Yeni bir cihaz eklemek için düğmesine dokunun, ardından yukarıdaki kodu tarayın."
+   },
+   "installComputerName": {
+      "description": "Text displayed before the input where the user can enter the name for this device.",
+      "message": "Bu bilgisayarın adı olacak"
+   },
+   "installConnecting": {
+      "description": "Displayed when waiting for the QR Code",
+      "message": "Bağlanılıyor..."
+   },
+   "installConnectionFailed": {
+      "description": "Displayed when we can't connect to the server.",
+      "message": "Sunucuyla bağlantı başarısız."
+   },
+   "installFinalButton": {
+      "description": "The final button for the install process, after the user has entered a name for their device",
+      "message": "İyi görünüyor"
+   },
+   "installFollowUs": {
+      "description": "",
+      "message": "iOS çoklu cihaz desteği hakkında güncellemeler için \u003Ca $a_params$>bizi takip edin.\u003C/a>",
+      "placeholders": {
+         "a_params": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installGeneratingKeys": {
+      "description": "",
+      "message": "Anahtarlar oluşturuluyor"
+   },
+   "installGetStartedButton": {
+      "description": "",
+      "message": "Kullanmaya başla"
+   },
+   "installGotIt": {
+      "description": "Button for the user to confirm that they have Signal installed.",
+      "message": "Tamamdır"
+   },
+   "installIHaveSignalButton": {
+      "description": "Button for the user to confirm that they have Signal for Android",
+      "message": "Android cihazımda Signal yüklü"
+   },
+   "installLinkingWithNumber": {
+      "description": "Text displayed before the phone number that the user is in the process of linking with",
+      "message": "İle bağla"
+   },
+   "installSignalLink": {
+      "description": "Prompt the user to install Signal on Android before linking",
+      "message": "İlk olarak Android cihazınıza \u003Ca $a_params$>Signal\u003C/a> yükleyin. Biz cihazlarınızı bağlayarak mesajlarınızı senkronize edeceğiz.",
+      "placeholders": {
+         "a_params": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installSignalLinks": {
+      "description": "Prompt the user to install Signal on their phone before linking",
+      "message": "Önce, \u003Ca $play_store$> Android \u003C/a> veya \u003Ca  $app_store$> iPhone \u003C/a> cihazınıza Sinyal'i yükleyin.\u003Cbr /> Cihazlarınızı bağlayacağız ve mesajlarınızı senkronize edeceğiz.",
+      "placeholders": {
+         "app_store": {
+            "content": "$2",
+            "example": "href='http://example.com'"
+         },
+         "play_store": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installSyncingGroupsAndContacts": {
+      "description": "",
+      "message": "Gruplar ve kişiler senkronize ediliyor"
+   },
+   "installTagline": {
+      "description": "Tagline displayed under installWelcome on the install page",
+      "message": "Gizlilik mümkün. Signal bunu kolaylaştırır."
+   },
+   "installTooManyDevices": {
+      "description": "",
+      "message": "Maalesef, çok fazla sayıda cihaz zaten bağlı. Bazılarını kaldırmayı deneyin."
+   },
+   "installWelcome": {
+      "description": "Welcome title on the install page",
+      "message": "Signal Masaüstü Uygulamasına Hoş Geldiniz"
+   },
+   "invalidNumberError": {
+      "description": "When a person inputs a number that is invalid",
+      "message": "Geçersiz numara"
+   },
+   "keychanged": {
+      "description": "",
+      "message": "$name$ ile güvenlik numaranız değişti.",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "John"
+         }
+      }
+   },
+   "lastSynced": {
+      "description": "Label for date and time of last sync operation",
+      "message": "Son senkronize zamanı"
+   },
+   "learnMore": {
+      "description": "Text that links to a support article on verifying safety numbers",
+      "message": "Güvenlik numaralarını doğrulama hakkında daha fazla bilgi edinin"
+   },
+   "mediaMessage": {
+      "description": "Description of a message that has an attachment and no text, displayed in the conversation list as a preview.",
+      "message": "Görsel mesaj"
+   },
+   "members": {
+      "description": "",
+      "message": "Üyeler"
+   },
+   "messageDetail": {
+      "description": "",
+      "message": "Mesaj Detayı"
+   },
+   "messageNotSent": {
+      "description": "Informational label, appears on messages that failed to send",
+      "message": "Mesaj gönderilmedi"
+   },
+   "nameAndMessage": {
+      "description": "Label for setting notifications to display name and message text",
+      "message": "Gönderenin adı ve mesajı"
+   },
+   "nameOnly": {
+      "description": "Label for setting notifications to display sender name only",
+      "message": "Sadece gönderenin adı"
+   },
+   "newContact": {
+      "description": "",
+      "message": "Yeni kişi oluşturmak için tıklayın"
+   },
+   "newIdentity": {
+      "description": "Header for a key change dialog",
+      "message": "Yeni güvenlik numarası"
+   },
+   "newMessage": {
+      "description": "Displayed in notifications for only 1 message",
+      "message": "Yeni Mesaj"
+   },
+   "newMessages": {
+      "description": "Displayed in notifications for multiple messages",
+      "message": "Yeni Mesajlar"
+   },
+   "newPhoneNumber": {
+      "description": "Placeholder for adding a new number to a contact",
+      "message": "Kişi eklemek için telefon numarasını girin."
+   },
+   "noNameOrMessage": {
+      "description": "Label for setting notifications to display no name and no message text",
+      "message": "Gönderenin adını ve mesajını gösterme"
+   },
+   "notificationSettingsDialog": {
+      "description": "Explain the purpose of the notification settings",
+      "message": "Mesaj geldiğinde bildirimlerde şunları göster:"
+   },
+   "notifications": {
+      "description": "Header for notification settings",
+      "message": "Bildirimler"
+   },
+   "offline": {
+      "description": "",
+      "message": "Çevrimdışı"
+   },
+   "ok": {
+      "description": "",
+      "message": "TAMAM"
+   },
+   "outgoingKeyConflict": {
+      "description": "",
+      "message": "Bu kişiyle olan güvenlik numaranız değişti. İşlemek ve görüntülemek için tıklayın."
+   },
+   "received": {
+      "description": "Label for the time a message was received",
+      "message": "Alındı"
+   },
+   "relink": {
+      "description": "",
+      "message": "Yeniden bağla"
+   },
+   "reportIssue": {
+      "description": "Link to open the issue tracker",
+      "message": "Problemi raporla"
+   },
+   "resend": {
+      "description": "",
+      "message": "Yeniden gönder"
+   },
+   "resetSession": {
+      "description": "This is a menu item for resetting the session, using the imperative case, as in a command.",
+      "message": "Oturumu yenile"
+   },
+   "restartSignal": {
+      "description": "Menu item for restarting the program.",
+      "message": "Signal'ı yeniden başlat"
+   },
+   "safetyNumbersSettingDescription": {
+      "description": "Description for safety numbers setting",
+      "message": "Değişiklik olduğunda yeni güvenlik numaralarının onaylanmasını isteyin"
+   },
+   "safetyNumbersSettingHeader": {
+      "description": "Header for safety numbers setting",
+      "message": "Güvenlik numaraları onayı"
+   },
+   "searchForPeopleOrGroups": {
+      "description": "Placeholder text in the search input",
+      "message": "Ara..."
+   },
+   "selectAContact": {
+      "description": "",
+      "message": "Sohbete başlamak için bir kişi veya topluluk seç."
+   },
+   "sendMessage": {
+      "description": "Placeholder text in the message entry field",
+      "message": "Mesaj gönder"
+   },
+   "sent": {
+      "description": "Label for the time a message was sent",
+      "message": "Gönderildi"
+   },
+   "sessionEnded": {
+      "description": "This is a past tense, informational message. In other words, your secure session has been reset.",
+      "message": "Güvenli oturumu sıfırla"
+   },
+   "settings": {
+      "description": "Menu item and header for global settings",
+      "message": "Ayarlar"
+   },
+   "showLess": {
+      "description": "Hides the details of a key change",
+      "message": "Detayları gizle"
+   },
+   "showMore": {
+      "description": "Displays the details of a key change",
+      "message": "Detaylar"
+   },
+   "submit": {
+      "description": "",
+      "message": "Gönder"
+   },
+   "submitDebugLog": {
+      "description": "Menu item and header text for debug log modal, title case.",
+      "message": "Hata ayıklama günlüğünü gönder"
+   },
+   "sync": {
+      "description": "Label for contact and group sync settings",
+      "message": "Kişiler"
+   },
+   "syncExplanation": {
+      "description": "Explanatory text for sync settings",
+      "message": "Tüm Signal gruplarını ve kişileri mobil cihazdan buraya aktar."
+   },
+   "syncFailed": {
+      "description": "Informational text displayed if a sync operation times out.",
+      "message": "İçe aktarma başarısız oldu. Bilgisayarınızın ve telefonunuzun internete bağlı olduğundan emin olun."
+   },
+   "syncNow": {
+      "description": "Label for a button that syncs contacts and groups from your phone",
+      "message": "Şimdi içe aktar"
+   },
+   "syncing": {
+      "description": "Label for a disabled sync button while sync is in progress.",
+      "message": "İçe aktarılıyor..."
+   },
+   "theirIdentityUnknown": {
+      "description": "",
+      "message": "Bu kişiyle henüz mesaj alışverişi yapmadınız. Onlarla olan güvenlik numaranız ilk mesajdan sonra geçerli olacak."
+   },
+   "theme": {
+      "description": "Header for theme settings",
+      "message": "Tema"
+   },
+   "themeAndroidDark": {
+      "description": "Label text for dark Android theme",
+      "message": "Android (dark)"
+   },
+   "theyChangedTheTimer": {
+      "description": "Message displayed when someone else changes the message expiration timer in a conversation.",
+      "message": "$name$ zamanı $time$ olarak ayarladı.",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Bob"
+         },
+         "time": {
+            "content": "$2",
+            "example": "10m"
+         }
+      }
+   },
+   "timerOption_0_seconds": {
+      "description": "Label for option to turn off message expiration in the timer menu",
+      "message": "Kapat"
+   },
+   "timerOption_0_seconds_abbreviated": {
+      "description": "Short format indicating current timer setting in the conversation list snippet",
+      "message": "kapalı"
+   },
+   "timerOption_10_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "10 saniye"
+   },
+   "timerOption_10_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "10sn"
+   },
+   "timerOption_12_hours_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "12s"
+   },
+   "timerOption_1_day": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "1 gün"
+   },
+   "timerOption_1_day_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1g"
+   },
+   "timerOption_1_hour_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1s"
+   },
+   "timerOption_1_minute_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1dk"
+   },
+   "timerOption_1_week": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "1 hafta"
+   },
+   "timerOption_1_week_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1h"
+   },
+   "timerOption_30_minutes_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "30dk"
+   },
+   "timerOption_30_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "30 saniye"
+   },
+   "timerOption_30_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "30sn"
+   },
+   "timerOption_5_minutes_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "5dk"
+   },
+   "timerOption_5_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "5 saniye"
+   },
+   "timerOption_5_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "5sn"
+   },
+   "timerOption_6_hours_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "6s"
+   },
+   "timerSetTo": {
+      "description": "Displayed in the conversation list when the timer is updated.",
+      "message": "Zaman $time$ olarak ayarlandı",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "1w"
+         }
+      }
+   },
+   "timestampFormat_M": {
+      "description": "Timestamp format string for displaying month and day (but not the year) of a date within the current year, ex: use 'MMM D' for 'Aug 8', or 'D MMM' for '8 Aug'.",
+      "message": "MMM D"
+   },
+   "timestamp_h": {
+      "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble.",
+      "message": "1 saat"
+   },
+   "timestamp_m": {
+      "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble.",
+      "message": "1 dakika"
+   },
+   "timestamp_s": {
+      "description": "Brief timestamp for messages sent less than a minute ago. Displayed in the conversation list and message bubble.",
+      "message": "Şimdi"
+   },
+   "to": {
+      "description": "Label for the receiver of a message",
+      "message": "Alıcı"
+   },
+   "unblockToSend": {
+      "description": "Brief message shown when trying to message a blocked number",
+      "message": "Mesaj göndermek için bu kişinin engellenmesini kaldırın."
+   },
+   "unlinked": {
+      "description": "",
+      "message": "Bağlantı koparıldı"
+   },
+   "unlinkedWarning": {
+      "description": "",
+      "message": "Mesajlaşmanın devamı için Signal Masaüstü'nü mobil cihazına yeniden bağlayın."
+   },
+   "unregisteredUser": {
+      "description": "Error message displayed when sending to an unregistered user.",
+      "message": "Numara kayıtlı değil"
+   },
+   "unsupportedAttachment": {
+      "description": "Displayed for incoming unsupported attachment",
+      "message": "Desteklenmeyen ek türü. Kaydetmek için tıkla."
+   },
+   "unsupportedFileType": {
+      "description": "Displayed for outgoing unsupported attachment",
+      "message": "Desteklenmeyen dosya türü"
+   },
+   "upgrade": {
+      "description": "Label text for button to upgrade the app to the latest version",
+      "message": "Yükselt"
+   },
+   "verify": {
+      "description": "",
+      "message": "Doğrula"
+   },
+   "verifyContact": {
+      "description": "Use $tag_start$ and $tag_end$ to wrap the word or phrase in this sentence that the user should click on in order to navigate to the verification screen. These placeholders will be replaced with appropriate HTML code.",
+      "message": "Bu kullanıcı ile olan güvenlik numaranızı $tag_start$ doğrulamak $tag_end$ isteyebilirsiniz.",
+      "placeholders": {
+         "tag_end": {
+            "content": "\u003C/a>"
+         },
+         "tag_start": {
+            "content": "\u003Ca class='verify' href='#'>"
+         }
+      }
+   },
+   "verifySafetyNumbers": {
+      "description": "",
+      "message": "Güvenlik numarasını doğrula"
+   },
+   "welcomeToSignal": {
+      "description": "",
+      "message": "Signal'e Hoşgeldin"
+   },
+   "youChangedTheTimer": {
+      "description": "Message displayed when you change the message expiration timer in a conversation.",
+      "message": "Zamanı $time$ olarak ayarladınız.",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "10m"
+         }
+      }
+   },
+   "yourSafetyNumberWith": {
+      "description": "Heading for safety number view",
+      "message": "$name$ ile güvenlik numaranız",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "John"
+         }
+      }
+   }
+}

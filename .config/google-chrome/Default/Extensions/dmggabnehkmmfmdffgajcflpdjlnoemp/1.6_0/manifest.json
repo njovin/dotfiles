@@ -1,0 +1,17 @@
+{
+   "background": {
+      "scripts": [ "assets/javascripts/background.js" ]
+   },
+   "description": "Devtools panel for PHP development",
+   "devtools_page": "devtools.html",
+   "icons": {
+      "128": "assets/images/logo-128x128.png",
+      "48": "assets/images/logo-48x48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCeepIFxqRjM/gFDqonfAtvyD2O+oRl34n5981LBR/B1Y2DJ1UxRBBvSf0YhXJ6fUMeYWu0V762g/QV0qqIX6M77H5HRhffRzEkZitMvwJ9+C6u/Ajd7weAhbALYNfFPO6zibBL7DdPmdgSqVSjZa6q04GfO6h5WySYma5emNHFYwIDAQAB",
+   "manifest_version": 2,
+   "name": "Clockwork",
+   "permissions": [ "debugger", "http://*/", "https://*/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6"
+}

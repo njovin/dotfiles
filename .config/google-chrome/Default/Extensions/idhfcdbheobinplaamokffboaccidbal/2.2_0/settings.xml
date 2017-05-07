@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <resolution width="800" height="600" />
+  <resolution width="1024" height="600" />
+  <resolution width="1024" height="768" />
+  <resolution width="1366" height="768" />
+  <resolution width="1280" height="600" />
+  <resolution width="1280" height="800" />
+  <resolution width="1280" height="960" />
+  <resolution width="1280" height="1024" />
+  <resolution width="1440" height="900" />
+  <resolution width="1600" height="1200" />
+  <resolution width="1920" height="1080" />
+  <resolution width="1920" height="1200" />
+</settings>

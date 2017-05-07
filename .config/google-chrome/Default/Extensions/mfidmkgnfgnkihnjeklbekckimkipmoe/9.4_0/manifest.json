@@ -1,0 +1,43 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "adblockplus/compat.js", "adblockplus/info.js", "adblockplus/publicSuffixList.js", "adblockplus/adblockplus.js", "bootstrap.js", "runtime.js" ]
+   },
+   "browser_action": {
+      "default_icon": "assets/48.png",
+      "default_popup": "popup.html",
+      "default_title": "Flashcontrol"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "assets/content.css" ],
+      "match_about_blank": true,
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "bootstrap.js", "content.js" ],
+      "match_about_blank": true,
+      "matches": [ "*://*/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_ManifestDescription__",
+   "devtools_page": "devpanel.html",
+   "icons": {
+      "128": "assets/128.png",
+      "16": "assets/16.png",
+      "48": "assets/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCn+9sWtNAr67qK2Ybh50R8JiYhMfKITff8t4QFCylt0qvyy6Nmmx1uHTVhjiJCzCMYXYnYoAHpv8eN4stdtHl1pJW0nIgv6jbT29Yd24lqSovDlAmxfctJHJWtY0AMk6CyxpeTHlVWkzT5LJoUh12skIGjxxclY6qaR1LmqWcx9wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "56",
+   "name": "Flashcontrol",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "permissions": [ "tabs", "*://*/*", "storage", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "9.4",
+   "web_accessible_resources": [ "assets/flashlogo.svg", "assets/pluginlogo.svg" ]
+}

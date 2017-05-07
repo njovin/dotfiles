@@ -1,0 +1,564 @@
+{
+   "acceptNewKey": {
+      "description": "Label for a button to accept a new safety number",
+      "message": "接受"
+   },
+   "attemptingReconnection": {
+      "description": "",
+      "message": "嘗試在 $reconnect_duration_in_seconds$ 秒內重新連線",
+      "placeholders": {
+         "reconnect_duration_in_seconds": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "audioNotificationDescription": {
+      "description": "Description for audio notification setting",
+      "message": "播放通知音效"
+   },
+   "cancel": {
+      "description": "",
+      "message": "取消"
+   },
+   "checkNetworkConnection": {
+      "description": "Obvious instructions for when a user's computer loses its network connection",
+      "message": "檢查你的網路連線。"
+   },
+   "connecting": {
+      "description": "",
+      "message": "連線中"
+   },
+   "debugLogExplanation": {
+      "description": "",
+      "message": "這個紀錄將被公開張貼在線上給貢獻者瀏覽。在送出前，你可以檢視及修改。"
+   },
+   "deleteConversationConfirmation": {
+      "description": "Confirmation dialog text that asks the user if they really wish to delete the conversation. Answer buttons use the strings 'ok' and 'cancel'. The deletion is permanent, i.e. it cannot be undone.",
+      "message": "永久刪除對話？"
+   },
+   "deleteMessages": {
+      "description": "Menu item for deleting messages, title case.",
+      "message": "刪除訊息"
+   },
+   "disableNotifications": {
+      "description": "Label for disabling notifications",
+      "message": "關閉通知"
+   },
+   "disappearingMessages": {
+      "description": "Conversation menu option to enable disappearing messages",
+      "message": "自動銷毀訊息"
+   },
+   "disconnected": {
+      "description": "",
+      "message": "已斷線"
+   },
+   "error": {
+      "description": "",
+      "message": "錯誤"
+   },
+   "expiredWarning": {
+      "description": "Warning notification that this version of the app has expired",
+      "message": "Signal 桌面版的版本已經過期。請更新到最新版來傳送訊息。"
+   },
+   "failedToSend": {
+      "description": "",
+      "message": "傳送給一些收件人失敗。檢查你的網路連線。"
+   },
+   "fileSizeWarning": {
+      "description": "",
+      "message": "抱歉，選擇的檔案大小超過訊息限制"
+   },
+   "from": {
+      "description": "Label for the sender of a message",
+      "message": "來自"
+   },
+   "gotIt": {
+      "description": "Label for a button that dismisses a dialog. The user clicks it to confirm that they understand the message in the dialog.",
+      "message": "了解！"
+   },
+   "identityChanged": {
+      "description": "",
+      "message": "你與這個聯絡人的安全碼產生變動。這有可能是有不明人士試圖攔截您的通訊，或是，只因為這個聯絡人重新安裝 Signal。你能驗證下方新的安全碼。"
+   },
+   "incomingError": {
+      "description": "",
+      "message": "處理傳入訊息的錯誤。"
+   },
+   "incomingKeyConflict": {
+      "description": "",
+      "message": "收到使用新安全碼的訊息。按此顯示細節並執行。"
+   },
+   "installAndroidInstructions": {
+      "description": "",
+      "message": "開啟手機上的 Signal 後，到「設定」>「已連結的裝置」。輕觸按鈕來新增一個新裝置，並掃描上方的條碼。"
+   },
+   "installComputerName": {
+      "description": "Text displayed before the input where the user can enter the name for this device.",
+      "message": "這個電腦的名稱會是"
+   },
+   "installConnecting": {
+      "description": "Displayed when waiting for the QR Code",
+      "message": "正在連線中..."
+   },
+   "installConnectionFailed": {
+      "description": "Displayed when we can't connect to the server.",
+      "message": "無法連線到伺服器。"
+   },
+   "installFinalButton": {
+      "description": "The final button for the install process, after the user has entered a name for their device",
+      "message": "看起來不錯"
+   },
+   "installFollowUs": {
+      "description": "",
+      "message": "\u003Ca $a_params$>追蹤我們\u003C/a>了解有關 iOS 多裝置的支援。",
+      "placeholders": {
+         "a_params": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installGeneratingKeys": {
+      "description": "",
+      "message": "正在產生金鑰"
+   },
+   "installGetStartedButton": {
+      "description": "",
+      "message": "開始使用"
+   },
+   "installGotIt": {
+      "description": "Button for the user to confirm that they have Signal installed.",
+      "message": "了解"
+   },
+   "installIHaveSignalButton": {
+      "description": "Button for the user to confirm that they have Signal for Android",
+      "message": "我有 Signal 的 Android 版本"
+   },
+   "installLinkingWithNumber": {
+      "description": "Text displayed before the phone number that the user is in the process of linking with",
+      "message": "正在連結"
+   },
+   "installSignalLink": {
+      "description": "Prompt the user to install Signal on Android before linking",
+      "message": "首先，安裝\u003Ca $a_params$>Signal\u003C/a>到你的 Android 手機上。\u003Cbr />我們將會連結你的裝置，並保持訊息同步。",
+      "placeholders": {
+         "a_params": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installSignalLinks": {
+      "description": "Prompt the user to install Signal on their phone before linking",
+      "message": "首先，安裝 Signal 在你的 \u003Ca $play_store$>Android\u003C/a> 或 \u003Ca $app_store$>iPhone\u003C/a>。\u003Cbr /> 我們將會連結你的裝置並保持訊息同步。",
+      "placeholders": {
+         "app_store": {
+            "content": "$2",
+            "example": "href='http://example.com'"
+         },
+         "play_store": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installSyncingGroupsAndContacts": {
+      "description": "",
+      "message": "正在同步群組及聯絡人"
+   },
+   "installTagline": {
+      "description": "Tagline displayed under installWelcome on the install page",
+      "message": "隱私是有可能的。Signal 讓隱私更簡單。"
+   },
+   "installTooManyDevices": {
+      "description": "",
+      "message": "抱歉，你已經有太多連結的裝置。試著移除一些。"
+   },
+   "installWelcome": {
+      "description": "Welcome title on the install page",
+      "message": "歡迎來到 Signal 桌面版"
+   },
+   "invalidNumberError": {
+      "description": "When a person inputs a number that is invalid",
+      "message": "無效號碼"
+   },
+   "keychanged": {
+      "description": "",
+      "message": "你與 $name$ 的安全碼已經變更。",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "John"
+         }
+      }
+   },
+   "lastSynced": {
+      "description": "Label for date and time of last sync operation",
+      "message": "上一次匯入在"
+   },
+   "learnMore": {
+      "description": "Text that links to a support article on verifying safety numbers",
+      "message": "了解更多關於驗證安全碼"
+   },
+   "mediaMessage": {
+      "description": "Description of a message that has an attachment and no text, displayed in the conversation list as a preview.",
+      "message": "媒體訊息"
+   },
+   "members": {
+      "description": "",
+      "message": "成員"
+   },
+   "messageDetail": {
+      "description": "",
+      "message": "詳細訊息"
+   },
+   "messageNotSent": {
+      "description": "Informational label, appears on messages that failed to send",
+      "message": "訊息尚未送出。"
+   },
+   "nameAndMessage": {
+      "description": "Label for setting notifications to display name and message text",
+      "message": "傳送者與訊息"
+   },
+   "nameOnly": {
+      "description": "Label for setting notifications to display sender name only",
+      "message": "只有傳送者的名稱"
+   },
+   "newContact": {
+      "description": "",
+      "message": "點擊建立新聯絡人"
+   },
+   "newIdentity": {
+      "description": "Header for a key change dialog",
+      "message": "新的安全碼"
+   },
+   "newMessage": {
+      "description": "Displayed in notifications for only 1 message",
+      "message": "新訊息"
+   },
+   "newMessages": {
+      "description": "Displayed in notifications for multiple messages",
+      "message": "新訊息"
+   },
+   "newPhoneNumber": {
+      "description": "Placeholder for adding a new number to a contact",
+      "message": "輸入電話號碼來加入聯絡人"
+   },
+   "noNameOrMessage": {
+      "description": "Label for setting notifications to display no name and no message text",
+      "message": "沒有名稱與訊息"
+   },
+   "notificationSettingsDialog": {
+      "description": "Explain the purpose of the notification settings",
+      "message": "當訊息抵達時，通知會顯示："
+   },
+   "notifications": {
+      "description": "Header for notification settings",
+      "message": "通知"
+   },
+   "offline": {
+      "description": "",
+      "message": "離線"
+   },
+   "ok": {
+      "description": "",
+      "message": "好"
+   },
+   "outgoingKeyConflict": {
+      "description": "",
+      "message": "你與這個聯絡人的安全碼已經變更。按此顯示細節並執行。"
+   },
+   "received": {
+      "description": "Label for the time a message was received",
+      "message": "已接收"
+   },
+   "relink": {
+      "description": "",
+      "message": "重新連結"
+   },
+   "reportIssue": {
+      "description": "Link to open the issue tracker",
+      "message": "回報問題"
+   },
+   "resend": {
+      "description": "",
+      "message": "重送"
+   },
+   "resetSession": {
+      "description": "This is a menu item for resetting the session, using the imperative case, as in a command.",
+      "message": "重設對話"
+   },
+   "restartSignal": {
+      "description": "Menu item for restarting the program.",
+      "message": "從新開啟Signal"
+   },
+   "safetyNumbersSettingDescription": {
+      "description": "Description for safety numbers setting",
+      "message": "當安全碼變更時，需要被允許"
+   },
+   "safetyNumbersSettingHeader": {
+      "description": "Header for safety numbers setting",
+      "message": "安全碼允許"
+   },
+   "searchForPeopleOrGroups": {
+      "description": "Placeholder text in the search input",
+      "message": "搜尋..."
+   },
+   "selectAContact": {
+      "description": "",
+      "message": "選擇一個聯絡人或群組開始聊天。"
+   },
+   "sendMessage": {
+      "description": "Placeholder text in the message entry field",
+      "message": "送出一則訊息"
+   },
+   "sent": {
+      "description": "Label for the time a message was sent",
+      "message": "已送出"
+   },
+   "sessionEnded": {
+      "description": "This is a past tense, informational message. In other words, your secure session has been reset.",
+      "message": "安全對話重設"
+   },
+   "settings": {
+      "description": "Menu item and header for global settings",
+      "message": "設定"
+   },
+   "showLess": {
+      "description": "Hides the details of a key change",
+      "message": "隱藏細節"
+   },
+   "showMore": {
+      "description": "Displays the details of a key change",
+      "message": "細節"
+   },
+   "submit": {
+      "description": "",
+      "message": "送出"
+   },
+   "submitDebugLog": {
+      "description": "Menu item and header text for debug log modal, title case.",
+      "message": "送出偵錯紀錄"
+   },
+   "sync": {
+      "description": "Label for contact and group sync settings",
+      "message": "聯絡人"
+   },
+   "syncExplanation": {
+      "description": "Explanatory text for sync settings",
+      "message": "從你的行動裝置，匯入 Signal 群組和聯絡人。"
+   },
+   "syncFailed": {
+      "description": "Informational text displayed if a sync operation times out.",
+      "message": "匯入失敗。確認你的電腦與電話都連線到網路。"
+   },
+   "syncNow": {
+      "description": "Label for a button that syncs contacts and groups from your phone",
+      "message": "現在匯入"
+   },
+   "syncing": {
+      "description": "Label for a disabled sync button while sync is in progress.",
+      "message": "正在匯入..."
+   },
+   "theirIdentityUnknown": {
+      "description": "",
+      "message": "你尚未與這個聯絡人交換訊息。你與他們的安全碼將會在初次送出訊息後生效。"
+   },
+   "theme": {
+      "description": "Header for theme settings",
+      "message": "主題"
+   },
+   "themeAndroidDark": {
+      "description": "Label text for dark Android theme",
+      "message": "Android (暗色)"
+   },
+   "theyChangedTheTimer": {
+      "description": "Message displayed when someone else changes the message expiration timer in a conversation.",
+      "message": "$name$ 將定時器設為 $time$。",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Bob"
+         },
+         "time": {
+            "content": "$2",
+            "example": "10m"
+         }
+      }
+   },
+   "timerOption_0_seconds": {
+      "description": "Label for option to turn off message expiration in the timer menu",
+      "message": "關閉"
+   },
+   "timerOption_0_seconds_abbreviated": {
+      "description": "Short format indicating current timer setting in the conversation list snippet",
+      "message": "關閉"
+   },
+   "timerOption_10_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "10 秒"
+   },
+   "timerOption_10_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "10 秒"
+   },
+   "timerOption_12_hours_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "12 小時"
+   },
+   "timerOption_1_day": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "1 天"
+   },
+   "timerOption_1_day_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1 天"
+   },
+   "timerOption_1_hour_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1 小時"
+   },
+   "timerOption_1_minute_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1 分鐘"
+   },
+   "timerOption_1_week": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "1 週"
+   },
+   "timerOption_1_week_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1 週"
+   },
+   "timerOption_30_minutes_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "30 分鐘"
+   },
+   "timerOption_30_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "30 秒"
+   },
+   "timerOption_30_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "30 秒"
+   },
+   "timerOption_5_minutes_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "5 分鐘"
+   },
+   "timerOption_5_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "5 秒"
+   },
+   "timerOption_5_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "5 秒"
+   },
+   "timerOption_6_hours_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "6 小時"
+   },
+   "timerSetTo": {
+      "description": "Displayed in the conversation list when the timer is updated.",
+      "message": "計時器設定為 $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "1w"
+         }
+      }
+   },
+   "timestampFormat_M": {
+      "description": "Timestamp format string for displaying month and day (but not the year) of a date within the current year, ex: use 'MMM D' for 'Aug 8', or 'D MMM' for '8 Aug'.",
+      "message": "MMM D"
+   },
+   "timestamp_h": {
+      "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble.",
+      "message": "1 小時"
+   },
+   "timestamp_m": {
+      "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble.",
+      "message": "1 分鐘"
+   },
+   "timestamp_s": {
+      "description": "Brief timestamp for messages sent less than a minute ago. Displayed in the conversation list and message bubble.",
+      "message": "現在"
+   },
+   "to": {
+      "description": "Label for the receiver of a message",
+      "message": "至"
+   },
+   "unblockToSend": {
+      "description": "Brief message shown when trying to message a blocked number",
+      "message": "解鎖聯絡人來傳送訊息。"
+   },
+   "unlinked": {
+      "description": "",
+      "message": "未連結的"
+   },
+   "unlinkedWarning": {
+      "description": "",
+      "message": "重新連結 Signal 桌面到你的行動裝置來持續發送訊息。"
+   },
+   "unregisteredUser": {
+      "description": "Error message displayed when sending to an unregistered user.",
+      "message": "號碼尚未註冊"
+   },
+   "unsupportedAttachment": {
+      "description": "Displayed for incoming unsupported attachment",
+      "message": "不支援的附加檔案類型。點擊儲存。"
+   },
+   "unsupportedFileType": {
+      "description": "Displayed for outgoing unsupported attachment",
+      "message": "不支援的檔案類型"
+   },
+   "upgrade": {
+      "description": "Label text for button to upgrade the app to the latest version",
+      "message": "升級"
+   },
+   "verify": {
+      "description": "",
+      "message": "驗證"
+   },
+   "verifyContact": {
+      "description": "Use $tag_start$ and $tag_end$ to wrap the word or phrase in this sentence that the user should click on in order to navigate to the verification screen. These placeholders will be replaced with appropriate HTML code.",
+      "message": "你也許希望 $tag_start$驗證$tag_end$與這個聯絡人的安全碼。",
+      "placeholders": {
+         "tag_end": {
+            "content": "\u003C/a>"
+         },
+         "tag_start": {
+            "content": "\u003Ca class='verify' href='#'>"
+         }
+      }
+   },
+   "verifySafetyNumbers": {
+      "description": "",
+      "message": "驗證安全碼"
+   },
+   "welcomeToSignal": {
+      "description": "",
+      "message": "歡迎來到 Signal"
+   },
+   "youChangedTheTimer": {
+      "description": "Message displayed when you change the message expiration timer in a conversation.",
+      "message": "你將定時器設為 $time$。 ",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "10m"
+         }
+      }
+   },
+   "yourSafetyNumberWith": {
+      "description": "Heading for safety number view",
+      "message": "你與 $name$ 的安全碼",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "John"
+         }
+      }
+   }
+}

@@ -1,0 +1,15 @@
+[Default Applications]
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+
+[Added Associations]
+video/mp4=vlc.desktop;org.gnome.Totem.desktop;
+video/quicktime=vlc.desktop;
+video/x-msvideo=vlc.desktop;
+application/vnd.debian.binary-package=gdebi.desktop;
+text/plain=gedit.desktop;
+x-scheme-handler/mailto=exo-mail-reader.desktop
+application/zip=org.gnome.FileRoller.desktop;

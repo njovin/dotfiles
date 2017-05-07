@@ -1,0 +1,564 @@
+{
+   "acceptNewKey": {
+      "description": "Label for a button to accept a new safety number",
+      "message": "ಒಪ್ಪಿಕೊಳ್ಳಿ"
+   },
+   "attemptingReconnection": {
+      "description": "",
+      "message": "Attempting reconnect in $reconnect_duration_in_seconds$ seconds",
+      "placeholders": {
+         "reconnect_duration_in_seconds": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "audioNotificationDescription": {
+      "description": "Description for audio notification setting",
+      "message": "Play audio notification"
+   },
+   "cancel": {
+      "description": "",
+      "message": "ರದ್ದುಗೊಳಿಸಿ"
+   },
+   "checkNetworkConnection": {
+      "description": "Obvious instructions for when a user's computer loses its network connection",
+      "message": "Check your network connection."
+   },
+   "connecting": {
+      "description": "",
+      "message": "Connecting"
+   },
+   "debugLogExplanation": {
+      "description": "",
+      "message": "ಈ ದಾಖಲೆಯನ್ನು ಕೊಡುಗೆದಾರರ ವೀಕ್ಷಣೆಗೆ ಬಹಿರಂಗ ಅಂತರಜಾಲಕ್ಕೆ ಪೋಸ್ಟ್ ಮಾಡಲಾಗುತ್ತದೆ. ನೀವು ಇದನ್ನು ಪರೀಕ್ಷಿಸಬಹುದು ಮತ್ತು ಸಲ್ಲಿಸುವ ಮೊದಲು ಪರಿಷ್ಕರಿಸಬಹುದು."
+   },
+   "deleteConversationConfirmation": {
+      "description": "Confirmation dialog text that asks the user if they really wish to delete the conversation. Answer buttons use the strings 'ok' and 'cancel'. The deletion is permanent, i.e. it cannot be undone.",
+      "message": "ಈ ಸಂವಾದವನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸುವುದೇ?"
+   },
+   "deleteMessages": {
+      "description": "Menu item for deleting messages, title case.",
+      "message": "Delete messages"
+   },
+   "disableNotifications": {
+      "description": "Label for disabling notifications",
+      "message": "ಸೂಚನೆಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+   },
+   "disappearingMessages": {
+      "description": "Conversation menu option to enable disappearing messages",
+      "message": "Disappearing messages"
+   },
+   "disconnected": {
+      "description": "",
+      "message": "ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ"
+   },
+   "error": {
+      "description": "",
+      "message": "ದೋಷ"
+   },
+   "expiredWarning": {
+      "description": "Warning notification that this version of the app has expired",
+      "message": "ಸಿಗ್ನಲ್ ಡೆಸ್ಕ್ಟಾಪ್ ಈ ಆವೃತ್ತಿಯ ಅವಧಿ ಮುಗಿದಿದೆ. ಸಂದೇಶ ಮುಂದುವರೆಸಲು ಹೊಸ ಆವೃತ್ತಿಗೆ ಅಪ್ಗ್ರೇಡ್ ಮಾಡಿ."
+   },
+   "failedToSend": {
+      "description": "",
+      "message": "ಕೆಲವು ಸ್ವೀಕೃತದಾರರಿಗೆ ಕಳುಹಿಸಲಾಗಲ್ಲಿಲ್ಲ. ನಿಮ್ಮ ಜಾಲಬಂಧವನ್ನು ಪರಿಶೀಲಿಸಿ."
+   },
+   "fileSizeWarning": {
+      "description": "",
+      "message": "ಕ್ಷಮಿಸಿ, ಆಯ್ಕೆಮಾಡಿದ ಕಡತ ಸಂದೇಶದ ಗಾತ್ರ ನಿರ್ಬಂಧಗಳನ್ನು ಮೀರಿದೆ."
+   },
+   "from": {
+      "description": "Label for the sender of a message",
+      "message": "ಇಂದ"
+   },
+   "gotIt": {
+      "description": "Label for a button that dismisses a dialog. The user clicks it to confirm that they understand the message in the dialog.",
+      "message": "ಅರ್ಥವಾಯಿತು!"
+   },
+   "identityChanged": {
+      "description": "",
+      "message": "Your safety number with this contact has changed. This could either mean that someone is trying to intercept your communication, or this contact simply reinstalled Signal. You may wish to verify the new safety number below."
+   },
+   "incomingError": {
+      "description": "",
+      "message": "ಒಳಬರುವ ಸಂದೇಶ ನಿರ್ವಹಣಾ ದೋಷ."
+   },
+   "incomingKeyConflict": {
+      "description": "",
+      "message": "Received message with a new safety number. Click to process and display."
+   },
+   "installAndroidInstructions": {
+      "description": "",
+      "message": "ನಿಮ್ಮ ಫೋನ್ನನ ಸಿಗ್ನಲ್‌ನಲ್ಲಿ, ಸೆಟ್ಟಿಂಗ್ಗಳು > ಸಾಧನಗಳನ್ನು ತೆರೆಯಿರಿ. \"ಹೊಸ ಸಾಧನವನ್ನು ಸೇರಿಸಿ\" ಬಟನ್ ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ, ನಂತರ ಮೇಲಿನ ಸಂಕೇತವನ್ನು ಸ್ಕ್ಯಾನ್‌ಮಾಡಿ."
+   },
+   "installComputerName": {
+      "description": "Text displayed before the input where the user can enter the name for this device.",
+      "message": "ಈ ಗಣಕದ ಹೆಸರು"
+   },
+   "installConnecting": {
+      "description": "Displayed when waiting for the QR Code",
+      "message": "ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ..."
+   },
+   "installConnectionFailed": {
+      "description": "Displayed when we can't connect to the server.",
+      "message": "ಪೂರೈಕೆಗಣಕದ ಜೋತೆ ಸಂಪರ್ಕ ವಿಫಲವಾಗಿದೆ."
+   },
+   "installFinalButton": {
+      "description": "The final button for the install process, after the user has entered a name for their device",
+      "message": "ಚೆನ್ನಾಗಿದೆ"
+   },
+   "installFollowUs": {
+      "description": "",
+      "message": "ಐ.ಒ.ಎಸ್ ಬಹು ಸಾಧನ ಬೆಂಬಲ ಬಗ್ಗೆ  ತಿಳಿಯಲು \u003Ca $a_params$>ನಮ್ಮನ್ನು ಹಿಂಬಾಲಿಸು\u003C/a>",
+      "placeholders": {
+         "a_params": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installGeneratingKeys": {
+      "description": "",
+      "message": "ಕೀಲಿಗಳನ್ನು ರಚಿಸಲಾಗುತ್ತಿದೆ ..."
+   },
+   "installGetStartedButton": {
+      "description": "",
+      "message": "ಪ್ರಾರಂಭಿಸಿ"
+   },
+   "installGotIt": {
+      "description": "Button for the user to confirm that they have Signal installed.",
+      "message": "Got it"
+   },
+   "installIHaveSignalButton": {
+      "description": "Button for the user to confirm that they have Signal for Android",
+      "message": "\nನನ್ನ ಆಂಡ್ರ್ಯಾಡ್‌ನಲ್ಲಿ ಸಿಗ್ನಲ್ ಇದೆ"
+   },
+   "installLinkingWithNumber": {
+      "description": "Text displayed before the phone number that the user is in the process of linking with",
+      "message": "ಜೊತೆ  ಜೋಡಣೆ"
+   },
+   "installSignalLink": {
+      "description": "Prompt the user to install Signal on Android before linking",
+      "message": "ಮೊದಲ, ನಿಮ್ಮ ಆಂಡ್ರ್ಯಾಡ್ ಫೋನ್‌ನಲ್ಲಿ \u003Ca $a_params$>ಸಿಗ್ನಲ್‌ನನ್ನ್ನು\u003C/a> ಅನುಸ್ಥಾಪಿಸಲು. \u003Cbr /> ನಾವು ನಿಮ್ಮ ಸಾಧನಗಳನ್ನು ಜೋಡಿಸುತ್ತೇವೆ ಹಾಗು ನಿಮ್ಮ ಸಂದೇಶಗಳನ್ನು ಸಮನ್ವಯಗೊಳಿಸುತ್ತೇವೆ.",
+      "placeholders": {
+         "a_params": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installSignalLinks": {
+      "description": "Prompt the user to install Signal on their phone before linking",
+      "message": "First, install Signal on your \u003Ca $play_store$>Android\u003C/a> or \u003Ca $app_store$>iPhone\u003C/a>.\u003Cbr /> We'll link your devices and keep your messages in sync.",
+      "placeholders": {
+         "app_store": {
+            "content": "$2",
+            "example": "href='http://example.com'"
+         },
+         "play_store": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installSyncingGroupsAndContacts": {
+      "description": "",
+      "message": "ಗುಂಪುಗಳು ಹಾಗು ಸಂಪರ್ಕಗಳನ್ನು  ಸಮನ್ವಯಗೊಳಿಸಲಾಗುತ್ತಿದೆ"
+   },
+   "installTagline": {
+      "description": "Tagline displayed under installWelcome on the install page",
+      "message": "ಖಾಸಗಿತನ ಸಾಧ್ಯ. ಸಿಗ್ನಲ್ ಇದನ್ನು ಸುಲಭವಾಗಿಸುತ್ತದೆ."
+   },
+   "installTooManyDevices": {
+      "description": "",
+      "message": "ಕ್ಷಮಿಸಿ, ನೀವು ಹಲವಾರು ಸಾಧನಗಳು ಈಗಾಗಲೇ ಜೋಡಿಸಿದ್ದೀರಿ. ಕೆಲವನ್ನು ತೆಗೆದುಹಾಕಲು ಪ್ರಯತ್ನಿಸಿ."
+   },
+   "installWelcome": {
+      "description": "Welcome title on the install page",
+      "message": "ಸಿಗ್ನಲ್ ಗಣಕತೆರೆಗೆ ಸ್ವಾಗತ"
+   },
+   "invalidNumberError": {
+      "description": "When a person inputs a number that is invalid",
+      "message": "Invalid number"
+   },
+   "keychanged": {
+      "description": "",
+      "message": "Your safety number with $name$ has changed.",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "John"
+         }
+      }
+   },
+   "lastSynced": {
+      "description": "Label for date and time of last sync operation",
+      "message": "ಕಳೆದ ಆಮದು"
+   },
+   "learnMore": {
+      "description": "Text that links to a support article on verifying safety numbers",
+      "message": "Learn more about verifying safety numbers"
+   },
+   "mediaMessage": {
+      "description": "Description of a message that has an attachment and no text, displayed in the conversation list as a preview.",
+      "message": "ಮಾಧ್ಯಮ ಸಂದೇಶ"
+   },
+   "members": {
+      "description": "",
+      "message": "ಸದಸ್ಯರು"
+   },
+   "messageDetail": {
+      "description": "",
+      "message": "ಸಂದೇಶದ ವಿವರಗಳು"
+   },
+   "messageNotSent": {
+      "description": "Informational label, appears on messages that failed to send",
+      "message": "ಸಂದೇಶ ಕಳುಹಿಸಲಾಗಿಲ್ಲ."
+   },
+   "nameAndMessage": {
+      "description": "Label for setting notifications to display name and message text",
+      "message": "ಕಳುಹಿಸುವವರ ಹೆಸರು ಮತ್ತು ಸಂದೇಶವನ್ನು ಎರಡೂ"
+   },
+   "nameOnly": {
+      "description": "Label for setting notifications to display sender name only",
+      "message": "ಕಳುಹಿಸುವವರ ಹೆಸರು ಮಾತ್ರ"
+   },
+   "newContact": {
+      "description": "",
+      "message": "Click to create new contact"
+   },
+   "newIdentity": {
+      "description": "Header for a key change dialog",
+      "message": "New safety number"
+   },
+   "newMessage": {
+      "description": "Displayed in notifications for only 1 message",
+      "message": "ಹೊಸ ಸಂದೇಶ"
+   },
+   "newMessages": {
+      "description": "Displayed in notifications for multiple messages",
+      "message": "ಹೊಸ ಸಂದೇಶಗಳು"
+   },
+   "newPhoneNumber": {
+      "description": "Placeholder for adding a new number to a contact",
+      "message": "Enter a phone number to add a contact."
+   },
+   "noNameOrMessage": {
+      "description": "Label for setting notifications to display no name and no message text",
+      "message": "ಯಾವುದೇ ಹೆಸರು ಅಥವಾ ಸಂದೇಶ ಬೇಡ"
+   },
+   "notificationSettingsDialog": {
+      "description": "Explain the purpose of the notification settings",
+      "message": "ಸಂದೇಶಗಳನ್ನು ಸ್ವೀಕರಿಸಿದಾಗ, ಸೂಚನೆಗಳಲ್ಲಿ ಇದನ್ನು ಬಹಿರಂಗಪಡಿಸಲಾಗುತ್ತದೆ:"
+   },
+   "notifications": {
+      "description": "Header for notification settings",
+      "message": "ಸೂಚನೆಗಳು"
+   },
+   "offline": {
+      "description": "",
+      "message": "Offline"
+   },
+   "ok": {
+      "description": "",
+      "message": "ಸರಿ"
+   },
+   "outgoingKeyConflict": {
+      "description": "",
+      "message": "Your safety number with this contact has changed. Click to process and display."
+   },
+   "received": {
+      "description": "Label for the time a message was received",
+      "message": "ಸ್ವೀಕರಿಸಲಾಗಿದೆ"
+   },
+   "relink": {
+      "description": "",
+      "message": "Relink"
+   },
+   "reportIssue": {
+      "description": "Link to open the issue tracker",
+      "message": "ಸಮಸ್ಯೆಯನ್ನು ವರದಿಮಾಡಿ"
+   },
+   "resend": {
+      "description": "",
+      "message": "ಪುನಃ ಕಳುಹಿಸಿ"
+   },
+   "resetSession": {
+      "description": "This is a menu item for resetting the session, using the imperative case, as in a command.",
+      "message": "Reset session"
+   },
+   "restartSignal": {
+      "description": "Menu item for restarting the program.",
+      "message": " ಸಿಗ್ನಲ್ ಮರುಪ್ರಾರಂಭಿಸಿ"
+   },
+   "safetyNumbersSettingDescription": {
+      "description": "Description for safety numbers setting",
+      "message": "Require approval of new safety numbers when they change"
+   },
+   "safetyNumbersSettingHeader": {
+      "description": "Header for safety numbers setting",
+      "message": "Safety numbers approval"
+   },
+   "searchForPeopleOrGroups": {
+      "description": "Placeholder text in the search input",
+      "message": "ಹುಡುಕಿ... "
+   },
+   "selectAContact": {
+      "description": "",
+      "message": "ಸಂವಾದ ಪ್ರಾರಂಭಿಸಲು ಸಂಪರ್ಕ ಅಥವಾ ಗುಂಪುನ್ನು ಆಯ್ಕೆಮಾಡಿಕೊಳ್ಳಿ."
+   },
+   "sendMessage": {
+      "description": "Placeholder text in the message entry field",
+      "message": "ಒಂದು ಸಂದೇಶವನ್ನು ಕಳುಹಿಸಿ"
+   },
+   "sent": {
+      "description": "Label for the time a message was sent",
+      "message": "ಕಳುಹಿಸಿ"
+   },
+   "sessionEnded": {
+      "description": "This is a past tense, informational message. In other words, your secure session has been reset.",
+      "message": "ಸುರಕ್ಷಿತ ಅಧಿವೇಶನವನ್ನು ಮರುಹೊಂದಿಸಿ"
+   },
+   "settings": {
+      "description": "Menu item and header for global settings",
+      "message": "ಸಿದ್ಧತೆಗಳು"
+   },
+   "showLess": {
+      "description": "Hides the details of a key change",
+      "message": "ವಿವರಗಳನ್ನು ಮರೆಮಾಡಿ"
+   },
+   "showMore": {
+      "description": "Displays the details of a key change",
+      "message": "ವಿವರಗಳು"
+   },
+   "submit": {
+      "description": "",
+      "message": "ಸಲ್ಲಿಸಿ"
+   },
+   "submitDebugLog": {
+      "description": "Menu item and header text for debug log modal, title case.",
+      "message": "Submit debug log"
+   },
+   "sync": {
+      "description": "Label for contact and group sync settings",
+      "message": "ಸಂಪರ್ಕಗಳು"
+   },
+   "syncExplanation": {
+      "description": "Explanatory text for sync settings",
+      "message": "ನಿಮ್ಮ ಮೊಬೈಲ್ ಸಾಧನದಿಂದ ಎಲ್ಲಾ ಸಿಗ್ನಲ್ ಗುಂಪುಗಳು ಮತ್ತು ಸಂಪರ್ಕಗಳನ್ನು ಆಮದು ಮಾಡಿಕೋಌ"
+   },
+   "syncFailed": {
+      "description": "Informational text displayed if a sync operation times out.",
+      "message": "ಆಮದು ವಿಫಲವಾಗಿದೆ. ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್ ಮತ್ತು ನಿಮ್ಮ ಫೋನ್ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕ ಹೊಂದಿರುವ ಬಗ್ಗೆ ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."
+   },
+   "syncNow": {
+      "description": "Label for a button that syncs contacts and groups from your phone",
+      "message": "ಈಗ ಆಮದು ಮಾಡಿ"
+   },
+   "syncing": {
+      "description": "Label for a disabled sync button while sync is in progress.",
+      "message": "ಆಮದು ಮಾಡಲಾಗುತ್ತಿದೆ ..."
+   },
+   "theirIdentityUnknown": {
+      "description": "",
+      "message": "You haven't exchanged any messages with this contact yet. Your safety number with them will be available after the first message."
+   },
+   "theme": {
+      "description": "Header for theme settings",
+      "message": "Theme"
+   },
+   "themeAndroidDark": {
+      "description": "Label text for dark Android theme",
+      "message": "Android (dark)"
+   },
+   "theyChangedTheTimer": {
+      "description": "Message displayed when someone else changes the message expiration timer in a conversation.",
+      "message": "$name$ set the timer to $time$.",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Bob"
+         },
+         "time": {
+            "content": "$2",
+            "example": "10m"
+         }
+      }
+   },
+   "timerOption_0_seconds": {
+      "description": "Label for option to turn off message expiration in the timer menu",
+      "message": "off"
+   },
+   "timerOption_0_seconds_abbreviated": {
+      "description": "Short format indicating current timer setting in the conversation list snippet",
+      "message": "off"
+   },
+   "timerOption_10_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "10 seconds"
+   },
+   "timerOption_10_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "10s"
+   },
+   "timerOption_12_hours_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "12h"
+   },
+   "timerOption_1_day": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "1 day"
+   },
+   "timerOption_1_day_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1d"
+   },
+   "timerOption_1_hour_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1h"
+   },
+   "timerOption_1_minute_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1m"
+   },
+   "timerOption_1_week": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "1 week"
+   },
+   "timerOption_1_week_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1w"
+   },
+   "timerOption_30_minutes_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "30m"
+   },
+   "timerOption_30_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "30 seconds"
+   },
+   "timerOption_30_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "30s"
+   },
+   "timerOption_5_minutes_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "5m"
+   },
+   "timerOption_5_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "5 seconds"
+   },
+   "timerOption_5_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "5s"
+   },
+   "timerOption_6_hours_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "6h"
+   },
+   "timerSetTo": {
+      "description": "Displayed in the conversation list when the timer is updated.",
+      "message": "Timer set to $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "1w"
+         }
+      }
+   },
+   "timestampFormat_M": {
+      "description": "Timestamp format string for displaying month and day (but not the year) of a date within the current year, ex: use 'MMM D' for 'Aug 8', or 'D MMM' for '8 Aug'.",
+      "message": "MMM D"
+   },
+   "timestamp_h": {
+      "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble.",
+      "message": "1 ಗಂಟೆ"
+   },
+   "timestamp_m": {
+      "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble.",
+      "message": "1 ನಿಮಿಷ"
+   },
+   "timestamp_s": {
+      "description": "Brief timestamp for messages sent less than a minute ago. Displayed in the conversation list and message bubble.",
+      "message": "ಈಗ"
+   },
+   "to": {
+      "description": "Label for the receiver of a message",
+      "message": "ಗೆ"
+   },
+   "unblockToSend": {
+      "description": "Brief message shown when trying to message a blocked number",
+      "message": "Unblock this contact to send a message."
+   },
+   "unlinked": {
+      "description": "",
+      "message": "Unlinked"
+   },
+   "unlinkedWarning": {
+      "description": "",
+      "message": "Relink Signal Desktop to your mobile device to continue messaging."
+   },
+   "unregisteredUser": {
+      "description": "Error message displayed when sending to an unregistered user.",
+      "message": "ಸಂಖ್ಯೆ ನೋಂದಣಿಯಾಗಿಲ್ಲ"
+   },
+   "unsupportedAttachment": {
+      "description": "Displayed for incoming unsupported attachment",
+      "message": "ಬೆಂಬಲವಿಲ್ಲದ ಲಗತ್ತಿನ ಪ್ರಕಾರ. ಉಳಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
+   },
+   "unsupportedFileType": {
+      "description": "Displayed for outgoing unsupported attachment",
+      "message": "ಬೆಂಬಲವಿಲ್ಲದ ಕಡತ ಪ್ರಕಾರ"
+   },
+   "upgrade": {
+      "description": "Label text for button to upgrade the app to the latest version",
+      "message": "ಅಪ್ಗ್ರೇಡ್"
+   },
+   "verify": {
+      "description": "",
+      "message": "ಪರಿಶೀಲಿಸಿ"
+   },
+   "verifyContact": {
+      "description": "Use $tag_start$ and $tag_end$ to wrap the word or phrase in this sentence that the user should click on in order to navigate to the verification screen. These placeholders will be replaced with appropriate HTML code.",
+      "message": "You may wish to $tag_start$ verify $tag_end$ your safety number with this contact.",
+      "placeholders": {
+         "tag_end": {
+            "content": "\u003C/a>"
+         },
+         "tag_start": {
+            "content": "\u003Ca class='verify' href='#'>"
+         }
+      }
+   },
+   "verifySafetyNumbers": {
+      "description": "",
+      "message": "Verify safety number"
+   },
+   "welcomeToSignal": {
+      "description": "",
+      "message": "ಸಿಗ್ನಲ್‌ಗೆ ಸ್ವಾಗತ"
+   },
+   "youChangedTheTimer": {
+      "description": "Message displayed when you change the message expiration timer in a conversation.",
+      "message": "You set the timer to $time$.",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "10m"
+         }
+      }
+   },
+   "yourSafetyNumberWith": {
+      "description": "Heading for safety number view",
+      "message": "Your safety number with $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "John"
+         }
+      }
+   }
+}

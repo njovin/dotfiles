@@ -1,0 +1,24 @@
+{
+   "background": {
+      "page": "bg.html"
+   },
+   "browser_action": {
+      "default_icon": "icon16.png",
+      "default_popup": "popup.html",
+      "default_title": "Resolution Test"
+   },
+   "description": "An extension for developers to test web pages in different screen resolutions, with an option to define your own resolutions",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrCbADPgbdb9q6NXjkHmHt4i2QgavhtfPvY91XrpH86XO6RN4T24LYmOhqgJspa+aCvXfZouzVZ5+fIgVBhRNIB0ndNv1aXKwXqCkKioufGAdX786dRPBGaH4D7WVp5haWg4IJ2Et0uCCMi3m4lZjciDSy6FsunOiHNVdoVU7bEQIDAQAB",
+   "manifest_version": 2,
+   "name": "Resolution Test",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2"
+}

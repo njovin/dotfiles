@@ -1,0 +1,20 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://www.google.com/voice/b/0#inbox"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "0qb6QlUBHaDOuxs1a3J47TueTkqSHA3KZcwDmkwGvaU=",
+   "name": "https://www.google.com/voice/b/0#inbox",
+   "version": "2017.2.28.13810"
+}

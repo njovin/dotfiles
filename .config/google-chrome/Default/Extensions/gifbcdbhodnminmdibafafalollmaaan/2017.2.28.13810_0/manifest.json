@@ -1,0 +1,20 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://twilio-php.readthedocs.org/en/latest/usage/rest/accounts.html#creating-a-subaccount"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "UvqCmVTOIY3BqZKH1C+Ut0CwvJnwc6Tq2klKlUqhPik=",
+   "name": "https://twilio-php.readthedocs.org/en/latest/",
+   "version": "2017.2.28.13810"
+}

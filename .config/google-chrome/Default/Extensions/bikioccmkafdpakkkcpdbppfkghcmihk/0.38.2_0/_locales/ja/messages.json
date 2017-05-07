@@ -1,0 +1,564 @@
+{
+   "acceptNewKey": {
+      "description": "Label for a button to accept a new safety number",
+      "message": "受け入れる"
+   },
+   "attemptingReconnection": {
+      "description": "",
+      "message": "$reconnect_duration_in_seconds$ 秒後に再接続を行います。",
+      "placeholders": {
+         "reconnect_duration_in_seconds": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "audioNotificationDescription": {
+      "description": "Description for audio notification setting",
+      "message": "音声通知を有効にする"
+   },
+   "cancel": {
+      "description": "",
+      "message": "キャンセル"
+   },
+   "checkNetworkConnection": {
+      "description": "Obvious instructions for when a user's computer loses its network connection",
+      "message": "ネットワーク接続をご確認ください。"
+   },
+   "connecting": {
+      "description": "",
+      "message": "接続完了"
+   },
+   "debugLogExplanation": {
+      "description": "",
+      "message": "このログはネット上に公開され，開発者が閲覧します。提出前に編集することができます。"
+   },
+   "deleteConversationConfirmation": {
+      "description": "Confirmation dialog text that asks the user if they really wish to delete the conversation. Answer buttons use the strings 'ok' and 'cancel'. The deletion is permanent, i.e. it cannot be undone.",
+      "message": "この会話を完全に消去しますが，よろしいですか？"
+   },
+   "deleteMessages": {
+      "description": "Menu item for deleting messages, title case.",
+      "message": "メッセージを削除"
+   },
+   "disableNotifications": {
+      "description": "Label for disabling notifications",
+      "message": "通知をオフにする"
+   },
+   "disappearingMessages": {
+      "description": "Conversation menu option to enable disappearing messages",
+      "message": "消えるメッセージ"
+   },
+   "disconnected": {
+      "description": "",
+      "message": "接続オフ"
+   },
+   "error": {
+      "description": "",
+      "message": "エラー"
+   },
+   "expiredWarning": {
+      "description": "Warning notification that this version of the app has expired",
+      "message": "アプリのバージョンが古すぎます。最新版にアップデートしてください。"
+   },
+   "failedToSend": {
+      "description": "",
+      "message": "宛先の一部で送信に失敗しました。ネットワークの接続をチェックしてください。"
+   },
+   "fileSizeWarning": {
+      "description": "",
+      "message": "選択したファイルが大きすぎます"
+   },
+   "from": {
+      "description": "Label for the sender of a message",
+      "message": "差出人"
+   },
+   "gotIt": {
+      "description": "Label for a button that dismisses a dialog. The user clicks it to confirm that they understand the message in the dialog.",
+      "message": "了解"
+   },
+   "identityChanged": {
+      "description": "",
+      "message": "このコンタクトとの安全番号が変わりました。誰かがこの会話を盗聴しようとしていることか、コンタクトはただ、Signalをまたインストールしたの２つの理由となります。以下の安全番号を確認してください。"
+   },
+   "incomingError": {
+      "description": "",
+      "message": "受信中にエラー"
+   },
+   "incomingKeyConflict": {
+      "description": "",
+      "message": "新たな安全番号が付いたメッセージを受け取りました。表示・処理を行うにはクリックしてください。"
+   },
+   "installAndroidInstructions": {
+      "description": "",
+      "message": "携帯電話でSignalを起動し，「設定」>「結び付いているデバイス」に進み，デバイス追加のボタンを押して，上部のコードをスキャンしてください。"
+   },
+   "installComputerName": {
+      "description": "Text displayed before the input where the user can enter the name for this device.",
+      "message": "コンピュータの名前は"
+   },
+   "installConnecting": {
+      "description": "Displayed when waiting for the QR Code",
+      "message": "QRコードを待っています"
+   },
+   "installConnectionFailed": {
+      "description": "Displayed when we can't connect to the server.",
+      "message": "サーバーに接続できませんでした"
+   },
+   "installFinalButton": {
+      "description": "The final button for the install process, after the user has entered a name for their device",
+      "message": "OK"
+   },
+   "installFollowUs": {
+      "description": "",
+      "message": "iOS端末の複数使用に関する最新情報は\u003Ca $a_params$>こちら\u003C/a>",
+      "placeholders": {
+         "a_params": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installGeneratingKeys": {
+      "description": "",
+      "message": "キーを生成"
+   },
+   "installGetStartedButton": {
+      "description": "",
+      "message": "始めましょう"
+   },
+   "installGotIt": {
+      "description": "Button for the user to confirm that they have Signal installed.",
+      "message": "OK"
+   },
+   "installIHaveSignalButton": {
+      "description": "Button for the user to confirm that they have Signal for Android",
+      "message": "Signal for Androidをインストール済みです"
+   },
+   "installLinkingWithNumber": {
+      "description": "Text displayed before the phone number that the user is in the process of linking with",
+      "message": "接続先の番号"
+   },
+   "installSignalLink": {
+      "description": "Prompt the user to install Signal on Android before linking",
+      "message": "まず\u003Ca $a_params$>Signal\u003C/a>をAndroid携帯電話にインストールしてください。\u003Cbr />そうするとお使いの端末は結び付けられ，メッセージは同期されます。",
+      "placeholders": {
+         "a_params": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installSignalLinks": {
+      "description": "Prompt the user to install Signal on their phone before linking",
+      "message": "お使いの\u003Ca $play_store$>Android\u003C/a>や\u003Ca $app_store$>iPhone\u003C/a>にSignalをインストールしてください。それらの端末とメッセージを同期します。",
+      "placeholders": {
+         "app_store": {
+            "content": "$2",
+            "example": "href='http://example.com'"
+         },
+         "play_store": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installSyncingGroupsAndContacts": {
+      "description": "",
+      "message": "連絡先とグループを同期"
+   },
+   "installTagline": {
+      "description": "Tagline displayed under installWelcome on the install page",
+      "message": "プライバシーは守れます。Signalを使えば簡単に。"
+   },
+   "installTooManyDevices": {
+      "description": "",
+      "message": "結び付けているデバイスが多すぎます。どれかを切り離してください。"
+   },
+   "installWelcome": {
+      "description": "Welcome title on the install page",
+      "message": "Signal Desktopにようこそ"
+   },
+   "invalidNumberError": {
+      "description": "When a person inputs a number that is invalid",
+      "message": "不正な番号です"
+   },
+   "keychanged": {
+      "description": "",
+      "message": "$name$ との安全番号が変わりました。",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "John"
+         }
+      }
+   },
+   "lastSynced": {
+      "description": "Label for date and time of last sync operation",
+      "message": "最近の取り込みは"
+   },
+   "learnMore": {
+      "description": "Text that links to a support article on verifying safety numbers",
+      "message": "安全番号を確認することについて"
+   },
+   "mediaMessage": {
+      "description": "Description of a message that has an attachment and no text, displayed in the conversation list as a preview.",
+      "message": "メディアメッセージ"
+   },
+   "members": {
+      "description": "",
+      "message": "メンバー"
+   },
+   "messageDetail": {
+      "description": "",
+      "message": "メッセージ詳細"
+   },
+   "messageNotSent": {
+      "description": "Informational label, appears on messages that failed to send",
+      "message": "送信失敗"
+   },
+   "nameAndMessage": {
+      "description": "Label for setting notifications to display name and message text",
+      "message": "差出人名とメッセージ"
+   },
+   "nameOnly": {
+      "description": "Label for setting notifications to display sender name only",
+      "message": "差出人名のみ"
+   },
+   "newContact": {
+      "description": "",
+      "message": "新規連絡先を作る"
+   },
+   "newIdentity": {
+      "description": "Header for a key change dialog",
+      "message": "新しい安全番号"
+   },
+   "newMessage": {
+      "description": "Displayed in notifications for only 1 message",
+      "message": "新着メッセージ"
+   },
+   "newMessages": {
+      "description": "Displayed in notifications for multiple messages",
+      "message": "新着メッセージ"
+   },
+   "newPhoneNumber": {
+      "description": "Placeholder for adding a new number to a contact",
+      "message": "電話番号を入力して連絡先を追加する"
+   },
+   "noNameOrMessage": {
+      "description": "Label for setting notifications to display no name and no message text",
+      "message": "なし"
+   },
+   "notificationSettingsDialog": {
+      "description": "Explain the purpose of the notification settings",
+      "message": "新着メッセージの通知で表示する項目："
+   },
+   "notifications": {
+      "description": "Header for notification settings",
+      "message": "通知"
+   },
+   "offline": {
+      "description": "",
+      "message": "オフライン"
+   },
+   "ok": {
+      "description": "",
+      "message": "OK"
+   },
+   "outgoingKeyConflict": {
+      "description": "",
+      "message": "このコンタクトとの安全番号が変わりました。クリックして処理と表示を行ってください。"
+   },
+   "received": {
+      "description": "Label for the time a message was received",
+      "message": "受信"
+   },
+   "relink": {
+      "description": "",
+      "message": "再接続"
+   },
+   "reportIssue": {
+      "description": "Link to open the issue tracker",
+      "message": "問題を報告"
+   },
+   "resend": {
+      "description": "",
+      "message": "再送"
+   },
+   "resetSession": {
+      "description": "This is a menu item for resetting the session, using the imperative case, as in a command.",
+      "message": "接触を再設定"
+   },
+   "restartSignal": {
+      "description": "Menu item for restarting the program.",
+      "message": "Signalを再起動"
+   },
+   "safetyNumbersSettingDescription": {
+      "description": "Description for safety numbers setting",
+      "message": "安全番号が変わると確認することが必要となる"
+   },
+   "safetyNumbersSettingHeader": {
+      "description": "Header for safety numbers setting",
+      "message": "安全番号が承認されました"
+   },
+   "searchForPeopleOrGroups": {
+      "description": "Placeholder text in the search input",
+      "message": "検索"
+   },
+   "selectAContact": {
+      "description": "",
+      "message": "会話を始めるには連絡先かグループを選択してください"
+   },
+   "sendMessage": {
+      "description": "Placeholder text in the message entry field",
+      "message": "メッセージ"
+   },
+   "sent": {
+      "description": "Label for the time a message was sent",
+      "message": "送信"
+   },
+   "sessionEnded": {
+      "description": "This is a past tense, informational message. In other words, your secure session has been reset.",
+      "message": "安全なセッションがリセットされました"
+   },
+   "settings": {
+      "description": "Menu item and header for global settings",
+      "message": "設定"
+   },
+   "showLess": {
+      "description": "Hides the details of a key change",
+      "message": "詳細を隠す"
+   },
+   "showMore": {
+      "description": "Displays the details of a key change",
+      "message": "詳細"
+   },
+   "submit": {
+      "description": "",
+      "message": "提出"
+   },
+   "submitDebugLog": {
+      "description": "Menu item and header text for debug log modal, title case.",
+      "message": "デバッグログを提出"
+   },
+   "sync": {
+      "description": "Label for contact and group sync settings",
+      "message": "連絡先"
+   },
+   "syncExplanation": {
+      "description": "Explanatory text for sync settings",
+      "message": "Signalのグループと連絡先を携帯端末から取り込む"
+   },
+   "syncFailed": {
+      "description": "Informational text displayed if a sync operation times out.",
+      "message": "取り込みに失敗しました。パソコンと携帯端末がインターネットに接続されているか確認してください。"
+   },
+   "syncNow": {
+      "description": "Label for a button that syncs contacts and groups from your phone",
+      "message": "取り込む"
+   },
+   "syncing": {
+      "description": "Label for a disabled sync button while sync is in progress.",
+      "message": "取り込み中……"
+   },
+   "theirIdentityUnknown": {
+      "description": "",
+      "message": "このコンタクトとまだメッセージを交換していません。最初のメッセージから安全番号は交換します。"
+   },
+   "theme": {
+      "description": "Header for theme settings",
+      "message": "テーマ"
+   },
+   "themeAndroidDark": {
+      "description": "Label text for dark Android theme",
+      "message": "アンドロイド（ダーク）"
+   },
+   "theyChangedTheTimer": {
+      "description": "Message displayed when someone else changes the message expiration timer in a conversation.",
+      "message": "$name$がタイマーを$time$に設定しました",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Bob"
+         },
+         "time": {
+            "content": "$2",
+            "example": "10m"
+         }
+      }
+   },
+   "timerOption_0_seconds": {
+      "description": "Label for option to turn off message expiration in the timer menu",
+      "message": "オフ"
+   },
+   "timerOption_0_seconds_abbreviated": {
+      "description": "Short format indicating current timer setting in the conversation list snippet",
+      "message": "オフ"
+   },
+   "timerOption_10_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "10秒"
+   },
+   "timerOption_10_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "10秒"
+   },
+   "timerOption_12_hours_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "12時間"
+   },
+   "timerOption_1_day": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "1日"
+   },
+   "timerOption_1_day_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1日"
+   },
+   "timerOption_1_hour_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1時間"
+   },
+   "timerOption_1_minute_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1分"
+   },
+   "timerOption_1_week": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "1週間"
+   },
+   "timerOption_1_week_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1週間"
+   },
+   "timerOption_30_minutes_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "30分"
+   },
+   "timerOption_30_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "30秒"
+   },
+   "timerOption_30_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "30秒"
+   },
+   "timerOption_5_minutes_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "5分"
+   },
+   "timerOption_5_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "5秒"
+   },
+   "timerOption_5_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "5秒"
+   },
+   "timerOption_6_hours_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "6時間"
+   },
+   "timerSetTo": {
+      "description": "Displayed in the conversation list when the timer is updated.",
+      "message": "タイマーが$time$に設定されました",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "1w"
+         }
+      }
+   },
+   "timestampFormat_M": {
+      "description": "Timestamp format string for displaying month and day (but not the year) of a date within the current year, ex: use 'MMM D' for 'Aug 8', or 'D MMM' for '8 Aug'.",
+      "message": "MMM D"
+   },
+   "timestamp_h": {
+      "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble.",
+      "message": "1時間"
+   },
+   "timestamp_m": {
+      "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble.",
+      "message": "1分"
+   },
+   "timestamp_s": {
+      "description": "Brief timestamp for messages sent less than a minute ago. Displayed in the conversation list and message bubble.",
+      "message": "１分以内"
+   },
+   "to": {
+      "description": "Label for the receiver of a message",
+      "message": "宛先"
+   },
+   "unblockToSend": {
+      "description": "Brief message shown when trying to message a blocked number",
+      "message": "この連絡先にメッセージを送るためにブロックを解除する。"
+   },
+   "unlinked": {
+      "description": "",
+      "message": "未接続"
+   },
+   "unlinkedWarning": {
+      "description": "",
+      "message": "メッセージを継続するために携帯端末と再接続する。"
+   },
+   "unregisteredUser": {
+      "description": "Error message displayed when sending to an unregistered user.",
+      "message": "宛先の電話番号は登録されていません"
+   },
+   "unsupportedAttachment": {
+      "description": "Displayed for incoming unsupported attachment",
+      "message": "サポートされていない種類の添付ファイルです。クリックして保存してください。"
+   },
+   "unsupportedFileType": {
+      "description": "Displayed for outgoing unsupported attachment",
+      "message": "サポートされていない種類のファイル"
+   },
+   "upgrade": {
+      "description": "Label text for button to upgrade the app to the latest version",
+      "message": "アップデート"
+   },
+   "verify": {
+      "description": "",
+      "message": "確認する"
+   },
+   "verifyContact": {
+      "description": "Use $tag_start$ and $tag_end$ to wrap the word or phrase in this sentence that the user should click on in order to navigate to the verification screen. These placeholders will be replaced with appropriate HTML code.",
+      "message": "このコンタクトとの $tag_start$ 安全番号 $tag_end$ を確認することができます。",
+      "placeholders": {
+         "tag_end": {
+            "content": "\u003C/a>"
+         },
+         "tag_start": {
+            "content": "\u003Ca class='verify' href='#'>"
+         }
+      }
+   },
+   "verifySafetyNumbers": {
+      "description": "",
+      "message": "安全番号を確認"
+   },
+   "welcomeToSignal": {
+      "description": "",
+      "message": "Signalにようこそ"
+   },
+   "youChangedTheTimer": {
+      "description": "Message displayed when you change the message expiration timer in a conversation.",
+      "message": "タイマーを$time$に設定しました",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "10m"
+         }
+      }
+   },
+   "yourSafetyNumberWith": {
+      "description": "Heading for safety number view",
+      "message": "$name$ との安全番号",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "John"
+         }
+      }
+   }
+}

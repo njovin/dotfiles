@@ -1,0 +1,564 @@
+{
+   "acceptNewKey": {
+      "description": "Label for a button to accept a new safety number",
+      "message": "Прийняти"
+   },
+   "attemptingReconnection": {
+      "description": "",
+      "message": "Attempting reconnect in $reconnect_duration_in_seconds$ seconds",
+      "placeholders": {
+         "reconnect_duration_in_seconds": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "audioNotificationDescription": {
+      "description": "Description for audio notification setting",
+      "message": "Play audio notification"
+   },
+   "cancel": {
+      "description": "",
+      "message": "Відмінити"
+   },
+   "checkNetworkConnection": {
+      "description": "Obvious instructions for when a user's computer loses its network connection",
+      "message": "Check your network connection."
+   },
+   "connecting": {
+      "description": "",
+      "message": "Connecting"
+   },
+   "debugLogExplanation": {
+      "description": "",
+      "message": "Цей журнал буде доступний для розробників. Ви можете перевірити його перед відправкою."
+   },
+   "deleteConversationConfirmation": {
+      "description": "Confirmation dialog text that asks the user if they really wish to delete the conversation. Answer buttons use the strings 'ok' and 'cancel'. The deletion is permanent, i.e. it cannot be undone.",
+      "message": "Видалити цю розмову без можливості відновлення?"
+   },
+   "deleteMessages": {
+      "description": "Menu item for deleting messages, title case.",
+      "message": "Видалити повідомлення"
+   },
+   "disableNotifications": {
+      "description": "Label for disabling notifications",
+      "message": "Вимкнути нотифікації"
+   },
+   "disappearingMessages": {
+      "description": "Conversation menu option to enable disappearing messages",
+      "message": "Зникаючі повідомлення "
+   },
+   "disconnected": {
+      "description": "",
+      "message": "Від'єднано"
+   },
+   "error": {
+      "description": "",
+      "message": "Помилка"
+   },
+   "expiredWarning": {
+      "description": "Warning notification that this version of the app has expired",
+      "message": "Ця версія застаріла. Оновіться до останньої версії щоб продовжити спілкування."
+   },
+   "failedToSend": {
+      "description": "",
+      "message": "Не вдалося відіслати деяким адресатам. Перевірте ваше мережеве з'єднання."
+   },
+   "fileSizeWarning": {
+      "description": "",
+      "message": "Вибачте, але розмір обраного файлу перевищує обмеження."
+   },
+   "from": {
+      "description": "Label for the sender of a message",
+      "message": "Від"
+   },
+   "gotIt": {
+      "description": "Label for a button that dismisses a dialog. The user clicks it to confirm that they understand the message in the dialog.",
+      "message": "Зрозуміло!"
+   },
+   "identityChanged": {
+      "description": "",
+      "message": "Your safety number with this contact has changed. This could either mean that someone is trying to intercept your communication, or this contact simply reinstalled Signal. You may wish to verify the new safety number below."
+   },
+   "incomingError": {
+      "description": "",
+      "message": "Помилка прийому вхідного повідомлення."
+   },
+   "incomingKeyConflict": {
+      "description": "",
+      "message": "Received message with a new safety number. Click to process and display."
+   },
+   "installAndroidInstructions": {
+      "description": "",
+      "message": "Відкрийте Signal у своєму телефоні і перейдіть у Налаштування > Пов'язані пристрої. Торкніться кнопки додавання нового пристрою і проскануйте QR-код."
+   },
+   "installComputerName": {
+      "description": "Text displayed before the input where the user can enter the name for this device.",
+      "message": "Ім'я цього комп'ютера буде"
+   },
+   "installConnecting": {
+      "description": "Displayed when waiting for the QR Code",
+      "message": "З'єднання..."
+   },
+   "installConnectionFailed": {
+      "description": "Displayed when we can't connect to the server.",
+      "message": "Не вдалося підключитись до сервера."
+   },
+   "installFinalButton": {
+      "description": "The final button for the install process, after the user has entered a name for their device",
+      "message": "Виглядає добре"
+   },
+   "installFollowUs": {
+      "description": "",
+      "message": "\u003Ca $a_params$>Приєднуйтесь\u003C/a>,  щоб дізнаватись про оновлення  та підтримку багатьох пристроїв у iOS.",
+      "placeholders": {
+         "a_params": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installGeneratingKeys": {
+      "description": "",
+      "message": "Створення Ключів"
+   },
+   "installGetStartedButton": {
+      "description": "",
+      "message": "Давайте почнемо"
+   },
+   "installGotIt": {
+      "description": "Button for the user to confirm that they have Signal installed.",
+      "message": "Зрозуміло"
+   },
+   "installIHaveSignalButton": {
+      "description": "Button for the user to confirm that they have Signal for Android",
+      "message": "Я маю Signal для Android"
+   },
+   "installLinkingWithNumber": {
+      "description": "Text displayed before the phone number that the user is in the process of linking with",
+      "message": "Пов'язування з"
+   },
+   "installSignalLink": {
+      "description": "Prompt the user to install Signal on Android before linking",
+      "message": "Встановіть \u003Ca $a_params$>Signal\u003C/a> на вашому Android смартфоні.\u003Cbr />\nМи пов'яжемо ваші пристрої і синхронізуємо повідомлення.",
+      "placeholders": {
+         "a_params": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installSignalLinks": {
+      "description": "Prompt the user to install Signal on their phone before linking",
+      "message": "Встановіть Signal на вашому \u003Ca $play_store$>Android\u003C/a> смартфоні чи \u003Ca $app_store$>iPhone\u003C/a>\u003Cbr />\nМи пов'яжемо ваші пристрої і синхронізуємо повідомлення.",
+      "placeholders": {
+         "app_store": {
+            "content": "$2",
+            "example": "href='http://example.com'"
+         },
+         "play_store": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installSyncingGroupsAndContacts": {
+      "description": "",
+      "message": "Синхронізація груп та контактів"
+   },
+   "installTagline": {
+      "description": "Tagline displayed under installWelcome on the install page",
+      "message": "Приватність - це можливо. Signal робить її досягнення простим."
+   },
+   "installTooManyDevices": {
+      "description": "",
+      "message": "Вибачте, у вас забагато пов'язаних пристроїв. Видаліть які-небудь."
+   },
+   "installWelcome": {
+      "description": "Welcome title on the install page",
+      "message": "Ласкаво просимо до Signal Desktop"
+   },
+   "invalidNumberError": {
+      "description": "When a person inputs a number that is invalid",
+      "message": "Invalid number"
+   },
+   "keychanged": {
+      "description": "",
+      "message": "Your safety number with $name$ has changed.",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "John"
+         }
+      }
+   },
+   "lastSynced": {
+      "description": "Label for date and time of last sync operation",
+      "message": "Останній імпорт в"
+   },
+   "learnMore": {
+      "description": "Text that links to a support article on verifying safety numbers",
+      "message": "Learn more about verifying safety numbers"
+   },
+   "mediaMessage": {
+      "description": "Description of a message that has an attachment and no text, displayed in the conversation list as a preview.",
+      "message": "Медіа повідомлення"
+   },
+   "members": {
+      "description": "",
+      "message": "Учасники"
+   },
+   "messageDetail": {
+      "description": "",
+      "message": "Деталі повідомлення"
+   },
+   "messageNotSent": {
+      "description": "Informational label, appears on messages that failed to send",
+      "message": "Повідомлення не надіслане."
+   },
+   "nameAndMessage": {
+      "description": "Label for setting notifications to display name and message text",
+      "message": "Ім'я відправника і повідомлення"
+   },
+   "nameOnly": {
+      "description": "Label for setting notifications to display sender name only",
+      "message": "Тільки ім'я відправника"
+   },
+   "newContact": {
+      "description": "",
+      "message": "Click to create new contact"
+   },
+   "newIdentity": {
+      "description": "Header for a key change dialog",
+      "message": "New safety number"
+   },
+   "newMessage": {
+      "description": "Displayed in notifications for only 1 message",
+      "message": "Нове Повідомлення"
+   },
+   "newMessages": {
+      "description": "Displayed in notifications for multiple messages",
+      "message": "Нові Повідомлення"
+   },
+   "newPhoneNumber": {
+      "description": "Placeholder for adding a new number to a contact",
+      "message": "Enter a phone number to add a contact."
+   },
+   "noNameOrMessage": {
+      "description": "Label for setting notifications to display no name and no message text",
+      "message": "Нічого"
+   },
+   "notificationSettingsDialog": {
+      "description": "Explain the purpose of the notification settings",
+      "message": "При отриманні повідомлення показувати нотифікації які відображають:"
+   },
+   "notifications": {
+      "description": "Header for notification settings",
+      "message": "Нотифікації"
+   },
+   "offline": {
+      "description": "",
+      "message": "Offline"
+   },
+   "ok": {
+      "description": "",
+      "message": "Добре"
+   },
+   "outgoingKeyConflict": {
+      "description": "",
+      "message": "Your safety number with this contact has changed. Click to process and display."
+   },
+   "received": {
+      "description": "Label for the time a message was received",
+      "message": "Отримано"
+   },
+   "relink": {
+      "description": "",
+      "message": "Relink"
+   },
+   "reportIssue": {
+      "description": "Link to open the issue tracker",
+      "message": "Повідомити про ваду"
+   },
+   "resend": {
+      "description": "",
+      "message": "Надіслати знову"
+   },
+   "resetSession": {
+      "description": "This is a menu item for resetting the session, using the imperative case, as in a command.",
+      "message": "Скинути сесію"
+   },
+   "restartSignal": {
+      "description": "Menu item for restarting the program.",
+      "message": "Перезапустити Signal"
+   },
+   "safetyNumbersSettingDescription": {
+      "description": "Description for safety numbers setting",
+      "message": "Require approval of new safety numbers when they change"
+   },
+   "safetyNumbersSettingHeader": {
+      "description": "Header for safety numbers setting",
+      "message": "Підтвердження кодів безпеки"
+   },
+   "searchForPeopleOrGroups": {
+      "description": "Placeholder text in the search input",
+      "message": "Пошук..."
+   },
+   "selectAContact": {
+      "description": "",
+      "message": "Оберіть контакт чи групу щоб почати спілкування."
+   },
+   "sendMessage": {
+      "description": "Placeholder text in the message entry field",
+      "message": "Надіслати повідомлення"
+   },
+   "sent": {
+      "description": "Label for the time a message was sent",
+      "message": "Надіслано"
+   },
+   "sessionEnded": {
+      "description": "This is a past tense, informational message. In other words, your secure session has been reset.",
+      "message": "Захищену сесію перезапущено"
+   },
+   "settings": {
+      "description": "Menu item and header for global settings",
+      "message": "Налаштування"
+   },
+   "showLess": {
+      "description": "Hides the details of a key change",
+      "message": "Сховати деталі"
+   },
+   "showMore": {
+      "description": "Displays the details of a key change",
+      "message": "Деталі"
+   },
+   "submit": {
+      "description": "",
+      "message": "Надіслати"
+   },
+   "submitDebugLog": {
+      "description": "Menu item and header text for debug log modal, title case.",
+      "message": "Надіслати журнал відладки"
+   },
+   "sync": {
+      "description": "Label for contact and group sync settings",
+      "message": "Контакти"
+   },
+   "syncExplanation": {
+      "description": "Explanatory text for sync settings",
+      "message": "Імпортувати всі контакти та групи з вашого мобільного пристрою."
+   },
+   "syncFailed": {
+      "description": "Informational text displayed if a sync operation times out.",
+      "message": "Імпорт закінчився невдало. Впевніться, що ваш комп'ютер та мобільний пристрій маютть доступ до інтернету."
+   },
+   "syncNow": {
+      "description": "Label for a button that syncs contacts and groups from your phone",
+      "message": "Імпортувати"
+   },
+   "syncing": {
+      "description": "Label for a disabled sync button while sync is in progress.",
+      "message": "Імпортую..."
+   },
+   "theirIdentityUnknown": {
+      "description": "",
+      "message": "You haven't exchanged any messages with this contact yet. Your safety number with them will be available after the first message."
+   },
+   "theme": {
+      "description": "Header for theme settings",
+      "message": "Тема"
+   },
+   "themeAndroidDark": {
+      "description": "Label text for dark Android theme",
+      "message": "Android (dark)"
+   },
+   "theyChangedTheTimer": {
+      "description": "Message displayed when someone else changes the message expiration timer in a conversation.",
+      "message": "$name$ встановив(ла) таймер на $time$.",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Bob"
+         },
+         "time": {
+            "content": "$2",
+            "example": "10m"
+         }
+      }
+   },
+   "timerOption_0_seconds": {
+      "description": "Label for option to turn off message expiration in the timer menu",
+      "message": "вимкнено"
+   },
+   "timerOption_0_seconds_abbreviated": {
+      "description": "Short format indicating current timer setting in the conversation list snippet",
+      "message": "вимкн"
+   },
+   "timerOption_10_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "10 секунд"
+   },
+   "timerOption_10_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "10с"
+   },
+   "timerOption_12_hours_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "12г"
+   },
+   "timerOption_1_day": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "1 день"
+   },
+   "timerOption_1_day_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1д"
+   },
+   "timerOption_1_hour_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1г"
+   },
+   "timerOption_1_minute_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1хв"
+   },
+   "timerOption_1_week": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "1 тиждень"
+   },
+   "timerOption_1_week_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1т"
+   },
+   "timerOption_30_minutes_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "30хв"
+   },
+   "timerOption_30_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "30 секунд"
+   },
+   "timerOption_30_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "30с"
+   },
+   "timerOption_5_minutes_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "5хв"
+   },
+   "timerOption_5_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "5 секунд"
+   },
+   "timerOption_5_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "5с"
+   },
+   "timerOption_6_hours_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "6г"
+   },
+   "timerSetTo": {
+      "description": "Displayed in the conversation list when the timer is updated.",
+      "message": "Таймер встановленно на $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "1w"
+         }
+      }
+   },
+   "timestampFormat_M": {
+      "description": "Timestamp format string for displaying month and day (but not the year) of a date within the current year, ex: use 'MMM D' for 'Aug 8', or 'D MMM' for '8 Aug'.",
+      "message": "D MMM"
+   },
+   "timestamp_h": {
+      "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble.",
+      "message": "1 година"
+   },
+   "timestamp_m": {
+      "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble.",
+      "message": "1 хвилина"
+   },
+   "timestamp_s": {
+      "description": "Brief timestamp for messages sent less than a minute ago. Displayed in the conversation list and message bubble.",
+      "message": "зараз"
+   },
+   "to": {
+      "description": "Label for the receiver of a message",
+      "message": "Кому"
+   },
+   "unblockToSend": {
+      "description": "Brief message shown when trying to message a blocked number",
+      "message": "Розблокувати контакт."
+   },
+   "unlinked": {
+      "description": "",
+      "message": "Unlinked"
+   },
+   "unlinkedWarning": {
+      "description": "",
+      "message": "Relink Signal Desktop to your mobile device to continue messaging."
+   },
+   "unregisteredUser": {
+      "description": "Error message displayed when sending to an unregistered user.",
+      "message": "Номер не зареєстровано"
+   },
+   "unsupportedAttachment": {
+      "description": "Displayed for incoming unsupported attachment",
+      "message": "Непідтримуваний формат вкладення. Клацніть щоб зберегти."
+   },
+   "unsupportedFileType": {
+      "description": "Displayed for outgoing unsupported attachment",
+      "message": "Непідтримуваний формат файлу."
+   },
+   "upgrade": {
+      "description": "Label text for button to upgrade the app to the latest version",
+      "message": "Оновити"
+   },
+   "verify": {
+      "description": "",
+      "message": "Перевірити"
+   },
+   "verifyContact": {
+      "description": "Use $tag_start$ and $tag_end$ to wrap the word or phrase in this sentence that the user should click on in order to navigate to the verification screen. These placeholders will be replaced with appropriate HTML code.",
+      "message": "You may wish to $tag_start$ verify $tag_end$ your safety number with this contact.",
+      "placeholders": {
+         "tag_end": {
+            "content": "\u003C/a>"
+         },
+         "tag_start": {
+            "content": "\u003Ca class='verify' href='#'>"
+         }
+      }
+   },
+   "verifySafetyNumbers": {
+      "description": "",
+      "message": "Verify safety number"
+   },
+   "welcomeToSignal": {
+      "description": "",
+      "message": "Ласкаво просимо до Signal"
+   },
+   "youChangedTheTimer": {
+      "description": "Message displayed when you change the message expiration timer in a conversation.",
+      "message": "Ви встановили таймер на $time$.",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "10m"
+         }
+      }
+   },
+   "yourSafetyNumberWith": {
+      "description": "Heading for safety number view",
+      "message": "Your safety number with $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "John"
+         }
+      }
+   }
+}

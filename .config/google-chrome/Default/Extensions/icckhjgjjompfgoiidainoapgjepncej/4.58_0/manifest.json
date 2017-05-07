@@ -1,0 +1,75 @@
+{
+   "background": {
+      "page": "background/background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/browser-action-icon.png",
+         "38": "images/browser-action-icon.png"
+      },
+      "default_popup": "popup/popup.html",
+      "default_title": "Media Keys by Sway.fm"
+   },
+   "commands": {
+      "favorite": {
+         "description": "Mark Song as Favorite (If supported)",
+         "global": true
+      },
+      "next": {
+         "description": "Next Song",
+         "global": true,
+         "suggested_key": {
+            "default": "MediaNextTrack"
+         }
+      },
+      "pause": {
+         "description": "Play/Pause",
+         "global": true,
+         "suggested_key": {
+            "default": "MediaPlayPause"
+         }
+      },
+      "previous": {
+         "description": "Previous Song",
+         "global": true,
+         "suggested_key": {
+            "default": "MediaPrevTrack"
+         }
+      },
+      "stop": {
+         "description": "Stop Audio",
+         "global": true,
+         "suggested_key": {
+            "default": "MediaStop"
+         }
+      },
+      "thumbsDown": {
+         "description": "Thumbs Down Song (If supported)",
+         "global": true
+      },
+      "thumbsUp": {
+         "description": "Thumbs Up Song (If supported)",
+         "global": true
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "content_scripts/content.js", "controllers/BasicController.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "patterns": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": "script-src 'self' https://ws.audioscrobbler.com https://dc8na2hxrj29i.cloudfront.net https://www.google-analytics.com; object-src 'self';",
+   "description": "Media keys support for online radio and streaming music apps.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMsbpG8X7CA649UEdX+8XHm3sMxoq4te4Q+8e78pWfHwtvBes1w+7nt76BL7mcXPwEixPYTL5EtYermOHSvsOheX/QDCY/2J3RXcoAa4SvKmmg7h0HJF6X2diRj4capZSzaj+rze7pATZ7t4alOj6scD9JE2GDhMkKrtx+4tjTUwIDAQAB",
+   "manifest_version": 2,
+   "name": "Media Keys by Sway.fm",
+   "options_page": "options/options.html",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "notifications", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.58"
+}

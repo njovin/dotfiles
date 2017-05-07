@@ -1,0 +1,101 @@
+<monitors version="1">
+  <configuration>
+      <clone>no</clone>
+      <output name="DVI-I-1">
+          <vendor>BNQ</vendor>
+          <product>0x78ca</product>
+          <serial>0x00005445</serial>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+          <x>1680</x>
+          <y>68</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="DP-1">
+      </output>
+      <output name="DP-2">
+      </output>
+      <output name="DP-3">
+      </output>
+      <output name="HDMI-1">
+          <vendor>ACR</vendor>
+          <product>0xad98</product>
+          <serial>0x7090868d</serial>
+          <width>1680</width>
+          <height>1050</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>no</primary>
+      </output>
+  </configuration>
+  <configuration>
+      <clone>no</clone>
+      <output name="DVI-I-1">
+          <vendor>BNQ</vendor>
+          <product>0x78ca</product>
+          <serial>0x00005445</serial>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+          <x>1680</x>
+          <y>54</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="HDMI-1">
+          <vendor>ACR</vendor>
+          <product>0xad98</product>
+          <serial>0x7090868d</serial>
+          <width>1680</width>
+          <height>1050</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>no</primary>
+      </output>
+  </configuration>
+  <configuration>
+      <clone>no</clone>
+      <output name="DVI-I-1">
+          <vendor>BNQ</vendor>
+          <product>0x78ca</product>
+          <serial>0x00005445</serial>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+          <x>1680</x>
+          <y>54</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="HDMI-0">
+          <vendor>ACR</vendor>
+          <product>0xad98</product>
+          <serial>0x7090868d</serial>
+          <width>1680</width>
+          <height>1050</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>no</primary>
+      </output>
+  </configuration>
+</monitors>

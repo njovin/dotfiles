@@ -1,0 +1,31 @@
+2017-04-20T00:06:57.407Z - info: T046GGDMC usage: 78307892
+2017-04-20T00:06:57.408Z - info: T3T9JUKED usage: 45519581
+2017-04-20T00:06:57.408Z - info: T02PG39GD usage: 1082064283
+2017-04-20T00:06:57.416Z - info: SET_NETWORK_STATUS : "online"
+2017-04-20T00:06:57.519Z - info: Checking network connection to Slack...
+2017-04-20T00:07:00.023Z - info: Checking network connection to Slack...
+2017-04-20T00:07:02.523Z - info: Checking network connection to Slack...
+2017-04-20T00:07:05.023Z - info: Checking network connection to Slack...
+2017-04-20T00:07:14.200Z - info: Bugsnag user: U105XR7TR
+2017-04-20T00:35:49.298Z - info: WebView received redirect request from https://slack.com/signout/4220557726?crumb=s-1492646826-d9b8894d04-%E2%98%83 to https://hschub.slack.com/signout/done
+2017-04-20T00:35:49.534Z - info: SELECT_TEAM : "T02PG39GD"
+2017-04-20T00:35:49.545Z - info: Team T046GGDMC was active for 1732136
+2017-04-20T00:35:50.645Z - warn: Attempting to update TeamSelectorItem when unmounted
+2017-04-20T00:35:50.645Z - warn: Attempting to update TeamIcon when unmounted
+2017-04-20T00:35:50.646Z - warn: Attempting to update TeamUnloadingBehavior when unmounted
+2017-04-20T00:35:50.646Z - warn: Attempting to update TeamView when unmounted
+2017-04-20T00:35:50.646Z - warn: Attempting to update WebViewContext when unmounted
+2017-04-20T00:36:00.686Z - info: SELECT_TEAM : "T3T9JUKED"
+2017-04-20T00:36:00.698Z - info: Team T02PG39GD was active for 11153
+2017-04-20T00:36:00.707Z - info: Restoring team hal0420
+2017-04-20T00:36:02.298Z - info: SELECT_TEAM : "T02PG39GD"
+2017-04-20T00:36:02.305Z - info: Team T3T9JUKED was active for 1607
+2017-04-20T00:36:03.692Z - info: SELECT_TEAM : "T3T9JUKED"
+2017-04-20T00:36:03.704Z - info: Team T02PG39GD was active for 1399
+2017-04-20T00:38:31.139Z - info: SELECT_TEAM : "T02PG39GD"
+2017-04-20T00:38:31.150Z - info: Team T3T9JUKED was active for 147446
+2017-04-20T00:39:38.025Z - info: SELECT_TEAM : "T3T9JUKED"
+2017-04-20T00:39:38.033Z - info: Team T02PG39GD was active for 66883
+2017-04-20T12:39:38.047Z - info: Unloading team Zingle
+2017-04-21T04:09:28.829Z - info: SELECT_TEAM : "T02PG39GD"
+2017-04-21T04:09:28.839Z - info: Team T3T9JUKED was active for 98990806

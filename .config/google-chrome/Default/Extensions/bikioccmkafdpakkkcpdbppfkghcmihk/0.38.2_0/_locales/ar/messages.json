@@ -1,0 +1,564 @@
+{
+   "acceptNewKey": {
+      "description": "Label for a button to accept a new safety number",
+      "message": "موافقة"
+   },
+   "attemptingReconnection": {
+      "description": "",
+      "message": "Attempting reconnect in $reconnect_duration_in_seconds$ seconds",
+      "placeholders": {
+         "reconnect_duration_in_seconds": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "audioNotificationDescription": {
+      "description": "Description for audio notification setting",
+      "message": "Play audio notification"
+   },
+   "cancel": {
+      "description": "",
+      "message": "إلغاء"
+   },
+   "checkNetworkConnection": {
+      "description": "Obvious instructions for when a user's computer loses its network connection",
+      "message": "Check your network connection."
+   },
+   "connecting": {
+      "description": "",
+      "message": "Connecting"
+   },
+   "debugLogExplanation": {
+      "description": "",
+      "message": "هذه السجلاّت سيتم نشرها علنا ليتمكن المساهمون من معاينتها. ربما ترغب فى تعديلها أو التحقق منها قبل إرسالها. "
+   },
+   "deleteConversationConfirmation": {
+      "description": "Confirmation dialog text that asks the user if they really wish to delete the conversation. Answer buttons use the strings 'ok' and 'cancel'. The deletion is permanent, i.e. it cannot be undone.",
+      "message": "حذف المحادثة بصفة نهائية ؟"
+   },
+   "deleteMessages": {
+      "description": "Menu item for deleting messages, title case.",
+      "message": "حذف الرسائل"
+   },
+   "disableNotifications": {
+      "description": "Label for disabling notifications",
+      "message": "تعطيل الإشعارات"
+   },
+   "disappearingMessages": {
+      "description": "Conversation menu option to enable disappearing messages",
+      "message": "الرسائل المختفية"
+   },
+   "disconnected": {
+      "description": "",
+      "message": "غير متصّل"
+   },
+   "error": {
+      "description": "",
+      "message": "خطأ"
+   },
+   "expiredWarning": {
+      "description": "Warning notification that this version of the app has expired",
+      "message": "انتهت صلاحية هذا الإصدار من سيغنال للحاسوب. الرجاء الارتقاء الى أحدث إصدار لمواصلة الرسائل."
+   },
+   "failedToSend": {
+      "description": "",
+      "message": "فشل سيغنال في الارسال لبعض المستخدمين. تأكد من الاتصال بالشبكة."
+   },
+   "fileSizeWarning": {
+      "description": "",
+      "message": "معذرة. حجم الملف المختار يتجاوز حد الرسالة الأقصى."
+   },
+   "from": {
+      "description": "Label for the sender of a message",
+      "message": "مِن"
+   },
+   "gotIt": {
+      "description": "Label for a button that dismisses a dialog. The user clicks it to confirm that they understand the message in the dialog.",
+      "message": "واضح"
+   },
+   "identityChanged": {
+      "description": "",
+      "message": "Your safety number with this contact has changed. This could either mean that someone is trying to intercept your communication, or this contact simply reinstalled Signal. You may wish to verify the new safety number below."
+   },
+   "incomingError": {
+      "description": "",
+      "message": "خطأ في التعامل مع الرسائل الواردة"
+   },
+   "incomingKeyConflict": {
+      "description": "",
+      "message": "Received message with a new safety number. Click to process and display."
+   },
+   "installAndroidInstructions": {
+      "description": "",
+      "message": "افتح سيغنال على هاتفك وانتقل إلى الإعدادات> الأجهزة المرتبطة. اضغط على الزر لإضافة جهاز جديد، ثم امسح الرمز أعلاه."
+   },
+   "installComputerName": {
+      "description": "Text displayed before the input where the user can enter the name for this device.",
+      "message": "اسم هذا الحاسوب سيكون:"
+   },
+   "installConnecting": {
+      "description": "Displayed when waiting for the QR Code",
+      "message": "جاري الاتصال..."
+   },
+   "installConnectionFailed": {
+      "description": "Displayed when we can't connect to the server.",
+      "message": "محاولة الاتصال بالمخدّم فشلت"
+   },
+   "installFinalButton": {
+      "description": "The final button for the install process, after the user has entered a name for their device",
+      "message": "تمام"
+   },
+   "installFollowUs": {
+      "description": "",
+      "message": "\u003Ca $a_params$> تابعنا \u003C/a> لمعرفة آخر الأخبار عن دعم عدة أجهزة على آي أو إس iOS.",
+      "placeholders": {
+         "a_params": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installGeneratingKeys": {
+      "description": "",
+      "message": "توليد مفاتيح"
+   },
+   "installGetStartedButton": {
+      "description": "",
+      "message": "لنبدأ"
+   },
+   "installGotIt": {
+      "description": "Button for the user to confirm that they have Signal installed.",
+      "message": "فهمت"
+   },
+   "installIHaveSignalButton": {
+      "description": "Button for the user to confirm that they have Signal for Android",
+      "message": "لدي تطبيق سيجنال Signal على الأندرويد"
+   },
+   "installLinkingWithNumber": {
+      "description": "Text displayed before the phone number that the user is in the process of linking with",
+      "message": "ارتباط بـ :"
+   },
+   "installSignalLink": {
+      "description": "Prompt the user to install Signal on Android before linking",
+      "message": "اولا قم بتنصيب \u003Ca $a_params$> سيجنال \u003C/a> على هاتف الاندرويد خاصتك. \u003Cbr /> سنقوم بربط و مزامنة جهازك.",
+      "placeholders": {
+         "a_params": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installSignalLinks": {
+      "description": "Prompt the user to install Signal on their phone before linking",
+      "message": "أولا, ثبت التطبيق على \u003Ca $play_store$>أندرويد\u003C/a> أو \u003Ca $app_store$>أيفون\u003C/a>.\u003Cbr /> و سنربط أجهزتك لنبقي رسائلك متزامنة.",
+      "placeholders": {
+         "app_store": {
+            "content": "$2",
+            "example": "href='http://example.com'"
+         },
+         "play_store": {
+            "content": "$1",
+            "example": "href='http://example.com'"
+         }
+      }
+   },
+   "installSyncingGroupsAndContacts": {
+      "description": "",
+      "message": "مزامنة المجموعات و جهات الاتصال"
+   },
+   "installTagline": {
+      "description": "Tagline displayed under installWelcome on the install page",
+      "message": "الحفاظ على الخصوصية أمر ممكن. سيجنال Signal يجعل ذلك سهلا."
+   },
+   "installTooManyDevices": {
+      "description": "",
+      "message": "معذرة، لديك أجهزة كثيرة مرتبطة مسبقا. حاول إزالة بعضها."
+   },
+   "installWelcome": {
+      "description": "Welcome title on the install page",
+      "message": "سيجنال للحاسوب. مرحبا بك "
+   },
+   "invalidNumberError": {
+      "description": "When a person inputs a number that is invalid",
+      "message": "Invalid number"
+   },
+   "keychanged": {
+      "description": "",
+      "message": "Your safety number with $name$ has changed.",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "John"
+         }
+      }
+   },
+   "lastSynced": {
+      "description": "Label for date and time of last sync operation",
+      "message": "آخر تحميل في"
+   },
+   "learnMore": {
+      "description": "Text that links to a support article on verifying safety numbers",
+      "message": "Learn more about verifying safety numbers"
+   },
+   "mediaMessage": {
+      "description": "Description of a message that has an attachment and no text, displayed in the conversation list as a preview.",
+      "message": "رسائل الاعلام"
+   },
+   "members": {
+      "description": "",
+      "message": "أعضاء"
+   },
+   "messageDetail": {
+      "description": "",
+      "message": "تفاصيل الرسالة"
+   },
+   "messageNotSent": {
+      "description": "Informational label, appears on messages that failed to send",
+      "message": "لم يتم إرسال الرسالة."
+   },
+   "nameAndMessage": {
+      "description": "Label for setting notifications to display name and message text",
+      "message": "الاسم والرسالة"
+   },
+   "nameOnly": {
+      "description": "Label for setting notifications to display sender name only",
+      "message": "اسم المُرسِل فقط"
+   },
+   "newContact": {
+      "description": "",
+      "message": "Click to create new contact"
+   },
+   "newIdentity": {
+      "description": "Header for a key change dialog",
+      "message": "New safety number"
+   },
+   "newMessage": {
+      "description": "Displayed in notifications for only 1 message",
+      "message": "رسالة جديدة"
+   },
+   "newMessages": {
+      "description": "Displayed in notifications for multiple messages",
+      "message": "رسائل جديدة"
+   },
+   "newPhoneNumber": {
+      "description": "Placeholder for adding a new number to a contact",
+      "message": "Enter a phone number to add a contact."
+   },
+   "noNameOrMessage": {
+      "description": "Label for setting notifications to display no name and no message text",
+      "message": "لا الاسم ولا الرسالة"
+   },
+   "notificationSettingsDialog": {
+      "description": "Explain the purpose of the notification settings",
+      "message": "عند وصول الرسائل، أظهر إشعارات تتضمن:"
+   },
+   "notifications": {
+      "description": "Header for notification settings",
+      "message": "الإشعارات"
+   },
+   "offline": {
+      "description": "",
+      "message": "Offline"
+   },
+   "ok": {
+      "description": "",
+      "message": "حسنا"
+   },
+   "outgoingKeyConflict": {
+      "description": "",
+      "message": "Your safety number with this contact has changed. Click to process and display."
+   },
+   "received": {
+      "description": "Label for the time a message was received",
+      "message": "استُقبلت"
+   },
+   "relink": {
+      "description": "",
+      "message": "Relink"
+   },
+   "reportIssue": {
+      "description": "Link to open the issue tracker",
+      "message": "بلّغ عن مشكل"
+   },
+   "resend": {
+      "description": "",
+      "message": "اعادة إرسال "
+   },
+   "resetSession": {
+      "description": "This is a menu item for resetting the session, using the imperative case, as in a command.",
+      "message": "تصفير الجلسة"
+   },
+   "restartSignal": {
+      "description": "Menu item for restarting the program.",
+      "message": "اعادة تشغيل سيجنال Signal"
+   },
+   "safetyNumbersSettingDescription": {
+      "description": "Description for safety numbers setting",
+      "message": "Require approval of new safety numbers when they change"
+   },
+   "safetyNumbersSettingHeader": {
+      "description": "Header for safety numbers setting",
+      "message": "الموافقة على أرقام الأمن"
+   },
+   "searchForPeopleOrGroups": {
+      "description": "Placeholder text in the search input",
+      "message": "بحث..."
+   },
+   "selectAContact": {
+      "description": "",
+      "message": "اختر جهة اتصال او مجموعة لبدء محادثه."
+   },
+   "sendMessage": {
+      "description": "Placeholder text in the message entry field",
+      "message": "أرسل رسالة"
+   },
+   "sent": {
+      "description": "Label for the time a message was sent",
+      "message": "أُرسلت"
+   },
+   "sessionEnded": {
+      "description": "This is a past tense, informational message. In other words, your secure session has been reset.",
+      "message": "تجديد جلسة آمنة"
+   },
+   "settings": {
+      "description": "Menu item and header for global settings",
+      "message": "إعدادات"
+   },
+   "showLess": {
+      "description": "Hides the details of a key change",
+      "message": "اخفاء التفاصيل"
+   },
+   "showMore": {
+      "description": "Displays the details of a key change",
+      "message": "تفاصيل"
+   },
+   "submit": {
+      "description": "",
+      "message": "إرسال"
+   },
+   "submitDebugLog": {
+      "description": "Menu item and header text for debug log modal, title case.",
+      "message": "إرسال سجل الأخطاء"
+   },
+   "sync": {
+      "description": "Label for contact and group sync settings",
+      "message": "جهات الإتصال"
+   },
+   "syncExplanation": {
+      "description": "Explanatory text for sync settings",
+      "message": "تحميل كل المجموعات و جهات إتصال التطبيق من جهازك المحمول"
+   },
+   "syncFailed": {
+      "description": "Informational text displayed if a sync operation times out.",
+      "message": "خطأ في التحميل، تأكد أن الكمبيوتر و هاتفك متصلان بالإنترنت"
+   },
+   "syncNow": {
+      "description": "Label for a button that syncs contacts and groups from your phone",
+      "message": "حمل الآن"
+   },
+   "syncing": {
+      "description": "Label for a disabled sync button while sync is in progress.",
+      "message": "يتم التحميل"
+   },
+   "theirIdentityUnknown": {
+      "description": "",
+      "message": "You haven't exchanged any messages with this contact yet. Your safety number with them will be available after the first message."
+   },
+   "theme": {
+      "description": "Header for theme settings",
+      "message": "السمة"
+   },
+   "themeAndroidDark": {
+      "description": "Label text for dark Android theme",
+      "message": "Android (dark)"
+   },
+   "theyChangedTheTimer": {
+      "description": "Message displayed when someone else changes the message expiration timer in a conversation.",
+      "message": "$name$ حدد المؤقت على $time$.",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Bob"
+         },
+         "time": {
+            "content": "$2",
+            "example": "10m"
+         }
+      }
+   },
+   "timerOption_0_seconds": {
+      "description": "Label for option to turn off message expiration in the timer menu",
+      "message": "توقف"
+   },
+   "timerOption_0_seconds_abbreviated": {
+      "description": "Short format indicating current timer setting in the conversation list snippet",
+      "message": "توقف"
+   },
+   "timerOption_10_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "10 ثواني"
+   },
+   "timerOption_10_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "10 ث"
+   },
+   "timerOption_12_hours_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "12سا"
+   },
+   "timerOption_1_day": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "1 يوم"
+   },
+   "timerOption_1_day_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1يوم"
+   },
+   "timerOption_1_hour_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1سا"
+   },
+   "timerOption_1_minute_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1د"
+   },
+   "timerOption_1_week": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "1 أسبوع"
+   },
+   "timerOption_1_week_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "1أسبوع"
+   },
+   "timerOption_30_minutes_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "30 د"
+   },
+   "timerOption_30_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "30 ثانية"
+   },
+   "timerOption_30_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "30 ث"
+   },
+   "timerOption_5_minutes_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "5د"
+   },
+   "timerOption_5_seconds": {
+      "description": "Label for a selectable option in the message expiration timer menu",
+      "message": "5 ثواني"
+   },
+   "timerOption_5_seconds_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "5 ث"
+   },
+   "timerOption_6_hours_abbreviated": {
+      "description": "Very short format indicating current timer setting in the conversation header",
+      "message": "6سا"
+   },
+   "timerSetTo": {
+      "description": "Displayed in the conversation list when the timer is updated.",
+      "message": "تم تحديد المؤقت على $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "1w"
+         }
+      }
+   },
+   "timestampFormat_M": {
+      "description": "Timestamp format string for displaying month and day (but not the year) of a date within the current year, ex: use 'MMM D' for 'Aug 8', or 'D MMM' for '8 Aug'.",
+      "message": "MMM D"
+   },
+   "timestamp_h": {
+      "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble.",
+      "message": "1 ساعة"
+   },
+   "timestamp_m": {
+      "description": "Brief timestamp for messages sent about one minute ago. Displayed in the conversation list and message bubble.",
+      "message": "1 دقيقة"
+   },
+   "timestamp_s": {
+      "description": "Brief timestamp for messages sent less than a minute ago. Displayed in the conversation list and message bubble.",
+      "message": "الآن"
+   },
+   "to": {
+      "description": "Label for the receiver of a message",
+      "message": "إلى"
+   },
+   "unblockToSend": {
+      "description": "Brief message shown when trying to message a blocked number",
+      "message": "فك حظر هذه جهة الإتصال لإرسال رسالة"
+   },
+   "unlinked": {
+      "description": "",
+      "message": "Unlinked"
+   },
+   "unlinkedWarning": {
+      "description": "",
+      "message": "Relink Signal Desktop to your mobile device to continue messaging."
+   },
+   "unregisteredUser": {
+      "description": "Error message displayed when sending to an unregistered user.",
+      "message": "الرقم غير مسجل"
+   },
+   "unsupportedAttachment": {
+      "description": "Displayed for incoming unsupported attachment",
+      "message": "نمط المرفق غير مدعوم. اضغط للحفظ"
+   },
+   "unsupportedFileType": {
+      "description": "Displayed for outgoing unsupported attachment",
+      "message": "نمط الملف غير مدعوم"
+   },
+   "upgrade": {
+      "description": "Label text for button to upgrade the app to the latest version",
+      "message": "تحديث"
+   },
+   "verify": {
+      "description": "",
+      "message": "تأكيد"
+   },
+   "verifyContact": {
+      "description": "Use $tag_start$ and $tag_end$ to wrap the word or phrase in this sentence that the user should click on in order to navigate to the verification screen. These placeholders will be replaced with appropriate HTML code.",
+      "message": "You may wish to $tag_start$ verify $tag_end$ your safety number with this contact.",
+      "placeholders": {
+         "tag_end": {
+            "content": "\u003C/a>"
+         },
+         "tag_start": {
+            "content": "\u003Ca class='verify' href='#'>"
+         }
+      }
+   },
+   "verifySafetyNumbers": {
+      "description": "",
+      "message": "Verify safety number"
+   },
+   "welcomeToSignal": {
+      "description": "",
+      "message": "مرحبا الى سيجنال Signal"
+   },
+   "youChangedTheTimer": {
+      "description": "Message displayed when you change the message expiration timer in a conversation.",
+      "message": "لقد حددت المؤقت على $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "10m"
+         }
+      }
+   },
+   "yourSafetyNumberWith": {
+      "description": "Heading for safety number view",
+      "message": "Your safety number with $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "John"
+         }
+      }
+   }
+}

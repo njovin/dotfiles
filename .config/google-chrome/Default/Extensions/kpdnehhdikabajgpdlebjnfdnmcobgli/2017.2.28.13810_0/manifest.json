@@ -1,0 +1,20 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://template.walkingpixels.com/wuxia/"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "ESa+HSKFy8cW/0mu02/jfloVFkF4pUI5aUooAF/gl3Y=",
+   "name": "http://template.walkingpixels.com/wuxia/",
+   "version": "2017.2.28.13810"
+}

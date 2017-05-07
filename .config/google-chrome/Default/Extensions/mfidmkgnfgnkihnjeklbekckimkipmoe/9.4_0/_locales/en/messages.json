@@ -1,0 +1,116 @@
+{
+   "ButtonDelete": {
+      "message": "Delete"
+   },
+   "ButtonSave": {
+      "message": "Save"
+   },
+   "ContentBlock": {
+      "message": "Click to block content"
+   },
+   "ContentClose": {
+      "message": "Block"
+   },
+   "ContentUnblock": {
+      "message": "Click to allow content"
+   },
+   "DevtoolsAllow": {
+      "message": "Allow"
+   },
+   "DevtoolsBlock": {
+      "message": "Block"
+   },
+   "DevtoolsRemove": {
+      "message": "Remove"
+   },
+   "HeaderBrowsing": {
+      "message": "While browsing"
+   },
+   "HeaderFilter": {
+      "message": "Filter"
+   },
+   "HeaderFlash": {
+      "message": "Flash"
+   },
+   "HeaderFrame": {
+      "message": "Frame"
+   },
+   "HeaderInterface": {
+      "message": "User interface"
+   },
+   "HeaderToolbar": {
+      "message": "Toolbar"
+   },
+   "HeaderTools": {
+      "message": "Tools"
+   },
+   "HeaderUrl": {
+      "message": "URL"
+   },
+   "LabelChoose": {
+      "message": "Allow Flash selectively (recommended)"
+   },
+   "LabelCounter": {
+      "message": "Show Flash counter"
+   },
+   "LabelDevtools": {
+      "message": "Add DevTools dashboard"
+   },
+   "LabelIcon": {
+      "message": "Show green icon for 'allowed' sites"
+   },
+   "LabelMenu": {
+      "message": "Add context menu"
+   },
+   "LabelReblock": {
+      "message": "Add 'close' buttons"
+   },
+   "LabelRun": {
+      "message": "Allow Flash automatically"
+   },
+   "LogoFlash": {
+      "message": "Flash logo"
+   },
+   "LogoNone": {
+      "message": "None"
+   },
+   "LogoPlugin": {
+      "message": "Plugin logo"
+   },
+   "ManifestDescription": {
+      "message": "Block Flash from loading automatically and allow content only on selected sites."
+   },
+   "MenuSettings": {
+      "message": "Settings"
+   },
+   "MenuUnblock": {
+      "message": "Unblock this page"
+   },
+   "PopupCount": {
+      "message": "Flash objects: $1"
+   },
+   "PopupPage": {
+      "message": "Allow this page"
+   },
+   "PopupSession": {
+      "message": "Allow this site until Chrome is closed"
+   },
+   "PopupSettings": {
+      "message": "Settings"
+   },
+   "PopupSite": {
+      "message": "Allow this site"
+   },
+   "TabExceptions": {
+      "message": "Exceptions"
+   },
+   "TabSettings": {
+      "message": "Settings"
+   },
+   "WordColor": {
+      "message": "Color"
+   },
+   "WordIcon": {
+      "message": "Icon"
+   }
+}
